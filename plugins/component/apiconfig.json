@@ -1,0 +1,20 @@
+[{
+    "module": "Image",
+    "library": {
+        "android": ["libace_image.so"],
+        "ios":["libace_image.xcframework"]
+    },
+    "apis": [{
+        "path": "",
+        "permissions": {
+            "android": ["android.permissions.INTERNET"],
+            "ios": ["NSAllowsArbitrary = true"]
+        }
+    }]
+},{
+    "module": "QRCode",
+    "library": {
+        "android": ["libace_qrcode.so"],
+        "ios":["libace_qrcode.xcframework"]
+    }
+}]

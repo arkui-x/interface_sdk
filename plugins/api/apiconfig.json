@@ -1,0 +1,20 @@
+[{
+    "module": "ohos.net.http",
+    "library": {
+        "android": ["ace_net_http.jar", "libace_net_http.so"],
+        "ios":["libace_net_http.xcframework"]
+    },
+    "apis": [{
+        "path": "http/HttpRequest#request",
+        "permissions": {
+            "android": ["android.permissions.INTERNET"],
+            "ios": ["NSAllowsArbitrary = true"]
+        }
+    }]
+},{
+    "module": "ohos.display",
+    "library": {
+        "android": ["ace_display.jar", "libace_display.so"],
+        "ios":["libace_display.xcframework"]
+    }
+}]
