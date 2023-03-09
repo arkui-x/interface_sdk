@@ -1,0 +1,10 @@
+{
+    "apiVersion": "10",
+    "displayName": "Plugin",
+    "meta": {
+      "metaVersion": "1.0.0"
+    },
+    "path": "plugin",
+    "releaseType": "Beta",
+    "version": "0.1.0.0"
+  }
