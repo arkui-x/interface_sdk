@@ -1,10 +1,10 @@
 {
     "apiVersion": "10",
-    "displayName": "Plugin",
+    "displayName": "ArkUI-X",
     "meta": {
       "metaVersion": "1.0.0"
     },
-    "path": "plugin",
+    "path": "ArkUI-X",
     "releaseType": "Beta",
     "version": "0.1.0.0"
-  }
+}
