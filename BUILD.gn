@@ -1,3 +1,16 @@
+# Copyright (c) 2023 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import("//build/templates/common/copy.gni")
 
 ohos_copy("ace_tools") {
@@ -58,7 +71,8 @@ ohos_copy("component_apiconfig") {
 # temporary basis
 ohos_copy("device_info_android_jar") {
   deps = [ "//plugins/device_info/android/java:device_info_java" ]
-  sources = [ "${root_out_dir}/plugins/device_info/ace_device_info_android.jar" ]
+  sources =
+      [ "${root_out_dir}/plugins/device_info/ace_device_info_android.jar" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -87,7 +101,8 @@ ohos_copy("android_adapter_java_jar") {
 }
 
 ohos_copy("ability_access_ctrl_java_jar") {
-  deps = [ "//plugins/ability_access_ctrl/android/java:ability_access_ctrl_java" ]
+  deps =
+      [ "//plugins/ability_access_ctrl/android/java:ability_access_ctrl_java" ]
   sources = [ "${root_out_dir}/plugins/ability_access_ctrl/ace_ability_access_ctrl_android.jar" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
@@ -98,7 +113,8 @@ ohos_copy("ability_access_ctrl_java_jar") {
 
 ohos_copy("common_event_java_jar") {
   deps = [ "//plugins/common_event/android/java:common_event_java" ]
-  sources = [ "${root_out_dir}/plugins/common_event/ace_common_event_android.jar" ]
+  sources =
+      [ "${root_out_dir}/plugins/common_event/ace_common_event_android.jar" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -128,7 +144,8 @@ ohos_copy("i18n_plugin_java_jar") {
 
 ohos_copy("runninglock_java_jar") {
   deps = [ "//plugins/running_lock/android/java:runninglock_java" ]
-  sources = [ "${root_out_dir}/plugins/running_lock/ace_runninglock_android.jar" ]
+  sources =
+      [ "${root_out_dir}/plugins/running_lock/ace_runninglock_android.jar" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -138,7 +155,8 @@ ohos_copy("runninglock_java_jar") {
 
 ohos_copy("test_plugin_java_jar") {
   deps = [ "//plugins/test_plugin/android/java:test_plugin_java" ]
-  sources = [ "${root_out_dir}/plugins/test_plugin/ace_test_plugin_android.jar" ]
+  sources =
+      [ "${root_out_dir}/plugins/test_plugin/ace_test_plugin_android.jar" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
