@@ -12,6 +12,7 @@
 # limitations under the License.
 
 import("//build/templates/common/copy.gni")
+import("//build/templates/metadata/module_info.gni")
 
 ohos_copy("ace_tools") {
   sources = [ "//developtools/ace_tools/cli" ]
@@ -86,98 +87,44 @@ ohos_copy("component_apiconfig") {
   subsystem_name = "common"
 }
 
-# temporary basis
-ohos_copy("device_info_android_jar") {
-  deps = [ "//plugins/device_info/android/java:device_info_java" ]
-  sources =
-      [ "${root_out_dir}/plugins/device_info/ace_device_info_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
+# For xcframework auto packing
+template("copy_xcframework") {
+  forward_variables_from(invoker,
+                         [
+                           "deps",
+                           "sources",
+                           "outputs",
+                         ])
+  action(target_name) {
+    script = "copy_xcframework.py"
+    args = [
+      "--input",
+      rebase_path(sources[0], root_build_dir),
+      "--output",
+      rebase_path(outputs[0], root_build_dir),
+    ]
+    if (defined(deps)) {
+      deps += [ ":${target_name}_info" ]
+    } else {
+      deps = [ ":${target_name}_info" ]
+    }
+  }
+  _main_target_name = target_name
+  generate_module_info("${target_name}_info") {
+    module_type = "framework"
+    module_install_name = ""
+    module_name = _main_target_name
+    module_source_dir = "${root_out_dir}/lib.xcframework/${_main_target_name}"
+    install_enable = false
+  }
 }
 
-ohos_copy("http_android_jar") {
-  deps = [ "//plugins/net/http/android/java:http_java" ]
-  sources = [ "${root_out_dir}/plugins/net/ace_http_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("android_adapter_java_jar") {
-  deps = [ "//foundation/arkui/ace_engine/adapter/android/build:ace_android_adapter_java" ]
-  sources = [ "${root_out_dir}/arkui_android_adapter.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("ability_access_ctrl_java_jar") {
-  deps =
-      [ "//plugins/ability_access_ctrl/android/java:ability_access_ctrl_java" ]
-  sources = [ "${root_out_dir}/plugins/ability_access_ctrl/ace_ability_access_ctrl_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("common_event_java_jar") {
-  deps = [ "//plugins/common_event/android/java:common_event_java" ]
-  sources =
-      [ "${root_out_dir}/plugins/common_event/ace_common_event_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("display_java_jar") {
-  deps = [ "//plugins/display/android/java:display_java" ]
-  sources = [ "${root_out_dir}/plugins/display/ace_display_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("i18n_plugin_java_jar") {
-  deps = [ "//plugins/i18n/android/java:i18n_plugin_java" ]
-  sources = [ "${root_out_dir}/plugins/i18n/ace_i18n_plugin_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("runninglock_java_jar") {
-  deps = [ "//plugins/running_lock/android/java:runninglock_java" ]
-  sources =
-      [ "${root_out_dir}/plugins/running_lock/ace_runninglock_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("test_plugin_java_jar") {
-  deps = [ "//plugins/test_plugin/android/java:test_plugin_java" ]
-  sources =
-      [ "${root_out_dir}/plugins/test_plugin/ace_test_plugin_android.jar" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
+if (target_os == "ios") {
+  copy_xcframework("copy_libarkui_ios_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libarkui_ios" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libarkui_ios.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
 }
