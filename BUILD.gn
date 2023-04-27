@@ -50,8 +50,26 @@ ohos_copy("napi_header") {
   subsystem_name = "common"
 }
 
+ohos_copy("sdkconfig") {
+  sources = [ "./sdkConfig.json" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
+ohos_copy("engine_apiconfig") {
+  sources = [ "./engine/apiConfig.json" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("api_apiconfig") {
-  sources = [ "./plugins/api/apiconfig.json" ]
+  sources = [ "./plugins/api/apiConfig.json" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -60,7 +78,7 @@ ohos_copy("api_apiconfig") {
 }
 
 ohos_copy("component_apiconfig") {
-  sources = [ "./plugins/api/apiconfig.json" ]
+  sources = [ "./plugins/component/apiConfig.json" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
