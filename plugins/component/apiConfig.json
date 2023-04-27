@@ -1,8 +1,8 @@
 [{
     "module": "Image",
     "library": {
-        "android": ["libace_image.so"],
-        "ios":["libace_image.xcframework"]
+        "android": ["libarkui_image.so"],
+        "ios":["libarkui_image.xcframework"]
     },
     "apis": [{
         "path": "",
@@ -14,7 +14,7 @@
 },{
     "module": "QRCode",
     "library": {
-        "android": ["libace_qrcode.so"],
-        "ios":["libace_qrcode.xcframework"]
+        "android": ["libarkui_qrcode.so"],
+        "ios":["libarkui_qrcode.xcframework"]
     }
 }]

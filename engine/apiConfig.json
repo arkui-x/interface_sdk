@@ -1,0 +1,14 @@
+[{
+    "module": "engine",
+    "library": {
+        "android": ["arkui_android_adapter.jar", "libarkui_android.so"],
+        "ios":["libarkui_ios.xcframework"]
+    },
+    "apis": [{
+        "path": "",
+        "permissions": {
+            "android": ["android.permissions.INTERNET"],
+            "ios": ["NSAllowsArbitrary = true"]
+        }
+    }]
+}]

@@ -1,8 +1,8 @@
 [{
     "module": "ohos.net.http",
     "library": {
-        "android": ["ace_net_http.jar", "libace_net_http.so"],
-        "ios":["libace_net_http.xcframework"]
+        "android": ["ace_http.jar", "libnet_http.so"],
+        "ios":["libnet_http.xcframework"]
     },
     "apis": [{
         "path": "http/HttpRequest#request",
@@ -12,9 +12,9 @@
         }
     }]
 },{
-    "module": "ohos.display",
+    "module": "ohos.abilityAccessCtrl",
     "library": {
-        "android": ["ace_display.jar", "libace_display.so"],
-        "ios":["libace_display.xcframework"]
+        "android": ["ace_ability_access_ctrl_android.jar", "libabilityaccessctrl.so"],
+        "ios":["libabilityaccessctrl.xcframework"]
     }
 }]
