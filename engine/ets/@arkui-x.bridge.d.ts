@@ -15,7 +15,7 @@
 import { AsyncCallback } from './basic';
 
 declare namespace Bridge {
-	/**
+    /**
      * Bridge data type definition.
      *
      * @since 10
@@ -27,31 +27,31 @@ declare namespace Bridge {
     type Response = Message;
     type ResultValue = T | Map<string, T>;
 
-	/**
+    /**
      * Creates the bridge and returns the bridge object.
      *
      * @param bridgeName Unique bridge name.
-	 * @return Bridge object.
+     * @return Bridge object.
      * @since 10
      */
     function createBridge(bridgeName: string): BridgeObject;
 
-	/**
+    /**
      * Method or event interface.
      *
      * @since 10
      */
     export interface MethodData {
-		/**
-		 * Method or event name.
-		 *
-		 * @since 10
-		*/
+        /**
+         * Method or event name.
+         *
+         * @since 10
+        */
         name: string;
 
         /**
          * @param Method parameter.
-		 * @return ResultValue the js-side method return value.
+         * @return ResultValue the js-side method return value.
          * @since 10
          * @crossplatform
          */
