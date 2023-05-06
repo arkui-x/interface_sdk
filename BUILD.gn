@@ -127,4 +127,68 @@ if (target_os == "ios") {
     ]
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
+
+  copy_xcframework("copy_libanimator_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libanimator" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libanimator.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libarkui_componentsnapshot_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libarkui_componentsnapshot" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libarkui_componentsnapshot.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libconfiguration_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libconfiguration" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libconfiguration.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libfont_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libfont" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libfont.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libmeasure_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libmeasure" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libmeasure.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libmediaquery_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libmediaquery" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libmediaquery.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libpromptaction_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libpromptaction" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/libpromptaction.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_librouter_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:librouter" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/arkui-x/librouter.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
 }
