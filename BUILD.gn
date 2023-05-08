@@ -28,6 +28,13 @@ ohos_copy("ets") {
   subsystem_name = "common"
 }
 
+ohos_copy("systemres") {
+  sources = [ "./engine/systemres" ]
+  outputs = [ target_out_dir + "/$target_name/" ]
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("node_header") {
   sources = [
     "//third_party/node/src/js_native_api.h",
