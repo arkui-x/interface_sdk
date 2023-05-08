@@ -177,6 +177,22 @@
         }
     },
     {
+        "module": "ohos.file.fs",
+        "library": {
+            "android": [
+                "file/libfile_fs.so"
+            ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/utils/hilog",
+                "engine/utils/plugin_util"
+            ],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.hilog",
         "library": {
             "android": [ "hilog/libhilog.so" ],
