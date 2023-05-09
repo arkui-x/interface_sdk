@@ -356,5 +356,159 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.util",
+        "library": {
+            "android": [ "util/libutil.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.Deque",
+        "library": {
+            "android": [ "util/libutil_deque.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.ArrayList",
+        "library": {
+            "android": [ "util/libutil_arraylist.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.HashMap",
+        "library": {
+            "android": [ "util/libutil_hashmap.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.HashSet",
+        "library": {
+            "android": [ "util/libutil_hashset.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LightWeightMap",
+        "library": {
+            "android": [ "util/libutil_lightweightmap.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LightWeightSet",
+        "library": {
+            "android": [ "util/libutil_lightweightset.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LinkedList",
+        "library": {
+            "android": [ "util/libutil_linkedlist.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.List",
+        "library": {
+            "android": [ "util/libutil_list.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.PlainArray",
+        "library": {
+            "android": [ "util/libutil_plainarray.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.Queue",
+        "library": {
+            "android": [ "util/libutil_queue.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.Stack",
+        "library": {
+            "android": [ "util/libutil_stack.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.TreeMap",
+        "library": {
+            "android": [ "util/libutil_treemap.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.TreeSet",
+        "library": {
+            "android": [ "util/libutil_treeset.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
