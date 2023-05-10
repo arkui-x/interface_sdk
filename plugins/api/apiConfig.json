@@ -232,6 +232,20 @@
         }
     },
     {
+        "module": "ohos.intl",
+        "library": {
+            "android": [
+                "intl/ace_intl_plugin_android.jar",
+                "intl/libintl.so"
+            ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/plugin_util" ],
+            "ios":[]
+        }
+    },
+    {
         "module": "ndk_rawfile",
         "library": {
             "android": [ "ndk_raw_file/libndkrawfile.so" ],
