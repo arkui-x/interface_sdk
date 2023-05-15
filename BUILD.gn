@@ -135,6 +135,29 @@ if (target_os == "ios") {
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
 
+  ohos_copy("node_header_xcframework") {
+    sources = [
+      "//third_party/node/src/js_native_api.h",
+      "//third_party/node/src/js_native_api_types.h",
+      "//third_party/node/src/node_api.h",
+      "//third_party/node/src/node_api_types.h",
+    ]
+    outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+    module_source_dir = target_out_dir + "/$target_name/"
+    module_install_name = ""
+    part_name = "common"
+    subsystem_name = "common"
+  }
+  
+  ohos_copy("napi_header_xcframework") {
+    sources = [ "//foundation/arkui/napi/interfaces/kits/napi/native_api.h" ]
+    outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+    module_source_dir = target_out_dir + "/$target_name/"
+    module_install_name = ""
+    part_name = "common"
+    subsystem_name = "common"
+  }
+
   copy_xcframework("copy_libanimator_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libanimator" ]
     sources = [
