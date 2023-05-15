@@ -33,6 +33,36 @@
         }
     },
     {
+        "module": "ohos.data.relationalStore",
+        "library": {
+            "android": [ "data/libdata_relationalstore.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/icu",
+                "engine/utils/hilog",
+                "engine/utils/plugin_util"
+            ],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.data.preferences",
+        "library": {
+            "android": [ "data/libdata_preferences.so" ],
+            "ios":[ "libarkui_ios.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/utils/hilog",
+                "engine/utils/plugin_util",
+                "engine/third_party/xml2"
+            ],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.font",
         "library": {
             "android": [ "font/libfont.so" ],
