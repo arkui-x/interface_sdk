@@ -229,4 +229,12 @@ if (target_os == "ios") {
     ]
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
+
+    copy_xcframework("copy_libworker_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libworker" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libworker.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
 }

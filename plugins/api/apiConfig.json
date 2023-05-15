@@ -402,6 +402,17 @@
         }
     },
     {
+        "module": "ohos.worker",
+        "library": {
+            "android": [ "worker/worker.so" ],
+            "ios":[ "libworker.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.util",
         "library": {
             "android": [ "util/libutil.so" ],
