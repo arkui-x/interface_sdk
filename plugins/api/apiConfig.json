@@ -94,7 +94,7 @@
                 "ability_access_ctrl/ace_ability_access_ctrl_android.jar",
                 "ability_access_ctrl/libabilityaccessctrl.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[ "libabilityaccessctrl.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
