@@ -1,4 +1,4 @@
-[{
-    "apiPath": "ArkUI-X/engine/ets",
+{
+    "apiPath": "engine/ets",
     "prefix": "@arkui-x"
-}]
+}
