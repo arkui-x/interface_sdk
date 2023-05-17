@@ -567,7 +567,7 @@
         }
     },
     {
-        "module": "ohos.image",
+        "module": "ohos.multimedia.image",
         "library": {
             "android": [],
             "ios":[]
