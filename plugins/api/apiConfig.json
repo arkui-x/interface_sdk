@@ -565,5 +565,16 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.image",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
