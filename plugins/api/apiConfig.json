@@ -2,8 +2,8 @@
     {
         "module": "ohos.animator",
         "library": {
-            "android": [ "animator/libanimator.so" ],
-            "ios":[ "libanimator.xcframework" ]
+            "android": [ "lib/animator/arch_type/libanimator.so" ],
+            "ios":[ "xcframework/libanimator.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -13,8 +13,8 @@
     {
         "module": "ohos.arkui.componentSnapshot",
         "library": {
-            "android": [ "arkui/libarkui_componentsnapshot.so" ],
-            "ios":[ "libarkui_componentsnapshot.xcframework" ]
+            "android": [ "lib/arkui/arch_type/libarkui_componentsnapshot.so" ],
+            "ios":[ "xcframework/libarkui_componentsnapshot.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -24,8 +24,8 @@
     {
         "module": "system.configuration",
         "library": {
-            "android": [ "configuration/libconfiguration.so" ],
-            "ios":[ "libconfiguration.xcframework" ]
+            "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
+            "ios":[ "xcframework/libconfiguration.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -35,8 +35,8 @@
     {
         "module": "ohos.data.relationalStore",
         "library": {
-            "android": [ "data/libdata_relationalstore.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/data/arch_type/libdata_relationalstore.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -50,8 +50,8 @@
     {
         "module": "ohos.data.preferences",
         "library": {
-            "android": [ "data/libdata_preferences.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/data/arch_type/libdata_preferences.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -65,8 +65,8 @@
     {
         "module": "ohos.font",
         "library": {
-            "android": [ "font/libfont.so" ],
-            "ios":[ "libfont.xcframework" ]
+            "android": [ "lib/font/arch_type/libfont.so" ],
+            "ios":[ "xcframework/libfont.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -76,8 +76,8 @@
     {
         "module": "ohos.measure",
         "library": {
-            "android": [ "measure/libmeasure.so" ],
-            "ios":[ "libmeasure.xcframework" ]
+            "android": [ "lib/measure/arch_type/libmeasure.so" ],
+            "ios":[ "xcframework/libmeasure.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -87,8 +87,8 @@
     {
         "module": "ohos.mediaquery",
         "library": {
-            "android": [ "mediaquery/libmediaquery.so" ],
-            "ios":[ "libmediaquery.xcframework" ]
+            "android": [ "lib/mediaquery/arch_type/libmediaquery.so" ],
+            "ios":[ "xcframework/libmediaquery.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -98,8 +98,8 @@
     {
         "module": "ohos.promptAction",
         "library": {
-            "android": [ "promptaction/libpromptaction.so" ],
-            "ios":[ "libpromptaction.xcframework" ]
+            "android": [ "lib/promptaction/arch_type/libpromptaction.so" ],
+            "ios":[ "xcframework/libpromptaction.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -109,8 +109,8 @@
     {
         "module": "ohos.router",
         "library": {
-            "android": [ "router/librouter.so" ],
-            "ios":[ "librouter.xcframework" ]
+            "android": [ "lib/router/arch_type/librouter.so" ],
+            "ios":[ "xcframework/librouter.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -121,10 +121,10 @@
         "module": "ohos.abilityAccessCtrl",
         "library": {
             "android": [
-                "ability_access_ctrl/ace_ability_access_ctrl_android.jar",
-                "ability_access_ctrl/libabilityaccessctrl.so"
+                "lib/ability_access_ctrl/ace_ability_access_ctrl_android.jar",
+                "lib/ability_access_ctrl/arch_type/libabilityaccessctrl.so"
             ],
-            "ios":[ "libabilityaccessctrl.xcframework" ]
+            "ios":[ "xcframework/libabilityaccessctrl.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -134,8 +134,8 @@
     {
         "module": "arkui-x.bridge",
         "library": {
-            "android": [ "bridge/libbridge.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/bridge/arch_type/libbridge.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -145,8 +145,8 @@
     {
         "module": "ohos.buffer",
         "library": {
-            "android": [ "buffer/libbuffer.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/buffer/arch_type/libbuffer.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -157,10 +157,10 @@
         "module": "ohos.commonEvent",
         "library": {
             "android": [
-                "common_event/ace_common_event_android.jar",
-                "common_event/libcommonevent.so"
+                "lib/common_event/ace_common_event_android.jar",
+                "lib/common_event/arch_type/libcommonevent.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -170,8 +170,8 @@
     {
         "module": "ohos.convertxml",
         "library": {
-            "android": [ "convertxml/libconvertxml.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/convertxml/arch_type/libconvertxml.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -182,10 +182,10 @@
         "module": "ohos.deviceInfo",
         "library": {
             "android": [
-                "device_info/ace_device_info_android.jar",
-                "device_info/libdeviceinfo.so"
+                "lib/device_info/ace_device_info_android.jar",
+                "lib/device_info/arch_type/libdeviceinfo.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -196,10 +196,10 @@
         "module": "ohos.display",
         "library": {
             "android": [
-                "display/ace_display_android.jar",
-                "display/libdisplay.so"
+                "lib/display/ace_display_android.jar",
+                "lib/display/arch_type/libdisplay.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -210,9 +210,9 @@
         "module": "ohos.file.fs",
         "library": {
             "android": [
-                "file/libfile_fs.so"
+                "lib/file/arch_type/libfile_fs.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -225,8 +225,8 @@
     {
         "module": "ohos.hilog",
         "library": {
-            "android": [ "hilog/libhilog.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/hilog/arch_type/libhilog.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -239,8 +239,8 @@
     {
         "module": "ohos.hitraceMeter",
         "library": {
-            "android": [ "hitrace_meter/libhitracemeter.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/hitrace_meter/arch_type/libhitracemeter.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -251,10 +251,10 @@
         "module": "ohos.i18n",
         "library": {
             "android": [
-                "i18n/ace_i18n_plugin_android.jar",
-                "i18n/libi18n.so"
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/i18n/arch_type/libi18n.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -265,10 +265,10 @@
         "module": "ohos.intl",
         "library": {
             "android": [
-                "intl/ace_intl_plugin_android.jar",
-                "intl/libintl.so"
+                "lib/intl/ace_intl_plugin_android.jar",
+                "lib/intl/arch_type/libintl.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -278,8 +278,8 @@
     {
         "module": "ndk_rawfile",
         "library": {
-            "android": [ "ndk_raw_file/libndkrawfile.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/ndk_raw_file/arch_type/libndkrawfile.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -290,10 +290,10 @@
         "module": "ohos.net.http",
         "library": {
             "android": [
-                "net/ace_http.jar",
-                "net/libnet_http.so"
+                "lib/net/ace_http.jar",
+                "lib/net/arch_type/libnet_http.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -318,8 +318,8 @@
     {
         "module": "ohos.process",
         "library": {
-            "android": [ "process/libprocess.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/process/arch_type/libprocess.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -329,8 +329,8 @@
     {
         "module": "ohos.request",
         "library": {
-            "android": [ "request/librequest.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/request/arch_type/librequest.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [
@@ -346,8 +346,8 @@
     {
         "module": "ohos.resourceManager",
         "library": {
-            "android": [ "resource_manager/libresourcemanager.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -358,10 +358,10 @@
         "module": "ohos.runningLock",
         "library": {
             "android": [
-                "running_lock/ace_runninglock_android.jar",
-                "running_lock/librunninglock.so"
+                "lib/running_lock/ace_runninglock_android.jar",
+                "lib/running_lock/arch_type/librunninglock.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -371,8 +371,8 @@
     {
         "module": "ohos.uri",
         "library": {
-            "android": [ "uri/liburi.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/uri/arch_type/liburi.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -382,8 +382,8 @@
     {
         "module": "ohos.url",
         "library": {
-            "android": [ "url/liburl.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/url/arch_type/liburl.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -393,8 +393,8 @@
     {
         "module": "ohos.xml",
         "library": {
-            "android": [ "xml/libxml.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/xml/arch_type/libxml.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -404,8 +404,8 @@
     {
         "module": "ohos.worker",
         "library": {
-            "android": [ "worker/worker.so" ],
-            "ios":[ "libworker.xcframework" ]
+            "android": [ "lib/worker/arch_type/worker.so" ],
+            "ios":[ "xcframework/libworker.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -415,8 +415,8 @@
     {
         "module": "ohos.util",
         "library": {
-            "android": [ "util/libutil.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -426,8 +426,8 @@
     {
         "module": "ohos.util.Deque",
         "library": {
-            "android": [ "util/libutil_deque.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_deque.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -437,8 +437,8 @@
     {
         "module": "ohos.util.ArrayList",
         "library": {
-            "android": [ "util/libutil_arraylist.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_arraylist.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -448,8 +448,8 @@
     {
         "module": "ohos.util.HashMap",
         "library": {
-            "android": [ "util/libutil_hashmap.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_hashmap.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -459,8 +459,8 @@
     {
         "module": "ohos.util.HashSet",
         "library": {
-            "android": [ "util/libutil_hashset.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_hashset.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -470,8 +470,8 @@
     {
         "module": "ohos.util.LightWeightMap",
         "library": {
-            "android": [ "util/libutil_lightweightmap.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_lightweightmap.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -481,8 +481,8 @@
     {
         "module": "ohos.util.LightWeightSet",
         "library": {
-            "android": [ "util/libutil_lightweightset.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_lightweightset.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -492,8 +492,8 @@
     {
         "module": "ohos.util.LinkedList",
         "library": {
-            "android": [ "util/libutil_linkedlist.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_linkedlist.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -503,8 +503,8 @@
     {
         "module": "ohos.util.List",
         "library": {
-            "android": [ "util/libutil_list.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_list.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -514,8 +514,8 @@
     {
         "module": "ohos.util.PlainArray",
         "library": {
-            "android": [ "util/libutil_plainarray.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_plainarray.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -525,8 +525,8 @@
     {
         "module": "ohos.util.Queue",
         "library": {
-            "android": [ "util/libutil_queue.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_queue.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -536,8 +536,8 @@
     {
         "module": "ohos.util.Stack",
         "library": {
-            "android": [ "util/libutil_stack.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_stack.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -547,8 +547,8 @@
     {
         "module": "ohos.util.TreeMap",
         "library": {
-            "android": [ "util/libutil_treemap.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_treemap.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -558,8 +558,8 @@
     {
         "module": "ohos.util.TreeSet",
         "library": {
-            "android": [ "util/libutil_treeset.so" ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "android": [ "lib/util/arch_type/libutil_treeset.so" ],
+            "ios":[]
         },
         "deps": {
             "android": [],
