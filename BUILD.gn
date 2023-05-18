@@ -230,7 +230,7 @@ if (target_os == "ios") {
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
 
-    copy_xcframework("copy_libworker_xcframework") {
+  copy_xcframework("copy_libworker_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libworker" ]
     sources = [
       "${root_out_dir}/lib.ios.framework/arkui/plugins/libworker.xcframework",
@@ -306,6 +306,166 @@ if (target_os == "ios") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libintl" ]
     sources = [
       "${root_out_dir}/lib.ios.framework/arkui/plugins/libintl.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+   copy_xcframework("copy_libxml_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libxml" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libxml.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libbuffer_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libbuffer" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libbuffer.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libconvertxml_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libconvertxml" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libconvertxml.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libprocess_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libprocess" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libprocess.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_liburi_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:liburi" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/liburi.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_liburl_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:liburl" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/liburl.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_arraylist_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_arraylist" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_arraylist.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_deque_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_deque" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_deque.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_hashmap_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_hashmap" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_hashmap.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_hashset_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_hashset" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_hashset.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_linkedlist_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_linkedlist" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_linkedlist.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_list_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_list" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_list.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_plainarray_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_plainarray" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_plainarray.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_queue_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_queue" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_queue.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_stack_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_stack" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_stack.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_treemap_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_treemap" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_treemap.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_treeset_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_treeset" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_treeset.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_lightweightset_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_lightweightset" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_lightweightset.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libutil_lightweightmap_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libutil_lightweightmap" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libutil_lightweightmap.xcframework",
     ]
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
