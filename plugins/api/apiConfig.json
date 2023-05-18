@@ -254,7 +254,7 @@
                 "i18n/ace_i18n_plugin_android.jar",
                 "i18n/libi18n.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[ "libi18n.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -268,7 +268,7 @@
                 "intl/ace_intl_plugin_android.jar",
                 "intl/libintl.so"
             ],
-            "ios":[ "libarkui_ios.xcframework" ]
+            "ios":[ "libintl.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
