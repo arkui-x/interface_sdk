@@ -333,7 +333,7 @@
                 "lib/request/ace_download_android.jar",
                 "lib/request/arch_type/librequest.so"
             ],
-            "ios":[]
+            "ios":[ "librequest.xcframework" ]
         },
         "deps": {
             "android": [
