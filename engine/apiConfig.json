@@ -3,10 +3,10 @@
         "module": "engine/arkui",
         "library": {
             "android": [
-                "arkui/arch_type/arkui_android_adapter.jar",
-                "arkui/arch_type/libarkui_android.so"
+                "lib/arkui/arkui_android_adapter.jar",
+                "lib/arkui/arch_type/libarkui_android.so"
             ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         },
         "apis": [
             {
@@ -21,50 +21,50 @@
     {
         "module": "engine/third_party/zlib",
         "library": {
-            "android": [ "third_party/arch_type/libshared_libz.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/third_party/arch_type/libshared_libz.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl",
         "library": {
-            "android": [ "third_party/arch_type/libssl_shared.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/third_party/arch_type/libssl_shared.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl/crypto",
         "library": {
-            "android": [ "third_party/arch_type/libcrypto_shared.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/third_party/arch_type/libcrypto_shared.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/nghttp2",
         "library": {
-            "android": [ "third_party/arch_type/libnghttp2_shared.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/third_party/arch_type/libnghttp2_shared.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/xml2",
         "library": {
-            "android": [ "third_party/arch_type/libxml2.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/third_party/arch_type/libxml2.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/utils/plugin_util",
         "library": {
-            "android": [ "utils/arch_type/ace_plugin_util_android.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/utils/arch_type/libace_plugin_util_android.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/utils/hilog",
         "library": {
-            "android": [ "utils/arch_type/libhilog_android.so" ],
-            "ios":[ "arkui/libarkui_ios.xcframework" ]
+            "android": [ "lib/utils/arch_type/libhilog_android.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     }
 ]
