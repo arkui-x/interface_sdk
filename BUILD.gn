@@ -250,6 +250,10 @@ if (target_os == "ios") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libdata_preferences" ]
     sources = [
       "${root_out_dir}/lib.ios.framework/arkui/plugins/libdata_preferences.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+  
   copy_xcframework("copy_librequest_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:librequest" ]
     sources = [
