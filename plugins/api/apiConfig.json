@@ -581,7 +581,7 @@
         }
     },
     {
-        "module": "app.ability.UIAbility",
+        "module": "ohos.window",
         "library": {
             "android": [],
             "ios":[]
@@ -592,7 +592,7 @@
         }
     },
     {
-        "module": "app.ability.AbilityStage",
+        "module": "ohos.app.ability.UIAbility",
         "library": {
             "android": [],
             "ios":[]
@@ -603,7 +603,7 @@
         }
     },
     {
-        "module": "application.Context",
+        "module": "ohos.app.ability.AbilityStage",
         "library": {
             "android": [],
             "ios":[]
@@ -614,7 +614,7 @@
         }
     },
     {
-        "module": "application.AbilityContext",
+        "module": "ohos.app.ability.Want",
         "library": {
             "android": [],
             "ios":[]
@@ -625,7 +625,7 @@
         }
     },
     {
-        "module": "application.AbilityStageContext",
+        "module": "application/Context",
         "library": {
             "android": [],
             "ios":[]
@@ -636,7 +636,29 @@
         }
     },
     {
-        "module": "application.ApplicationContext",
+        "module": "application/AbilityContext",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "application/AbilityStageContext",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "application/ApplicationContext",
         "library": {
             "android": [],
             "ios":[]
