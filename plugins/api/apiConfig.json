@@ -254,7 +254,7 @@
                 "lib/i18n/ace_i18n_plugin_android.jar",
                 "lib/i18n/arch_type/libi18n.so"
             ],
-            "ios":[ "libi18n.xcframework" ]
+            "ios":[ "xcframework/libintl.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -268,7 +268,7 @@
                 "lib/intl/ace_intl_plugin_android.jar",
                 "lib/intl/arch_type/libintl.so"
             ],
-            "ios":[ "libintl.xcframework" ]
+            "ios":[ "xcframework/libintl.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
