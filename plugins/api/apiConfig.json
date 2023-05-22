@@ -316,6 +316,191 @@
         ]
     },
     {
+        "module": "ohos.net.connection",
+        "library": {
+            "android": [
+                "lib/net/arkui_netconnclient_java.jar",
+                "lib/net/arch_type/libnet_connection.so"
+            ],
+            "ios":[ "xcframework/libnet_connection.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/plugin_util" ],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "connection#hasDefaultNet",
+                "permissions": {
+                    "android": [
+                        "android.permissions.INTERNET",
+                        "android.permissions.ACCESS_NETWORK_STATE"
+                    ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "connection/NetConnection#register",
+                "permissions": {
+                    "android": [
+                        "android.permissions.INTERNET",
+                        "android.permissions.ACCESS_NETWORK_STATE"
+                    ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.net.socket",
+        "library": {
+            "android": [ "lib/net/arch_type/libnet_socket.so" ],
+            "ios":[ "xcframework/libnet_socket.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util",
+                "engine/utils/plugin_util"
+            ],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "socket/UDPSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#getState",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#setExtraOptions",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#connect",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#getRemoteAddress",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#getState",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#setExtraOptions",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TLSSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.net.webSocket",
+        "library": {
+            "android": [ "lib/net/arch_type/libnet_websocket.so" ],
+            "ios":[ "xcframework/libnet_websocket.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/zlib",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util",
+                "engine/utils/plugin_util"
+            ],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "webSocket/WebSocket#connect",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "webSocket/WebSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "webSocket/WebSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "ohos.process",
         "library": {
             "android": [ "lib/process/arch_type/libprocess.so" ],
