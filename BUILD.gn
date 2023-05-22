@@ -253,6 +253,30 @@ if (target_os == "ios") {
     ]
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
+
+  copy_xcframework("copy_libnet_connection_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libnet_connection" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libnet_connection.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libnet_socket_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libnet_socket" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libnet_socket.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libnet_websocket_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libnet_websocket" ]
+    sources = [
+      "${root_out_dir}/lib.ios.framework/arkui/plugins/libnet_websocket.xcframework",
+    ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
   
   copy_xcframework("copy_libi18n_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libi18n" ]
