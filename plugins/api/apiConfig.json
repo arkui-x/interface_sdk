@@ -579,5 +579,16 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.window",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
