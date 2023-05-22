@@ -66,5 +66,12 @@
             "android": [ "lib/utils/arch_type/libhilog_android.so" ],
             "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
+    },
+    {
+        "module": "engine/utils/net_util",
+        "library": {
+            "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],
+            "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
+        }
     }
 ]
