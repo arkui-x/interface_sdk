@@ -350,7 +350,7 @@
         "module": "ohos.resourceManager",
         "library": {
             "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":[]
+            "ios":["xcframework/libresourcemanager.xcframework"]
         },
         "deps": {
             "android": [],
