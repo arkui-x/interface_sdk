@@ -226,7 +226,7 @@
         "module": "ohos.hilog",
         "library": {
             "android": [ "lib/hilog/arch_type/libhilog.so" ],
-            "ios":[]
+            "ios":[ "xcframework/libhilog.xcframework" ]
         },
         "deps": {
             "android": [
