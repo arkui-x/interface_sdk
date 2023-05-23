@@ -212,7 +212,7 @@
             "android": [
                 "lib/file/arch_type/libfile_fs.so"
             ],
-            "ios":[]
+            "ios":["xcframework/libfile_fs.xcframework"]
         },
         "deps": {
             "android": [
