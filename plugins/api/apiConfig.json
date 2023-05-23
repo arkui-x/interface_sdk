@@ -36,7 +36,7 @@
         "module": "ohos.data.relationalStore",
         "library": {
             "android": [ "lib/data/arch_type/libdata_relationalstore.so" ],
-            "ios":[]
+            "ios":[ "xcframework/libdata_relationalstore.xcframework" ]
         },
         "deps": {
             "android": [
@@ -51,7 +51,7 @@
         "module": "ohos.data.preferences",
         "library": {
             "android": [ "lib/data/arch_type/libdata_preferences.so" ],
-            "ios":[]
+            "ios":[ "xcframework/libdata_preferences.xcframework" ]
         },
         "deps": {
             "android": [
