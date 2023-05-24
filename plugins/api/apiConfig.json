@@ -135,7 +135,7 @@
         "module": "arkui-x.bridge",
         "library": {
             "android": [ "lib/bridge/arch_type/libbridge.so" ],
-            "ios":[]
+            "ios":["xcframework/libbridge.xcframework"]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
@@ -293,7 +293,7 @@
                 "lib/net/ace_http.jar",
                 "lib/net/arch_type/libnet_http.so"
             ],
-            "ios":[]
+            "ios":["xcframework/libnet_http.xcframework"]
         },
         "deps": {
             "android": [
