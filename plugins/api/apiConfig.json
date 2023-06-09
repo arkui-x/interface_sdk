@@ -592,8 +592,47 @@
     {
         "module": "ohos.worker",
         "library": {
-            "android": [ "lib/worker/arch_type/worker.so" ],
+            "android": [ "lib/worker/arch_type/libworker.so" ],
             "ios":[ "xcframework/libworker.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/utils/plugin_util",
+                "timer"
+            ],
+            "ios":[ "timer" ]
+        }
+    },
+    {
+        "module": "ohos.taskpool",
+        "library": {
+            "android": [ "lib/taskpool/arch_type/libtaskpool.so" ],
+            "ios":[ "xcframework/libtaskpool.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/utils/plugin_util",
+                "timer"
+            ],
+            "ios":[ "timer" ]
+        }
+    },
+    {
+        "module": "timer",
+        "library": {
+            "android": [ "lib/timer/arch_type/libtimer.so" ],
+            "ios":[ "xcframework/libtimer.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/plugin_util" ],
+            "ios":[]
+        }
+    },
+    {
+        "module": "console",
+        "library": {
+            "android": [ "lib/console/arch_type/libconsole.so" ],
+            "ios":[ "xcframework/libconsole.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
