@@ -290,7 +290,7 @@
         "module": "ohos.net.http",
         "library": {
             "android": [
-                "lib/net/ace_http.jar",
+                "lib/net/ace_http_android.jar",
                 "lib/net/arch_type/libnet_http.so"
             ],
             "ios":["xcframework/libnet_http.xcframework"]

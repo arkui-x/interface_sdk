@@ -28,14 +28,14 @@
     {
         "module": "engine/third_party/openssl",
         "library": {
-            "android": [ "lib/third_party/arch_type/libssl_shared.so" ],
+            "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
             "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl/crypto",
         "library": {
-            "android": [ "lib/third_party/arch_type/libcrypto_shared.so" ],
+            "android": [ "lib/third_party/arch_type/libcrypto_openssl.so" ],
             "ios":[ "xcframework/arkui/libarkui_ios.xcframework" ]
         }
     },
