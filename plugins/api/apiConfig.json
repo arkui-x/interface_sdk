@@ -916,5 +916,60 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.application.AbilityDelegator",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.application.abilityDelegatorArgs",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.application.AbilityMonitor",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.application.AbilityStageMonitor",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.app.ability.abilityDelegatorRegistry",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
