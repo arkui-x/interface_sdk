@@ -58,6 +58,15 @@ ohos_copy("napi_header") {
   subsystem_name = "common"
 }
 
+ohos_copy("plugin_c_utils_header") {
+  sources = [ "//plugins/interfaces/native/plugin_c_utils.h" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("sdkconfig") {
   sources = [ "./sdkConfig.json" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
@@ -149,6 +158,15 @@ if (target_os == "ios") {
 
   ohos_copy("napi_header_xcframework") {
     sources = [ "//foundation/arkui/napi/interfaces/kits/napi/native_api.h" ]
+    outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+    module_source_dir = target_out_dir + "/$target_name/"
+    module_install_name = ""
+    part_name = "common"
+    subsystem_name = "common"
+  }
+
+    ohos_copy("plugin_c_utils_xcframework") {
+    sources = [ "//plugins/interfaces/native/plugin_c_utils.h" ]
     outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
     module_source_dir = target_out_dir + "/$target_name/"
     module_install_name = ""
