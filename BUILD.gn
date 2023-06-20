@@ -58,8 +58,8 @@ ohos_copy("napi_header") {
   subsystem_name = "common"
 }
 
-ohos_copy("plugin_c_utils_header") {
-  sources = [ "//plugins/interfaces/native/plugin_c_utils.h" ]
+ohos_copy("plugin_utils_header") {
+  sources = [ "//plugins/interfaces/native/plugin_utils.h" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -165,8 +165,8 @@ if (target_os == "ios") {
     subsystem_name = "common"
   }
 
-    ohos_copy("plugin_c_utils_xcframework") {
-    sources = [ "//plugins/interfaces/native/plugin_c_utils.h" ]
+    ohos_copy("plugin_utils_xcframework") {
+    sources = [ "//plugins/interfaces/native/plugin_utils.h" ]
     outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
     module_source_dir = target_out_dir + "/$target_name/"
     module_install_name = ""
