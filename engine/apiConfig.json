@@ -54,6 +54,13 @@
         }
     },
     {
+        "module": "engine/third_party/icu",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libhmicuuc.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
         "module": "engine/utils/plugin_util",
         "library": {
             "android": [ "lib/utils/arch_type/libace_plugin_util_android.so" ],
