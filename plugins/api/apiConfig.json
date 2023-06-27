@@ -185,7 +185,7 @@
                 "lib/device_info/ace_device_info_android.jar",
                 "lib/device_info/arch_type/libdeviceinfo.so"
             ],
-            "ios":[]
+            "ios":[ "xcframework/build_modes/libdeviceinfo.xcframework" ]
         },
         "deps": {
             "android": [ "engine/utils/plugin_util" ],
