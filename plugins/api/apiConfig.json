@@ -642,7 +642,10 @@
     {
         "module": "ohos.util",
         "library": {
-            "android": [ "lib/util/arch_type/libutil.so" ],
+            "android": [
+                "lib/util/ace_util_plugin_android.jar",
+                "lib/util/arch_type/libutil.so"
+            ],
             "ios":[ "xcframework/build_modes/libutil.xcframework" ]
         },
         "deps": {
