@@ -41,8 +41,7 @@
         "deps": {
             "android": [
                 "engine/third_party/icu",
-                "engine/utils/hilog",
-                "engine/utils/plugin_util"
+                "engine/utils/hilog"
             ],
             "ios":[]
         }
@@ -56,7 +55,6 @@
         "deps": {
             "android": [
                 "engine/utils/hilog",
-                "engine/utils/plugin_util",
                 "engine/third_party/xml2"
             ],
             "ios":[]
@@ -127,7 +125,7 @@
             "ios":[ "xcframework/build_modes/libabilityaccessctrl.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -138,7 +136,7 @@
             "ios":["xcframework/build_modes/libbridge.xcframework"]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -149,7 +147,7 @@
             "ios":[ "xcframework/build_modes/libbuffer.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -163,7 +161,7 @@
             "ios":[]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -174,7 +172,7 @@
             "ios":[ "xcframework/build_modes/libconvertxml.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -188,7 +186,7 @@
             "ios":[ "xcframework/build_modes/libdeviceinfo.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -202,7 +200,7 @@
             "ios":[]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -215,10 +213,7 @@
             "ios":["xcframework/build_modes/libfile_fs.xcframework"]
         },
         "deps": {
-            "android": [
-                "engine/utils/hilog",
-                "engine/utils/plugin_util"
-            ],
+            "android": [ "engine/utils/hilog" ],
             "ios":[]
         }
     },
@@ -229,10 +224,7 @@
             "ios":[ "xcframework/build_modes/libhilog.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/utils/plugin_util",
-                "engine/utils/hilog"
-            ],
+            "android": [ "engine/utils/hilog" ],
             "ios":[]
         }
     },
@@ -243,7 +235,7 @@
             "ios":[]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -257,7 +249,7 @@
             "ios":[ "xcframework/build_modes/libintl.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -271,7 +263,7 @@
             "ios":[ "xcframework/build_modes/libintl.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -297,7 +289,6 @@
         },
         "deps": {
             "android": [
-                "engine/utils/plugin_util",
                 "engine/third_party/zlib",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
@@ -325,7 +316,7 @@
             "ios":[ "xcframework/build_modes/libnet_connection.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         },
         "apis": [
@@ -361,8 +352,7 @@
             "android": [
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
-                "engine/utils/net_util",
-                "engine/utils/plugin_util"
+                "engine/utils/net_util"
             ],
             "ios":[]
         },
@@ -471,8 +461,7 @@
                 "engine/third_party/zlib",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
-                "engine/utils/net_util",
-                "engine/utils/plugin_util"
+                "engine/utils/net_util"
             ],
             "ios":[]
         },
@@ -522,7 +511,6 @@
         },
         "deps": {
             "android": [
-                "engine/utils/plugin_util",
                 "engine/third_party/zlib",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
@@ -552,7 +540,7 @@
             "ios":[]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -563,7 +551,7 @@
             "ios":[ "xcframework/build_modes/liburi.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -574,7 +562,7 @@
             "ios":[ "xcframework/build_modes/liburl.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -585,7 +573,7 @@
             "ios":[ "xcframework/build_modes/libxml.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -596,10 +584,7 @@
             "ios":[ "xcframework/build_modes/libworker.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/utils/plugin_util",
-                "timer"
-            ],
+            "android": [ "timer" ],
             "ios":[ "timer" ]
         }
     },
@@ -610,10 +595,7 @@
             "ios":[ "xcframework/build_modes/libtaskpool.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/utils/plugin_util",
-                "timer"
-            ],
+            "android": [ "timer" ],
             "ios":[ "timer" ]
         }
     },
@@ -624,7 +606,7 @@
             "ios":[ "xcframework/build_modes/libtimer.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -635,7 +617,7 @@
             "ios":[ "xcframework/build_modes/libconsole.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -646,10 +628,7 @@
             "ios":[ "xcframework/build_modes/libutil.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/utils/plugin_util",
-                "engine/third_party/openssl/crypto"
-            ],
+            "android": [ "engine/third_party/openssl/crypto" ],
             "ios":[]
         }
     },
@@ -660,7 +639,7 @@
             "ios":[ "xcframework/build_modes/libutil_deque.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -671,7 +650,7 @@
             "ios":[ "xcframework/build_modes/libutil_arraylist.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -682,7 +661,7 @@
             "ios":[ "xcframework/build_modes/libutil_hashmap.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -693,7 +672,7 @@
             "ios":[ "xcframework/build_modes/libutil_hashset.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -704,7 +683,7 @@
             "ios":[ "xcframework/build_modes/libutil_lightweightmap.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -715,7 +694,7 @@
             "ios":[ "xcframework/build_modes/libutil_lightweightset.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -726,7 +705,7 @@
             "ios":[ "xcframework/build_modes/libutil_linkedlist.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -737,7 +716,7 @@
             "ios":[ "xcframework/build_modes/libutil_list.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -748,7 +727,7 @@
             "ios":[ "xcframework/build_modes/libutil_plainarray.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -759,7 +738,7 @@
             "ios":[ "xcframework/build_modes/libutil_queue.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -770,7 +749,7 @@
             "ios":[ "xcframework/build_modes/libutil_stack.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -781,7 +760,7 @@
             "ios":[ "xcframework/build_modes/libutil_treemap.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -792,7 +771,7 @@
             "ios":[ "xcframework/build_modes/libutil_treeset.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/plugin_util" ],
+            "android": [],
             "ios":[]
         }
     },
