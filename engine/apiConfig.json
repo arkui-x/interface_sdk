@@ -61,13 +61,6 @@
         }
     },
     {
-        "module": "engine/utils/plugin_util",
-        "library": {
-            "android": [ "lib/utils/arch_type/libace_plugin_util_android.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
-        }
-    },
-    {
         "module": "engine/utils/hilog",
         "library": {
             "android": [ "lib/utils/arch_type/libhilog_android.so" ],
