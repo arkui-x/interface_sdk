@@ -195,6 +195,24 @@ if (target_os == "ios") {
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
 
+  copy_xcframework("copy_libarkui_qrcode_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libarkui_qrcode" ]
+    sources = [ "${root_out_dir}/lib.ios.framework/arkui/arkui_components/libarkui_qrcode.xcframework" ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libarkui_relativecontainer_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libarkui_relativecontainer" ]
+    sources = [ "${root_out_dir}/lib.ios.framework/arkui/arkui_components/libarkui_relativecontainer.xcframework" ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
+  copy_xcframework("copy_libarkui_patternlock_xcframework") {
+    deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libarkui_patternlock" ]
+    sources = [ "${root_out_dir}/lib.ios.framework/arkui/arkui_components/libarkui_patternlock.xcframework" ]
+    outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
+  }
+
   copy_xcframework("copy_libfont_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libfont" ]
     sources = [
