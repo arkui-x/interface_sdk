@@ -229,7 +229,7 @@
         }
     },
     {
-        "module": "ohos.hitraceMeter",
+        "module": "ohos.hiTraceMeter",
         "library": {
             "android": [ "lib/hitrace_meter/arch_type/libhitracemeter.so" ],
             "ios":[]
