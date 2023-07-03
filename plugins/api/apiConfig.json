@@ -270,8 +270,8 @@
     {
         "module": "ndk_rawfile",
         "library": {
-            "android": [ "lib/ndk_raw_file/arch_type/libndkrawfile.so" ],
-            "ios":[]
+            "android": [ "lib/ndk_raw_file/arch_type/libndk_raw_file_android.so" ],
+            "ios":[ "xcframework/build_modes/libndkrawfile.xcframework" ]
         },
         "deps": {
             "android": [],

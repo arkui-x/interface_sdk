@@ -67,6 +67,19 @@ ohos_copy("plugin_utils_header") {
   subsystem_name = "common"
 }
 
+ohos_copy("plugin_rawfile_header") {
+  sources = [
+    "//base/global/resource_management/interfaces/native/resource/include/raw_dir.h",
+    "//base/global/resource_management/interfaces/native/resource/include/raw_file.h",
+    "//base/global/resource_management/interfaces/native/resource/include/raw_file_manager.h",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("sdkconfig") {
   sources = [ "./sdkConfig.json" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
@@ -165,7 +178,7 @@ if (target_os == "ios") {
     subsystem_name = "common"
   }
 
-    ohos_copy("plugin_utils_xcframework") {
+  ohos_copy("plugin_utils_xcframework") {
     sources = [ "//plugins/interfaces/native/plugin_utils.h" ]
     outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
     module_source_dir = target_out_dir + "/$target_name/"
@@ -508,9 +521,7 @@ if (target_os == "ios") {
 
   copy_xcframework("copy_libdeviceinfo_xcframework") {
     deps = [ "//foundation/arkui/ace_engine/adapter/ios/build:libdeviceinfo" ]
-    sources = [
-      "${root_out_dir}/lib.ios.framework/arkui/plugins/libdeviceinfo.xcframework",
-    ]
+    sources = [ "${root_out_dir}/lib.ios.framework/arkui/plugins/libdeviceinfo.xcframework" ]
     outputs = [ "${root_out_dir}/lib.xcframework/${target_name}" ]
   }
 }
