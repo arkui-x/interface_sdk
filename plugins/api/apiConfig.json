@@ -953,5 +953,16 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.uitest",
+        "library": {
+            "android": [ "lib/uitest/arch_type/libuitest.so" ],
+            "ios": [ "xcframework/build_modes/libuitest.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
