@@ -50,16 +50,10 @@ ohos_copy("node_header") {
 }
 
 ohos_copy("napi_header") {
-  sources = [ "//foundation/arkui/napi/interfaces/kits/napi/native_api.h" ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("napi_header_common") {
-  sources = [ "//foundation/arkui/napi/interfaces/kits/napi/common.h" ]
+  sources = [
+    "//foundation/arkui/napi/interfaces/kits/napi/common.h",
+    "//foundation/arkui/napi/interfaces/kits/napi/native_api.h",
+  ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
