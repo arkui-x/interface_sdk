@@ -955,7 +955,7 @@
         }
     },
     {
-        "module": "ohos.uitest",
+        "module": "ohos.UiTest",
         "library": {
             "android": [ "lib/uitest/arch_type/libuitest.so" ],
             "ios": [ "xcframework/build_modes/libuitest.xcframework" ]
