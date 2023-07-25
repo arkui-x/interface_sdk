@@ -246,7 +246,7 @@
                 "lib/i18n/ace_i18n_plugin_android.jar",
                 "lib/i18n/arch_type/libi18n.so"
             ],
-            "ios":[ "xcframework/build_modes/libintl.xcframework" ]
+            "ios":[ "xcframework/build_modes/libi18n.xcframework" ]
         },
         "deps": {
             "android": [],
