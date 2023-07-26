@@ -523,7 +523,7 @@
         "module": "ohos.resourceManager",
         "library": {
             "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":["xcframework/build_modes/libresourcemanager.xcframework"]
+            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -803,8 +803,8 @@
     {
         "module": "ohos.app.ability.UIAbility",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
+            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
         },
         "deps": {
             "android": [],
