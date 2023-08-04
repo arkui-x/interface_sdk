@@ -35,6 +35,15 @@ ohos_copy("systemres") {
   subsystem_name = "common"
 }
 
+ohos_copy("license") {
+  sources = [ "//foundation/appframework/LICENSE" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("node_header") {
   sources = [
     "//third_party/node/src/js_native_api.h",
