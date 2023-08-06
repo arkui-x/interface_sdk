@@ -1,0 +1,77 @@
+[
+    {
+        "module": "engine/arkui",
+        "library": {
+            "android": [
+                "lib/arkui/arkui_android_adapter.jar",
+                "lib/arkui/arch_type/libarkui_android.so"
+            ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": [ "NSAllowsArbitrary = true" ]
+                }
+            }
+        ]
+    },
+    {
+        "module": "engine/third_party/zlib",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libshared_libz.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/openssl",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/openssl/crypto",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcrypto_openssl.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/nghttp2",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libnghttp2_shared.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/xml2",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libxml2.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/icu",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libhmicuuc.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/utils/hilog",
+        "library": {
+            "android": [ "lib/utils/arch_type/libhilog_android.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/utils/net_util",
+        "library": {
+            "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    }
+]
