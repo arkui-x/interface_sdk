@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import { AsyncCallback } from '@ohos.base';
+import { AsyncCallback } from './basic';
 
 declare namespace Bridge {
     /**
@@ -20,12 +20,38 @@ declare namespace Bridge {
      *
      * @since 10
      */
-    type S = number | boolean | string | null;
+    /**
+     * Bridge data type definition.
+     * ArrayBuffer: Binary data transfer.
+     * @since 11
+     */
+    type S = number | boolean | string | null | ArrayBuffer;
     type T = S | Array<number> | Array<boolean> | Array<string>;
     type Message = T | Record<string, T>;
     type Parameter = Message;
     type Response = Message;
     type ResultValue = T | Map<string, T>;
+
+    /**
+     * Data transmission encoding type.
+     *
+     * @since 11
+     */
+    export enum BridgeType {
+        /**
+         * Json encoding mode, default.
+         *
+         * @since 11
+         */
+        JSON_TYPE = 0,
+        
+        /**
+         * Binary stream encoding.
+         *
+         * @since 11
+         */
+        BINARY_TYPE = 1
+    }
 
     /**
      * Creates the bridge and returns the bridge object.
@@ -35,6 +61,16 @@ declare namespace Bridge {
      * @since 10
      */
     function createBridge(bridgeName: string): BridgeObject;
+
+    /**
+     * Creates the bridge and returns the bridge object.
+     *
+     * @param bridgeName Unique bridge name.
+     * @param type Data encoding type.
+     * @return Bridge object.
+     * @since 11
+     */
+    function createBridge(bridgeName: string, type: BridgeType): BridgeObject;
 
     /**
      * Method or event interface.
@@ -70,7 +106,8 @@ declare namespace Bridge {
          * Invoke platform-side methods.
          * @param methodName The name of the called platform side method.
          * @param parameters Platform method parameters to be called.
-		 * @return Returns the platform-side method return value.
+         * @param callback The value returned by the called platform method.
+         * @return Returns the platform-side method return value.
          * @since 10
          */
         callMethod(methodName: string, parameters?: Record<string, Parameter>): Promise<ResultValue>;
@@ -80,7 +117,6 @@ declare namespace Bridge {
          * Register JS side methods for platform side calls.
          *
          * @param method Method for platform side invocation.
-         * @param callback Asynchronous callback interface.
          * @since 10
          */
         registerMethod(method: MethodData, callback: AsyncCallback<void>): void;
@@ -88,9 +124,8 @@ declare namespace Bridge {
 
         /**
          * UnRegister JS side event.
-		 *
+         *
          * @param methodName The name of JS side event.
-         * @param callback Asynchronous callback interface.
          * @since 9
          */
          unRegisterMethod(methodName: string, callback: AsyncCallback<void>): void;
@@ -100,7 +135,6 @@ declare namespace Bridge {
          * JS sends messages to the platform side.
          *
          * @param message The message sent by the JS side.
-         * @param callback Asynchronous callback interface.
          * @since 10
          */
         sendMessage(message: Message, callback: AsyncCallback<Response>): void;
@@ -110,7 +144,6 @@ declare namespace Bridge {
          * Receive messages from the platform.
          *
          * @param message The message sent by the platform side.
-         * @param callback Listen to platform asynchronous message interface.
          * @since 10
          */
         setMessageListener(callback: (message: Message) => Response);
