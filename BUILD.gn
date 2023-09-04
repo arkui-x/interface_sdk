@@ -15,7 +15,7 @@ import("//build/templates/common/copy.gni")
 import("//build/templates/metadata/module_info.gni")
 
 ohos_copy("ace_tools") {
-  sources = [ "//developtools/ace_tools/cli" ]
+  sources = [ "//developtools/ace_tools/ace_tools" ]
   outputs = [ target_out_dir + "/$target_name/" ]
   part_name = "common"
   subsystem_name = "common"
