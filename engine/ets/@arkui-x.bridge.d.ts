@@ -18,13 +18,9 @@ import { AsyncCallback } from '@ohos.base';
 declare namespace Bridge {
     /**
      * Bridge data type definition.
+     * ArrayBuffer: Binary data transfer.
      *
      * @since 10
-     */
-    /**
-     * Bridge data type definition.
-     * ArrayBuffer: Binary data transfer.
-     * @since 11
      */
     type S = number | boolean | string | null | ArrayBuffer;
     type T = S | Array<number> | Array<boolean> | Array<string>;
@@ -36,20 +32,20 @@ declare namespace Bridge {
     /**
      * Data transmission encoding type.
      *
-     * @since 11
+     * @since 10
      */
     export enum BridgeType {
         /**
          * Json encoding mode, default.
          *
-         * @since 11
+         * @since 10
          */
         JSON_TYPE = 0,
         
         /**
          * Binary stream encoding.
          *
-         * @since 11
+         * @since 10
          */
         BINARY_TYPE = 1
     }
@@ -69,7 +65,7 @@ declare namespace Bridge {
      * @param bridgeName Unique bridge name.
      * @param type Data encoding type.
      * @return Bridge object.
-     * @since 11
+     * @since 10
      */
     function createBridge(bridgeName: string, type: BridgeType): BridgeObject;
 
