@@ -964,5 +964,16 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.web.webview",
+        "library": {
+            "android": [ "lib/web/arch_type/libweb_webview.so" ],
+            "ios":[ "xcframework/build_modes/libweb_webview.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
