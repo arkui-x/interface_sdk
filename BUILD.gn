@@ -14,18 +14,48 @@
 import("//build/templates/common/copy.gni")
 import("//build/templates/metadata/module_info.gni")
 
-ohos_copy("toolchains_bin") {
+template("copy_ace_toolchain") {
+  forward_variables_from(invoker,
+                         [
+                           "deps",
+                           "sources",
+                           "outputs",
+                         ])
+  action(target_name) {
+    script = "//interface/sdk/obfuscate_js.py"
+    args = [
+      "--npm",
+      rebase_path(sources[1]),
+      "--prefix",
+      rebase_path(sources[0]),
+      "--output",
+      rebase_path(outputs[0]),
+    ]
+    deps = [ ":${target_name}_info" ]
+  }
+  _target_name = target_name
+  generate_module_info("${target_name}_info") {
+    module_type = "unknown"
+    module_install_name = ""
+    module_name = _target_name
+    module_source_dir = target_out_dir + "/" + _target_name
+    install_enable = false
+  }
+}
+
+ohos_copy("bin") {
   sources = [ "//developtools/ace_tools/bin" ]
   outputs = [ target_out_dir + "/$target_name/" ]
   part_name = "common"
   subsystem_name = "common"
 }
 
-ohos_copy("ace_tools") {
-  sources = [ "//developtools/ace_tools/ace_tools" ]
-  outputs = [ target_out_dir + "/$target_name/" ]
-  part_name = "common"
-  subsystem_name = "common"
+copy_ace_toolchain("ace_tools") {
+  sources = [
+    "//developtools/ace_tools/ace_tools",
+    "//prebuilts/build-tools/common/nodejs/current/bin/npm",
+  ]
+  outputs = [ target_out_dir + "/$target_name" ]
 }
 
 ohos_copy("ets") {
