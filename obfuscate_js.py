@@ -25,9 +25,12 @@ def main():
     parser.add_argument('--output', help='The target product path after packaging', type=str, required=True)
     args = parser.parse_args()
     
-    subprocess.call([args.npm, 'install', '--prefix='+args.prefix])  #npm install
-    subprocess.call([args.npm, 'run', 'build', '--prefix='+args.prefix, args.output]) #npm run build
-
+    errcode = subprocess.call([args.npm, 'install', '--prefix='+args.prefix])  #npm install
+    if(errcode != 0):
+        raise ValueError('npm install for ace tools is failed')
+    errcode = subprocess.call([args.npm, 'run', 'build', '--prefix='+args.prefix, args.output]) #npm run build
+    if(errcode != 0):
+        raise ValueError('npm build for ace tools is failed')
 
 if __name__ == '__main__':
     sys.exit(main())
