@@ -40,8 +40,7 @@
         },
         "deps": {
             "android": [
-                "engine/third_party/icu",
-                "engine/utils/hilog"
+                "engine/third_party/icu"
             ],
             "ios":[]
         }
@@ -54,7 +53,6 @@
         },
         "deps": {
             "android": [
-                "engine/utils/hilog",
                 "engine/third_party/xml2"
             ],
             "ios":[]
@@ -213,7 +211,7 @@
             "ios":["xcframework/build_modes/libfile_fs.xcframework"]
         },
         "deps": {
-            "android": [ "engine/utils/hilog" ],
+            "android": [],
             "ios":[]
         }
     },
@@ -224,7 +222,7 @@
             "ios":[ "xcframework/build_modes/libhilog.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/utils/hilog" ],
+            "android": [],
             "ios":[]
         }
     },

@@ -63,7 +63,7 @@
     {
         "module": "engine/utils/hilog",
         "library": {
-            "android": [ "lib/utils/arch_type/libhilog_android.so" ],
+            "android": [],
             "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
