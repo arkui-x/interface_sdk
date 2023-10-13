@@ -61,13 +61,6 @@
         }
     },
     {
-        "module": "engine/utils/hilog",
-        "library": {
-            "android": [],
-            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
-        }
-    },
-    {
         "module": "engine/utils/net_util",
         "library": {
             "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],

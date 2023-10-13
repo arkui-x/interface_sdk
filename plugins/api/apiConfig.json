@@ -150,20 +150,6 @@
         }
     },
     {
-        "module": "ohos.commonEvent",
-        "library": {
-            "android": [
-                "lib/common_event/ace_common_event_android.jar",
-                "lib/common_event/arch_type/libcommonevent.so"
-            ],
-            "ios":[]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
         "module": "ohos.convertxml",
         "library": {
             "android": [ "lib/convertxml/arch_type/libconvertxml.so" ],
@@ -522,20 +508,6 @@
         "library": {
             "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
             "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
-        "module": "ohos.runningLock",
-        "library": {
-            "android": [
-                "lib/running_lock/ace_runninglock_android.jar",
-                "lib/running_lock/arch_type/librunninglock.so"
-            ],
-            "ios":[]
         },
         "deps": {
             "android": [],
