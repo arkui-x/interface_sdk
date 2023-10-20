@@ -61,6 +61,13 @@
         }
     },
     {
+        "module": "engine/third_party/curl",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcurl_shared.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_curl.xcframework" ]
+        }
+    },
+    {
         "module": "engine/utils/net_util",
         "library": {
             "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],
