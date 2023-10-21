@@ -216,7 +216,7 @@
         "module": "ohos.hiTraceMeter",
         "library": {
             "android": [ "lib/hitrace_meter/arch_type/libhitracemeter.so" ],
-            "ios":[]
+            "ios":[ "xcframework/build_modes/libhitracemeter.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -338,7 +338,7 @@
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ],
-            "ios":[]
+            "ios": [ "engine/utils/net_util" ]
         },
         "apis": [
             {
@@ -447,7 +447,7 @@
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ],
-            "ios":[]
+            "ios": [ "engine/utils/net_util" ]
         },
         "apis": [
             {

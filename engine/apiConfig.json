@@ -71,7 +71,7 @@
         "module": "engine/utils/net_util",
         "library": {
             "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libnet_utils.xcframework" ]
         },
         "deps": {
             "android": [
@@ -80,7 +80,12 @@
                 "engine/third_party/openssl/crypto",
                 "engine/third_party/zlib"
             ],
-            "ios":[]
+            "ios":[
+                "engine/third_party/nghttp2",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/zlib"
+            ]
         }
     }
 ]
