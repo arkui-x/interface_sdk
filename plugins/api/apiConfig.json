@@ -283,7 +283,8 @@
             "ios":[
                 "engine/third_party/zlib",
                 "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto"
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/nghttp2"
             ]
         },
         "apis": [
@@ -518,7 +519,8 @@
             "ios":[
                 "engine/third_party/zlib",
                 "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto"
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/nghttp2"
             ]
         }
     },

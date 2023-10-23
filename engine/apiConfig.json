@@ -43,6 +43,13 @@
         "module": "engine/third_party/nghttp2",
         "library": {
             "android": [ "lib/third_party/arch_type/libnghttp2_shared.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_libnghttp2_shared.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/xml2",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libxml2.so" ],
             "ios":[ "xcframework/arkui/build_modes/libarkui_xml2.xcframework" ]
         }
     },
