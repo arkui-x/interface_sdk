@@ -55,7 +55,9 @@
             "android": [
                 "engine/third_party/xml2"
             ],
-            "ios":[]
+            "ios":[
+                "engine/third_party/xml2"
+            ]
         }
     },
     {
@@ -278,7 +280,11 @@
                 "engine/third_party/openssl/crypto",
                 "engine/third_party/nghttp2"
             ],
-            "ios":[]
+            "ios":[
+                "engine/third_party/zlib",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto"
+            ]
         },
         "apis": [
             {
@@ -338,7 +344,11 @@
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ],
-            "ios": [ "engine/utils/net_util" ]
+            "ios":[
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ]
         },
         "apis": [
             {
@@ -447,7 +457,12 @@
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ],
-            "ios": [ "engine/utils/net_util" ]
+            "ios":[
+                "engine/third_party/zlib",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ]
         },
         "apis": [
             {
@@ -500,7 +515,11 @@
                 "engine/third_party/openssl/crypto",
                 "engine/third_party/nghttp2"
             ],
-            "ios":[]
+            "ios":[
+                "engine/third_party/zlib",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto"
+            ]
         }
     },
     {
@@ -602,7 +621,7 @@
         },
         "deps": {
             "android": [ "engine/third_party/openssl/crypto" ],
-            "ios":[]
+            "ios":[ "engine/third_party/openssl/crypto" ]
         }
     },
     {
