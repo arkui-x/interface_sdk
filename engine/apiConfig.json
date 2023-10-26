@@ -22,35 +22,35 @@
         "module": "engine/third_party/zlib",
         "library": {
             "android": [ "lib/third_party/arch_type/libshared_libz.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libshared_libz.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl",
         "library": {
             "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libssl_shared.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl/crypto",
         "library": {
             "android": [ "lib/third_party/arch_type/libcrypto_openssl.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libcrypto_shared.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/nghttp2",
         "library": {
             "android": [ "lib/third_party/arch_type/libnghttp2_shared.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libnghttp2_shared.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/xml2",
         "library": {
             "android": [ "lib/third_party/arch_type/libxml2.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libxml2.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
@@ -61,17 +61,10 @@
         }
     },
     {
-        "module": "engine/third_party/curl",
-        "library": {
-            "android": [ "lib/third_party/arch_type/libcurl_shared.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libcurl.xcframework" ]
-        }
-    },
-    {
         "module": "engine/utils/net_util",
         "library": {
             "android": [ "lib/utils/arch_type/libnetstack_util_android.so" ],
-            "ios":[ "xcframework/arkui/build_modes/libnet_utils.xcframework" ]
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         },
         "deps": {
             "android": [
