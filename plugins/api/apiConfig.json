@@ -799,7 +799,9 @@
         },
         "deps": {
             "android": [],
-            "ios":[]
+            "ios":[
+                "engine/third_party/curl"
+            ]
         }
     },
     {
