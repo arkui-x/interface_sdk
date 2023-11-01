@@ -57,14 +57,14 @@
         "module": "engine/third_party/openssl/crypto",
         "library": {
             "android": [ "lib/third_party/arch_type/libcrypto_openssl.so" ],
-            "ios":[ "xcframework/third_party/build_modes/libcrypto_openssl.xcframework" ]
+            "ios":[ "xcframework/third_party/build_modes/libcrypto_source.xcframework" ]
         }
     },
     {
         "module": "engine/third_party/openssl",
         "library": {
             "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
-            "ios":[ "xcframework/third_party/build_modes/libssl_openssl.xcframework" ]
+            "ios":[ "xcframework/third_party/build_modes/libssl_source.xcframework" ]
         }
     },
     {
