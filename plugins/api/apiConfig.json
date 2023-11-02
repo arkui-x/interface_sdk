@@ -971,7 +971,7 @@
         "module": "ohos.commonEventManager",
         "library": {
             "android": [
-                "lib/common_event_manager/arkui_common_event_manager_android.jar",
+                "lib/common_event_manager/ace_common_event_manager_android.jar",
                 "lib/common_event_manager/arch_type/libcommoneventmanager.so"
             ],
             "ios":[ "xcframework/build_modes/libcommoneventmanager.xcframework" ]
