@@ -968,5 +968,16 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.zlib",
+        "library": {
+            "android": [ "lib/zlib/arch_type/libzlib.so" ],
+            "ios":[ "xcframework/build_modes/libzlib.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
