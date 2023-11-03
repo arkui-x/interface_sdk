@@ -799,7 +799,9 @@
         },
         "deps": {
             "android": [],
-            "ios":[]
+            "ios":[
+                "engine/third_party/curl"
+            ]
         }
     },
     {
@@ -975,6 +977,17 @@
                 "lib/common_event_manager/arch_type/libcommoneventmanager.so"
             ],
             "ios":[ "xcframework/build_modes/libcommoneventmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.zlib",
+        "library": {
+            "android": [ "lib/zlib/arch_type/libzlib.so" ],
+            "ios":[ "xcframework/build_modes/libzlib.xcframework" ]
         },
         "deps": {
             "android": [],
