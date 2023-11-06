@@ -26,13 +26,6 @@
         }
     },
     {
-        "module": "engine/third_party/curl",
-        "library": {
-            "android": [ "lib/third_party/arch_type/libcurl_shared.so" ],
-            "ios":[ "xcframework/third_party/build_modes/libcurl.xcframework" ]
-        }
-    },
-    {
         "module": "engine/third_party/xml2",
         "library": {
             "android": [ "lib/third_party/arch_type/libxml2.so" ],
