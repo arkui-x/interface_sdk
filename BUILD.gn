@@ -43,6 +43,23 @@ template("copy_ace_toolchain") {
   }
 }
 
+system_resource_hap_path =
+    get_label_info("//base/global/system_resources/systemres:systemres_hap",
+                   "target_out_dir") + "/SystemResources.hap"
+system_resource_path =
+    get_label_info("//base/global/system_resources/systemres:systemres_hap",
+                   "target_out_dir") + "/resources"
+action("get_system_resource") {
+  script = "get_system_resources.sh"
+  deps = [ "//base/global/system_resources/systemres:systemres_hap" ]
+  args = [
+    rebase_path(system_resource_hap_path),
+    rebase_path(system_resource_path),
+  ]
+  inputs = [ system_resource_hap_path ]
+  outputs = [ system_resource_path ]
+}
+
 ohos_copy("bin") {
   sources = [ "//developtools/ace_tools/bin" ]
   outputs = [ target_out_dir + "/$target_name/" ]
@@ -66,7 +83,8 @@ ohos_copy("ets") {
 }
 
 ohos_copy("systemres") {
-  sources = [ "./engine/systemres" ]
+  deps = [ ":get_system_resource" ]
+  sources = [ system_resource_path ]
   outputs = [ target_out_dir + "/$target_name/" ]
   part_name = "common"
   subsystem_name = "common"
