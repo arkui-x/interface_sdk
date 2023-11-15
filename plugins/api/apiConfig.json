@@ -991,5 +991,24 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.security.cryptoFramework",
+        "library": {
+            "android": [ "lib/cryptoFramework/arch_type/libcryptoFramework.so" ],
+            "ios":[ "xcframework/build_modes/libcryptoFramework.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl",
+               "engine/third_party/curl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl",
+               "engine/third_party/curl"
+            ]
+        }
     }
 ]
