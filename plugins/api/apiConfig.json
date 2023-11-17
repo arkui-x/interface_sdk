@@ -1001,13 +1001,11 @@
         "deps": {
             "android": [
                "engine/third_party/openssl/crypto",
-               "engine/third_party/openssl",
-               "engine/third_party/curl"
+               "engine/third_party/openssl"
             ],
             "ios": [
                "engine/third_party/openssl/crypto",
-               "engine/third_party/openssl",
-               "engine/third_party/curl"
+               "engine/third_party/openssl"
             ]
         }
     }
