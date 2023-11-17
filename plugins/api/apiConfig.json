@@ -55,9 +55,7 @@
             "android": [
                 "engine/third_party/xml2"
             ],
-            "ios":[
-                "engine/third_party/xml2"
-            ]
+            "ios":[]
         }
     },
     {
@@ -281,10 +279,8 @@
                 "engine/third_party/nghttp2"
             ],
             "ios":[
-                "engine/third_party/zlib",
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/nghttp2"
+                "engine/third_party/curl",
+                "engine/utils/net_util"
             ]
         },
         "apis": [
@@ -346,6 +342,7 @@
                 "engine/utils/net_util"
             ],
             "ios":[
+                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
@@ -453,13 +450,13 @@
         },
         "deps": {
             "android": [
-                "engine/third_party/zlib",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
+                "engine/third_party/zlib",
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/zlib",
+                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
