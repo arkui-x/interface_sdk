@@ -272,11 +272,9 @@
             "ios":["xcframework/build_modes/libnet_http.xcframework"]
         },
         "deps": {
-            "android": [
-                "engine/third_party/zlib",
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/nghttp2"
+            "android": [ 
+                "engine/third_party/curl",
+                "engine/utils/net_util"
             ],
             "ios":[
                 "engine/third_party/curl",

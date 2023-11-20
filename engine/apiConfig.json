@@ -59,7 +59,12 @@
             "ios":[ "xcframework/third_party/build_modes/libcurl_shared.xcframework" ]
         },
         "deps": {
-            "android": [],
+            "android": [
+                "engine/third_party/nghttp2",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/zlib"
+            ],
             "ios":[
                 "engine/third_party/nghttp2",
                 "engine/third_party/openssl",
@@ -92,12 +97,7 @@
             "ios":[ "xcframework/utils/build_modes/libnet_utils.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/third_party/nghttp2",
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/zlib"
-            ],
+            "android": [],
             "ios":[]
         }
     }
