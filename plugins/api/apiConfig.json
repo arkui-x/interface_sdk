@@ -272,7 +272,7 @@
             "ios":["xcframework/build_modes/libnet_http.xcframework"]
         },
         "deps": {
-            "android": [ 
+            "android": [
                 "engine/third_party/curl",
                 "engine/utils/net_util"
             ],
@@ -570,8 +570,8 @@
             "ios":[ "xcframework/build_modes/libworker.xcframework" ]
         },
         "deps": {
-            "android": [ "timer" ],
-            "ios":[ "timer" ]
+            "android": [],
+            "ios":[]
         }
     },
     {
@@ -579,28 +579,6 @@
         "library": {
             "android": [ "lib/taskpool/arch_type/libtaskpool.so" ],
             "ios":[ "xcframework/build_modes/libtaskpool.xcframework" ]
-        },
-        "deps": {
-            "android": [ "timer" ],
-            "ios":[ "timer" ]
-        }
-    },
-    {
-        "module": "timer",
-        "library": {
-            "android": [ "lib/timer/arch_type/libtimer.so" ],
-            "ios":[ "xcframework/build_modes/libtimer.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
-        "module": "console",
-        "library": {
-            "android": [ "lib/console/arch_type/libconsole.so" ],
-            "ios":[ "xcframework/build_modes/libconsole.xcframework" ]
         },
         "deps": {
             "android": [],
