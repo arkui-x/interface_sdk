@@ -177,15 +177,12 @@
     {
         "module": "ohos.display",
         "library": {
-            "android": [
-                "lib/display/ace_display_android.jar",
-                "lib/display/arch_type/libdisplay.so"
-            ],
-            "ios":[]
+            "android": [],
+            "ios": []
         },
         "deps": {
             "android": [],
-            "ios":[]
+            "ios": []
         }
     },
     {
