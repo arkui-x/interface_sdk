@@ -123,10 +123,10 @@ declare namespace Bridge {
          * UnRegister JS side event.
          *
          * @param methodName The name of JS side event.
-         * @since 9
+         * @since 10
          */
-         unRegisterMethod(methodName: string, callback: AsyncCallback<void>): void;
-         unRegisterMethod(methodName: string): Promise<void>;
+        unRegisterMethod(methodName: string, callback: AsyncCallback<void>): void;
+        unRegisterMethod(methodName: string): Promise<void>;
 
         /**
          * JS sends messages to the platform side.
@@ -144,6 +144,19 @@ declare namespace Bridge {
          * @since 10
          */
         setMessageListener(callback: (message: Message) => Response);
+
+        /**
+         * Register a callback for platform side calls and call platform side functions.
+         *
+         * @param methodName:The name of the called platform side method.
+         * @param method: Functions defined on the JS side for platform side calls.
+         * @param parameters: Platform method parameters to be called.
+         * @since 11
+         */
+        callMethodWithCallback(methodName: string, method: (parameters?: Record<string , Parameter>) => ResultValue,
+        parameters?: Record<string, Parameter>): Promise<ResultValue>;
+        callMethodWithCallback(methodName: string, method: (parameters?: Record<string , Parameter>) => ResultValue,
+        parameters?: Array<any>): Promise<ResultValue>;
     }
 }
 export default Bridge;
