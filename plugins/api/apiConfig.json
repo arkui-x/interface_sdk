@@ -927,7 +927,10 @@
     {
         "module": "ohos.web.webview",
         "library": {
-            "android": [ "lib/web/arch_type/libweb_webview.so" ],
+            "android": [ 
+                "lib/web/ace_web_webview_android.jar",
+                "lib/web/arch_type/libweb_webview.so"
+             ],
             "ios":[ "xcframework/build_modes/libweb_webview.xcframework" ]
         },
         "deps": {
