@@ -55,8 +55,9 @@ Note:If the text contains special characters, please escape them according to th
     <oatconfig>
         <licensefile></licensefile>
         <filefilterlist>
-            <filefilter name="binaryFileTypePolicyFilter" desc="ArkUI-X SDk二进制文件校验策略的过滤条件" >
-                <filteritem type="filepath" name="engine/systemres/.*.index" desc="资源文件"/>
+            <filefilter name="binaryFileTypePolicyFilter" desc="二进制文件校验策略的过滤条件" >
+                <filteritem type="filepath" name="engine/systemres/resources/base/media/.*.png" desc="自研图片"/>
+                <filteritem type="filepath" name="engine/systemres/resources.index" desc="自研资源"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>

@@ -848,7 +848,7 @@
         ]
     },
     {
-        "module": "DatePanel",
+        "module": "DataPanel",
         "library": {
             "android": [],
             "ios":[]
@@ -864,7 +864,7 @@
         ]
     },
     {
-        "module": "DataPicker",
+        "module": "DatePicker",
         "library": {
             "android": [],
             "ios":[]
@@ -2161,6 +2161,102 @@
     },
     {
         "module": "XComponent",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "CalendarPicker",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "CalendarPickerDialog",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ImageSpan",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "RichEditor",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "RichEditorController",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "Particle",
         "library": {
             "android": [],
             "ios":[]

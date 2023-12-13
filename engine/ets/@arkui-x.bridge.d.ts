@@ -88,13 +88,13 @@ declare namespace Bridge {
 
         /**
          * UnRegister JS side event.
-		 *
+         *
          * @param methodName The name of JS side event.
          * @param callback Asynchronous callback interface.
-         * @since 9
+         * @since 10
          */
-         unRegisterMethod(methodName: string, callback: AsyncCallback<void>): void;
-         unRegisterMethod(methodName: string): Promise<void>;
+        unRegisterMethod(methodName: string, callback: AsyncCallback<void>): void;
+        unRegisterMethod(methodName: string): Promise<void>;
 
         /**
          * JS sends messages to the platform side.
