@@ -177,8 +177,8 @@
     {
         "module": "ohos.display",
         "library": {
-            "android": [],
-            "ios": []
+            "android": [ "lib/display/arch_type/libdisplay.so" ],
+            "ios": [ "xcframework/build_modes/libdisplay.xcframework"]
         },
         "deps": {
             "android": [],
