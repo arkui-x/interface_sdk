@@ -966,8 +966,8 @@
     {
         "module": "ohos.security.cryptoFramework",
         "library": {
-            "android": [ "lib/cryptoFramework/arch_type/libcryptoFramework.so" ],
-            "ios":[ "xcframework/build_modes/libcryptoFramework.xcframework" ]
+            "android": [ "lib/security/arch_type/libsecurity_cryptoFramework.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cryptoFramework.xcframework" ]
         },
         "deps": {
             "android": [
