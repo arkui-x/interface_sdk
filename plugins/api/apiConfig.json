@@ -979,5 +979,22 @@
                "engine/third_party/openssl"
             ]
         }
+    },
+    {
+        "module": "ohos.security.cert",
+        "library": {
+            "android": [ "lib/security/arch_type/libsecurity_cert.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cert.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ]
+        }
     }
 ]
