@@ -249,17 +249,6 @@
         }
     },
     {
-        "module": "ndk_rawfile",
-        "library": {
-            "android": [ "lib/ndk_raw_file/arch_type/libndk_raw_file_android.so" ],
-            "ios":[ "xcframework/build_modes/libndkrawfile.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
         "module": "ohos.net.http",
         "library": {
             "android": [
@@ -517,8 +506,8 @@
     {
         "module": "ohos.resourceManager",
         "library": {
-            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -762,8 +751,8 @@
     {
         "module": "ohos.app.ability.UIAbility",
         "library": {
-            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "deps": {
             "android": [],
