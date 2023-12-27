@@ -153,10 +153,10 @@ declare namespace Bridge {
          * @param parameters: Platform method parameters to be called.
          * @since 11
          */
-        callMethodWithCallback(methodName: string, method: (parameters?: Record<string , Parameter>) => ResultValue,
+        callMethodWithCallback(methodName: string, method: (parameters?: Record<string, Parameter>) => ResultValue,
         parameters?: Record<string, Parameter>): Promise<ResultValue>;
-        callMethodWithCallback(methodName: string, method: (parameters?: Record<string , Parameter>) => ResultValue,
-        parameters?: Array<any>): Promise<ResultValue>;
+        callMethodWithCallback(methodName: string, method: (parameters?: Record<string, Parameter>) => ResultValue,
+        ...parameters: Array<any>): Promise<ResultValue>;
     }
 }
 export default Bridge;
