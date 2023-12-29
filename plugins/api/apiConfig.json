@@ -484,7 +484,7 @@
         "module": "ohos.request",
         "library": {
             "android": [
-                "lib/request/ace_download_android.jar",
+                "lib/request/ace_task_android.jar",
                 "lib/request/arch_type/librequest.so"
             ],
             "ios":[ "xcframework/build_modes/librequest.xcframework" ]
