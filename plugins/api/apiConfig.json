@@ -39,9 +39,7 @@
             "ios":[ "xcframework/build_modes/libdata_relationalstore.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/third_party/icu"
-            ],
+            "android": [],
             "ios":[]
         }
     },
@@ -52,10 +50,8 @@
             "ios":[ "xcframework/build_modes/libdata_preferences.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/third_party/xml2"
-            ],
-            "ios":[]
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
         }
     },
     {
@@ -156,8 +152,8 @@
             "ios":[ "xcframework/build_modes/libconvertxml.xcframework" ]
         },
         "deps": {
-            "android": [],
-            "ios":[]
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
         }
     },
     {
@@ -188,10 +184,8 @@
     {
         "module": "ohos.file.fs",
         "library": {
-            "android": [
-                "lib/file/arch_type/libfile_fs.so"
-            ],
-            "ios":["xcframework/build_modes/libfile_fs.xcframework"]
+            "android": [ "lib/file/arch_type/libfile_fs.so" ],
+            "ios":[ "xcframework/build_modes/libfile_fs.xcframework" ]
         },
         "deps": {
             "android": [],
@@ -326,7 +320,6 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
@@ -439,7 +432,6 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
@@ -490,17 +482,8 @@
             "ios":[ "xcframework/build_modes/librequest.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/third_party/zlib",
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/nghttp2"
-            ],
-            "ios":[
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/nghttp2"
-            ]
+            "android": [ "engine/third_party/curl" ],
+            "ios":[]
         }
     },
     {
