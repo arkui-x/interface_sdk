@@ -515,6 +515,17 @@
         }
     },
     {
+        "module": "ohos.application.testRunner",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.uri",
         "library": {
             "android": [ "lib/uri/arch_type/liburi.so" ],
