@@ -120,7 +120,7 @@ declare namespace Bridge {
          * @crossplatform
          * @since 10
          */
-        method: (parameters?: Record<string , Parameter>) => ResultValue;
+        method: (...parameters: Array<Parameter>) => ResultValue;
     }
 
     /**
@@ -140,21 +140,12 @@ declare namespace Bridge {
         /**
          * Invoke platform-side methods.
          * @param { string } methodName - The name of the called platform side method.
-         * @param { Record<string, Parameter> } [parameters] - Platform method parameters to be called.
+         * @param { Array<Parameter> } parameters - Platform method parameters to be called.
          * @returns { Promise<ResultValue> } Returns the platform-side method return value.
          * @crossplatform
          * @since 10
          */
-        callMethod(methodName: string, parameters?: Record<string, Parameter>): Promise<ResultValue>;
-        /**
-         * Invoke platform-side methods.
-         * @param { string } methodName - The name of the called platform side method.
-         * @param { Array<any> } parameters - Platform method parameters to be called.
-         * @returns { Promise<ResultValue> } Returns the platform-side method return value.
-         * @crossplatform
-         * @since 10
-         */
-        callMethod(methodName: string, ...parameters: Array<any>): Promise<ResultValue>;
+        callMethod(methodName: string, ...parameters: Array<Parameter>): Promise<ResultValue>;
 
         /**
          * Register JS side methods for platform side calls.
@@ -219,24 +210,13 @@ declare namespace Bridge {
          * Register a callback for platform side calls and call platform side functions.
          * @param { string } methodName - The name of the called platform side method.
          * @param { Method } method - Functions defined on the JS side for platform side calls.
-         * @param { Record<string, Parameter> } [parameters] - Platform method parameters to be called.
+         * @param { Array<Parameter> } parameters - Platform method parameters to be called.
          * @returns { Promise<ResultValue> } Returns the platform-side method return value.
          * @crossplatform
          * @since 11
          */
-        callMethodWithCallback(methodName: string, method: (parameters?: Record<string, Parameter>) => ResultValue,
-        parameters?: Record<string, Parameter>): Promise<ResultValue>;
-        /**
-         * Register a callback for platform side calls and call platform side functions.
-         * @param { string } methodName - The name of the called platform side method.
-         * @param { Method } method - Functions defined on the JS side for platform side calls.
-         * @param { Array<any> } parameters - Platform method parameters to be called.
-         * @returns { Promise<ResultValue> } Returns the platform-side method return value.
-         * @crossplatform
-         * @since 11
-         */
-        callMethodWithCallback(methodName: string, method: (parameters?: Record<string, Parameter>) => ResultValue,
-        ...parameters: Array<any>): Promise<ResultValue>;
+        callMethodWithCallback(methodName: string, method: (...parameters: Array<Parameter>) => ResultValue,
+        ...parameters: Array<Parameter>): Promise<ResultValue>;
     }
 }
 export default Bridge;
