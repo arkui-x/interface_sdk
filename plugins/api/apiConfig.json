@@ -22,6 +22,17 @@
         }
     },
     {
+        "module": "ohos.arkui.componentUtils",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_componentutils.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_componentutils.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "system.configuration",
         "library": {
             "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
