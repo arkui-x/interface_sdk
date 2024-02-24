@@ -274,7 +274,6 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
                 "engine/utils/net_util"
             ]
         },
