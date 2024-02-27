@@ -964,6 +964,17 @@
         }
     },
     {
+        "module": "ohos.wifiManager",
+        "library": {
+            "android": [],
+            "ios":[ "xcframework/build_modes/libwifimanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.zlib",
         "library": {
             "android": [ "lib/zlib/arch_type/libzlib.so" ],
