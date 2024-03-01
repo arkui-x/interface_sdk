@@ -966,7 +966,10 @@
     {
         "module": "ohos.wifiManager",
         "library": {
-            "android": [],
+            "android": [
+                "lib/wifi_manager/ace_wifi_manager_android.jar",
+                "lib/wifi_manager/arch_type/libwifimanager.so"
+            ],
             "ios":[ "xcframework/build_modes/libwifimanager.xcframework" ]
         },
         "deps": {
