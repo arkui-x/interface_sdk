@@ -989,5 +989,16 @@
                "engine/third_party/openssl"
             ]
         }
+    },
+    {
+        "module": "ohos.events.emitter",
+        "library": {
+            "android": [ "lib/events/arch_type/libevents_emitter.so" ],
+            "ios":[ "xcframework/build_modes/libevents_emitter.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
