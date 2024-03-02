@@ -946,6 +946,20 @@
         }
     },
     {
+        "module": "ohos.wifiManager",
+        "library": {
+            "android": [
+                "lib/wifi_manager/ace_wifi_manager_android.jar",
+                "lib/wifi_manager/arch_type/libwifimanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libwifimanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.zlib",
         "library": {
             "android": [ "lib/zlib/arch_type/libzlib.so" ],
