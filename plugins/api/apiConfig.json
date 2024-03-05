@@ -1014,5 +1014,16 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.curves",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
