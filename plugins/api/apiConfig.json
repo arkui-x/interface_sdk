@@ -472,6 +472,22 @@
         ]
     },
     {
+        "module": "ohos.multimedia.media",
+        "library": {
+            "android": [
+                "lib/multimedia/arkui_media_java.jar",
+                "lib/multimedia/arch_type/libmultimedia_media.so"
+            ],
+            "ios":[ "xcframework/build_modes/libmultimedia_media.xcframework" ]
+        },
+        "deps": {
+            "android": [
+            ],
+            "ios":[
+            ]
+        }
+    },
+    {
         "module": "ohos.process",
         "library": {
             "android": [ "lib/process/arch_type/libprocess.so" ],
