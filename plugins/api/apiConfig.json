@@ -1041,5 +1041,20 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "ohos.multimedia.audio",
+        "library": {
+            "android": [
+                "lib/multimedia/arkui_audiorenderer_java.jar",
+                "lib/multimedia/arkui_audiocapturer_java.jar",
+                "lib/multimedia/arch_type/libmultimedia_audio.so"
+            ],
+            "ios":[ "xcframework/build_modes/libmultimedia_audio.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
