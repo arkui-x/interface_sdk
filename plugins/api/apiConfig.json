@@ -976,6 +976,20 @@
         }
     },
     {
+        "module": "ohos.notificationManager",
+        "library": {
+            "android": [
+                "lib/notification_manager/ace_notification_manager_android.jar",
+                "lib/notification_manager/arch_type/libnotificationmanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libnotificationmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.zlib",
         "library": {
             "android": [ "lib/zlib/arch_type/libzlib.so" ],
