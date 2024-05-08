@@ -33,6 +33,17 @@
         }
     },
     {
+        "module": "ohos.arkui.performanceMonitor",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_performancemonitor.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_performancemonitor.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "system.configuration",
         "library": {
             "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
