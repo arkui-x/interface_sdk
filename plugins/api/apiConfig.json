@@ -1059,6 +1059,22 @@
         }
     },
     {
+        "module": "ohos.file.picker",
+        "library": {
+            "android": [
+                "lib/file/picker/arch_type/libfile_picker.so",
+                "lib/file/picker/ace_filepicker_android.jar"
+            ],
+            "ios": [
+                "xcframework/build_modes/libfile_picker.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.file.photoAccessHelper",
         "library": {
             "android": [ 
