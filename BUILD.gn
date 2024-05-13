@@ -182,7 +182,6 @@ ohos_copy("plugin_rawfile_header") {
 
 ohos_copy("ace_xcomponent_header") {
   sources = [
-    "//foundation/arkui/ace_engine/interfaces/native/native_event.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_interface_xcomponent.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_type.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_xcomponent_key_event.h",
