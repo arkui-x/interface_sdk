@@ -1084,5 +1084,26 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.file.photoAccessHelper",
+        "library": {
+            "android": [ 
+                "lib/file/arch_type/libfile_photoaccesshelper.so",
+                "lib/file/ace_photo_access_helper_android.jar"
+            ],
+            "ios":[ "xcframework/build_modes/libfile_photoaccesshelper.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        },
+        "permissions": {
+            "android": [ 
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_EXTERNAL_STORAGE"
+            ],
+            "ios": []
+        }
     }
 ]
