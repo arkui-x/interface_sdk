@@ -1119,5 +1119,16 @@
             ],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.arkui.drawableDescriptor",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_drawabledescriptor.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_drawabledescriptor.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
