@@ -71,7 +71,7 @@
                 "engine/third_party/openssl/crypto"
             ]
         }
-    }, 
+    },
     {
         "module": "engine/third_party/openssl/crypto",
         "library": {

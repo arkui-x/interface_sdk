@@ -22,6 +22,17 @@
         }
     },
     {
+        "module": "ohos.arkui.componentUtils",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_componentutils.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_componentutils.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "system.configuration",
         "library": {
             "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
@@ -177,8 +188,8 @@
     {
         "module": "ohos.display",
         "library": {
-            "android": [],
-            "ios": []
+            "android": [ "lib/display/arch_type/libdisplay.so" ],
+            "ios": [ "xcframework/build_modes/libdisplay.xcframework"]
         },
         "deps": {
             "android": [],
@@ -249,17 +260,6 @@
         }
     },
     {
-        "module": "ndk_rawfile",
-        "library": {
-            "android": [ "lib/ndk_raw_file/arch_type/libndk_raw_file_android.so" ],
-            "ios":[ "xcframework/build_modes/libndkrawfile.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
         "module": "ohos.net.http",
         "library": {
             "android": [
@@ -274,11 +274,7 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
-                "engine/utils/net_util",
-                "engine/third_party/nghttp2",
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto"
+                "engine/utils/net_util"
             ]
         },
         "apis": [
@@ -340,11 +336,9 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
-                "engine/utils/net_util",
-                "engine/third_party/nghttp2"
+                "engine/utils/net_util"
             ]
         },
         "apis": [
@@ -454,11 +448,9 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/curl",
                 "engine/third_party/openssl",
                 "engine/third_party/openssl/crypto",
-                "engine/utils/net_util",
-                "engine/third_party/nghttp2"
+                "engine/utils/net_util"
             ]
         },
         "apis": [
@@ -500,7 +492,7 @@
         "module": "ohos.request",
         "library": {
             "android": [
-                "lib/request/ace_download_android.jar",
+                "lib/request/ace_task_android.jar",
                 "lib/request/arch_type/librequest.so"
             ],
             "ios":[ "xcframework/build_modes/librequest.xcframework" ]
@@ -522,8 +514,19 @@
     {
         "module": "ohos.resourceManager",
         "library": {
-            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.application.testRunner",
+        "library": {
+            "android": [],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -767,8 +770,8 @@
     {
         "module": "ohos.app.ability.UIAbility",
         "library": {
-            "android": [ "lib/resource_manager/arch_type/libresourcemanager.so" ],
-            "ios":[ "xcframework/build_modes/libresourcemanager.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "deps": {
             "android": [],
@@ -932,8 +935,81 @@
     {
         "module": "ohos.web.webview",
         "library": {
-            "android": [ "lib/web/arch_type/libweb_webview.so" ],
+            "android": [ 
+                "lib/web/ace_web_webview_android.jar",
+                "lib/web/arch_type/libweb_webview.so"
+             ],
             "ios":[ "xcframework/build_modes/libweb_webview.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.commonEventManager",
+        "library": {
+            "android": [
+                "lib/common_event_manager/ace_common_event_manager_android.jar",
+                "lib/common_event_manager/arch_type/libcommoneventmanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libcommoneventmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.zlib",
+        "library": {
+            "android": [ "lib/zlib/arch_type/libzlib.so" ],
+            "ios":[ "xcframework/build_modes/libzlib.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.security.cryptoFramework",
+        "library": {
+            "android": [ "lib/security/arch_type/libsecurity_cryptoframework.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cryptoframework.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ]
+        }
+    },
+    {
+        "module": "ohos.security.cert",
+        "library": {
+            "android": [ "lib/security/arch_type/libsecurity_cert.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cert.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ]
+        }
+    },
+    {
+        "module": "ohos.curves",
+        "library": {
+            "android": [],
+            "ios":[]
         },
         "deps": {
             "android": [],
