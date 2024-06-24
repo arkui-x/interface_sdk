@@ -56,7 +56,7 @@ declare namespace Bridge {
      * @crossplatform
      * @since 10
      */
-    type ResultValue = T | Map<string, T>;
+    type ResultValue = T | Record<string, T>;
 
     /**
      * Data transmission encoding type.
