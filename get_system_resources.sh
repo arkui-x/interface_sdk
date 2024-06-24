@@ -20,8 +20,4 @@ fi
 
 unzip -o -q -d $2 $1
 
-cp -R "$2/assets/entry/resources" $2
-cp -R "$2/assets/entry/resources.index" $2
-rm -rf "$2/config.json"
-
-rm -rf "$2/assets"
+rm -rf "$2/module.json"
