@@ -1,0 +1,1189 @@
+[
+    {
+        "module": "ohos.animator",
+        "library": {
+            "android": [ "lib/animator/arch_type/libanimator.so" ],
+            "ios":[ "xcframework/build_modes/libanimator.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.componentSnapshot",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_componentsnapshot.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_componentsnapshot.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.componentUtils",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_componentutils.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_componentutils.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.performanceMonitor",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_performancemonitor.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_performancemonitor.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.node",
+        "library": {
+            "android": [ "lib/arkui_node/arch_type/libarkui_node.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_node.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.shape",
+        "library": {
+            "android": [ "lib/arkui_shape/arch_type/libarkui_shape.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_shape.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "system.configuration",
+        "library": {
+            "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
+            "ios":[ "xcframework/build_modes/libconfiguration.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.data.relationalStore",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_relationalstore.so" ],
+            "ios":[ "xcframework/build_modes/libdata_relationalstore.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.data.preferences",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_preferences.so" ],
+            "ios":[ "xcframework/build_modes/libdata_preferences.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
+        }
+    },
+    {
+        "module": "ohos.data.unifiedDataChannel",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_unifieddatachannel.so" ],
+            "ios":[ "xcframework/build_modes/libdata_unifieddatachannel.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.data.uniformTypeDescriptor",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_uniformtypedescriptor.so" ],
+            "ios":[ "xcframework/build_modes/libdata_uniformtypedescriptor.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.font",
+        "library": {
+            "android": [ "lib/font/arch_type/libfont.so" ],
+            "ios":[ "xcframework/build_modes/libfont.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.measure",
+        "library": {
+            "android": [ "lib/measure/arch_type/libmeasure.so" ],
+            "ios":[ "xcframework/build_modes/libmeasure.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.mediaquery",
+        "library": {
+            "android": [ "lib/mediaquery/arch_type/libmediaquery.so" ],
+            "ios":[ "xcframework/build_modes/libmediaquery.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.promptAction",
+        "library": {
+            "android": [ "lib/promptaction/arch_type/libpromptaction.so" ],
+            "ios":[ "xcframework/build_modes/libpromptaction.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.router",
+        "library": {
+            "android": [ "lib/router/arch_type/librouter.so" ],
+            "ios":[ "xcframework/build_modes/librouter.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.abilityAccessCtrl",
+        "library": {
+            "android": [
+                "lib/ability_access_ctrl/ace_ability_access_ctrl_android.jar",
+                "lib/ability_access_ctrl/arch_type/libabilityaccessctrl.so"
+            ],
+            "ios":[ "xcframework/build_modes/libabilityaccessctrl.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "arkui-x.bridge",
+        "library": {
+            "android": [ "lib/bridge/arch_type/libbridge.so" ],
+            "ios":["xcframework/build_modes/libbridge.xcframework"]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.buffer",
+        "library": {
+            "android": [ "lib/buffer/arch_type/libbuffer.so" ],
+            "ios":[ "xcframework/build_modes/libbuffer.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.convertxml",
+        "library": {
+            "android": [ "lib/convertxml/arch_type/libconvertxml.so" ],
+            "ios":[ "xcframework/build_modes/libconvertxml.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
+        }
+    },
+    {
+        "module": "ohos.deviceInfo",
+        "library": {
+            "android": [
+                "lib/device_info/ace_device_info_android.jar",
+                "lib/device_info/arch_type/libdeviceinfo.so"
+            ],
+            "ios":[ "xcframework/build_modes/libdeviceinfo.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.display",
+        "library": {
+            "android": [ "lib/display/arch_type/libdisplay.so" ],
+            "ios": [ "xcframework/build_modes/libdisplay.xcframework"]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.file.fs",
+        "library": {
+            "android": [ "lib/file/arch_type/libfile_fs.so" ],
+            "ios":[ "xcframework/build_modes/libfile_fs.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.hilog",
+        "library": {
+            "android": [ "lib/hilog/arch_type/libhilog.so" ],
+            "ios":[ "xcframework/build_modes/libhilog.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.hiTraceMeter",
+        "library": {
+            "android": [ "lib/hitrace_meter/arch_type/libhitracemeter.so" ],
+            "ios":[ "xcframework/build_modes/libhitracemeter.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.i18n",
+        "library": {
+            "android": [
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/i18n/arch_type/libi18n.so"
+            ],
+            "ios":[ "xcframework/build_modes/libi18n.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.intl",
+        "library": {
+            "android": [
+                "lib/intl/ace_intl_plugin_android.jar",
+                "lib/intl/arch_type/libintl.so"
+            ],
+            "ios":[ "xcframework/build_modes/libintl.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.net.http",
+        "library": {
+            "android": [
+                "lib/net/ace_http_android.jar",
+                "lib/net/arch_type/libnet_http.so"
+            ],
+            "ios":["xcframework/build_modes/libnet_http.xcframework"]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/curl",
+                "engine/utils/net_util"
+            ],
+            "ios":[
+                "engine/utils/net_util"
+            ]
+        },
+        "apis": [
+            {
+                "path": "http/HttpRequest#request",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": [ "NSAllowsArbitrary = true" ]
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.net.connection",
+        "library": {
+            "android": [
+                "lib/net/arkui_netconnclient_java.jar",
+                "lib/net/arch_type/libnet_connection.so"
+            ],
+            "ios":[ "xcframework/build_modes/libnet_connection.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "connection#hasDefaultNet",
+                "permissions": {
+                    "android": [
+                        "android.permissions.INTERNET",
+                        "android.permissions.ACCESS_NETWORK_STATE"
+                    ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "connection/NetConnection#register",
+                "permissions": {
+                    "android": [
+                        "android.permissions.INTERNET",
+                        "android.permissions.ACCESS_NETWORK_STATE"
+                    ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.net.socket",
+        "library": {
+            "android": [ "lib/net/arch_type/libnet_socket.so" ],
+            "ios":[ "xcframework/build_modes/libnet_socket.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ],
+            "ios":[
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ]
+        },
+        "apis": [
+            {
+                "path": "socket/UDPSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#getState",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/UDPSocket#setExtraOptions",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#connect",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#getRemoteAddress",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#getState",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TCPSocket#setExtraOptions",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "socket/TLSSocket#bind",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.net.webSocket",
+        "library": {
+            "android": [ "lib/net/arch_type/libnet_websocket.so" ],
+            "ios":[ "xcframework/build_modes/libnet_websocket.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ],
+            "ios":[
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/utils/net_util"
+            ]
+        },
+        "apis": [
+            {
+                "path": "webSocket/WebSocket#connect",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "webSocket/WebSocket#send",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            },
+            {
+                "path": "webSocket/WebSocket#close",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ohos.multimedia.media",
+        "library": {
+            "android": [
+                "lib/multimedia/arkui_media_java.jar",
+                "lib/multimedia/arch_type/libmultimedia_media.so"
+            ],
+            "ios":[ "xcframework/build_modes/libmultimedia_media.xcframework" ]
+        },
+        "deps": {
+            "android": [
+            ],
+            "ios":[
+            ]
+        }
+    },
+    {
+        "module": "ohos.process",
+        "library": {
+            "android": [ "lib/process/arch_type/libprocess.so" ],
+            "ios":[ "xcframework/build_modes/libprocess.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.request",
+        "library": {
+            "android": [
+                "lib/request/ace_task_android.jar",
+                "lib/request/arch_type/librequest.so"
+            ],
+            "ios":[ "xcframework/build_modes/librequest.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/curl" ],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.resourceManager",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.application.testRunner",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.uri",
+        "library": {
+            "android": [ "lib/uri/arch_type/liburi.so" ],
+            "ios":[ "xcframework/build_modes/liburi.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.url",
+        "library": {
+            "android": [ "lib/url/arch_type/liburl.so" ],
+            "ios":[ "xcframework/build_modes/liburl.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.xml",
+        "library": {
+            "android": [ "lib/xml/arch_type/libxml.so" ],
+            "ios":[ "xcframework/build_modes/libxml.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.worker",
+        "library": {
+            "android": [ "lib/worker/arch_type/libworker.so" ],
+            "ios":[ "xcframework/build_modes/libworker.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.taskpool",
+        "library": {
+            "android": [ "lib/taskpool/arch_type/libtaskpool.so" ],
+            "ios":[ "xcframework/build_modes/libtaskpool.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util",
+        "library": {
+            "android": [
+                "lib/util/ace_util_plugin_android.jar",
+                "lib/util/arch_type/libutil.so"
+            ],
+            "ios":[ "xcframework/build_modes/libutil.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/openssl/crypto" ],
+            "ios":[ "engine/third_party/openssl/crypto" ]
+        }
+    },
+    {
+        "module": "ohos.util.Deque",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_deque.so" ],
+            "ios":[ "xcframework/build_modes/libutil_deque.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.ArrayList",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_arraylist.so" ],
+            "ios":[ "xcframework/build_modes/libutil_arraylist.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.HashMap",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_hashmap.so" ],
+            "ios":[ "xcframework/build_modes/libutil_hashmap.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.HashSet",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_hashset.so" ],
+            "ios":[ "xcframework/build_modes/libutil_hashset.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LightWeightMap",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_lightweightmap.so" ],
+            "ios":[ "xcframework/build_modes/libutil_lightweightmap.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LightWeightSet",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_lightweightset.so" ],
+            "ios":[ "xcframework/build_modes/libutil_lightweightset.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.LinkedList",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_linkedlist.so" ],
+            "ios":[ "xcframework/build_modes/libutil_linkedlist.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.List",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_list.so" ],
+            "ios":[ "xcframework/build_modes/libutil_list.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.PlainArray",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_plainarray.so" ],
+            "ios":[ "xcframework/build_modes/libutil_plainarray.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.Queue",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_queue.so" ],
+            "ios":[ "xcframework/build_modes/libutil_queue.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.Stack",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_stack.so" ],
+            "ios":[ "xcframework/build_modes/libutil_stack.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.TreeMap",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_treemap.so" ],
+            "ios":[ "xcframework/build_modes/libutil_treemap.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.TreeSet",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_treeset.so" ],
+            "ios":[ "xcframework/build_modes/libutil_treeset.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.multimedia.image",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.window",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.UIAbility",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.AbilityStage",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.Want",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.AbilityConstant",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.AbilityLifecycleCallback",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.Configuration",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.ConfigurationConstant",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.app.ability.common",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.bundle.bundleManager",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.application.AbilityDelegator",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.application.abilityDelegatorArgs",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.application.AbilityMonitor",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.application.AbilityStageMonitor",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+	{
+        "module": "ohos.app.ability.abilityDelegatorRegistry",
+        "library": {
+            "android": [],
+            "ios": []
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.UiTest",
+        "library": {
+            "android": [ "lib/uitest/arch_type/libuitest.so" ],
+            "ios": [ "xcframework/build_modes/libuitest.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.web.webview",
+        "library": {
+            "android": [ 
+                "lib/web/ace_web_webview_android.jar",
+                "lib/web/arch_type/libweb_webview.so"
+             ],
+            "ios":[ "xcframework/build_modes/libweb_webview.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.commonEventManager",
+        "library": {
+            "android": [
+                "lib/common_event_manager/ace_common_event_manager_android.jar",
+                "lib/common_event_manager/arch_type/libcommoneventmanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libcommoneventmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.wifiManager",
+        "library": {
+            "android": [
+                "lib/wifi_manager/ace_wifi_manager_android.jar",
+                "lib/wifi_manager/arch_type/libwifimanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libwifimanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.notificationManager",
+        "library": {
+            "android": [
+                "lib/notification_manager/ace_notification_manager_android.jar",
+                "lib/notification_manager/arch_type/libnotificationmanager.so"
+            ],
+            "ios":[ "xcframework/build_modes/libnotificationmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.zlib",
+        "library": {
+            "android": [ "lib/zlib/arch_type/libzlib.so" ],
+            "ios":[ "xcframework/build_modes/libzlib.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.security.cryptoFramework",
+        "library": {
+            "android": [ "lib/security/arch_type/libsecurity_cryptoframework.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cryptoframework.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ]
+        }
+    },
+    {
+        "module": "ohos.security.cert",
+        "library": {
+            "android": [ "lib/security/arch_type/libsecurity_cert.so" ],
+            "ios":[ "xcframework/build_modes/libsecurity_cert.xcframework" ]
+        },
+        "deps": {
+            "android": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ],
+            "ios": [
+               "engine/third_party/openssl/crypto",
+               "engine/third_party/openssl"
+            ]
+        }
+    },
+    {
+        "module": "ohos.events.emitter",
+        "library": {
+            "android": [ "lib/events/arch_type/libevents_emitter.so" ],
+            "ios":[ "xcframework/build_modes/libevents_emitter.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.curves",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.multimedia.audio",
+        "library": {
+            "android": [
+                "lib/multimedia/arkui_audiorenderer_java.jar",
+                "lib/multimedia/arkui_audiocapturer_java.jar",
+                "lib/multimedia/arkui_audiomanager_java.jar",
+                "lib/multimedia/arch_type/libmultimedia_audio.so"
+            ],
+            "ios":[ "xcframework/build_modes/libmultimedia_audio.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.file.picker",
+        "library": {
+            "android": [
+                "lib/file/picker/arch_type/libfile_picker.so",
+                "lib/file/picker/ace_filepicker_android.jar"
+            ],
+            "ios": [
+                "xcframework/build_modes/libfile_picker.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.file.photoAccessHelper",
+        "library": {
+            "android": [ 
+                "lib/file/arch_type/libfile_photoaccesshelper.so",
+                "lib/file/ace_photo_access_helper_android.jar"
+            ],
+            "ios":[ "xcframework/build_modes/libfile_photoaccesshelper.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        },
+        "permissions": {
+            "android": [ 
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_EXTERNAL_STORAGE"
+            ],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.drawableDescriptor",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_drawabledescriptor.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_drawabledescriptor.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.data.dataSharePredicates",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_datasharepredicates.so" ],
+            "ios":[ "xcframework/build_modes/libdata_datasharepredicates.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    }
+]

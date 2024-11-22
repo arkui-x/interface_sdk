@@ -1,0 +1,103 @@
+[
+    {
+        "module": "engine/arkui",
+        "library": {
+            "android": [
+                "lib/arkui/arkui_android_adapter.jar",
+                "lib/arkui/arch_type/libarkui_android.so"
+            ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [ "android.permissions.INTERNET" ],
+                    "ios": [ "NSAllowsArbitrary = true" ]
+                }
+            }
+        ]
+    },
+    {
+        "module": "engine/third_party/icu",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_android.so" ],
+            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/zlib",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libshared_libz.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libshared_libz.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/xml2",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libxml2.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libxml2_shared.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/nghttp2",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libnghttp2_shared.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libnghttp2.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "engine/third_party/curl",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcurl_shared.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libcurl_shared.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/nghttp2",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/zlib"
+            ],
+            "ios":[
+                "engine/third_party/nghttp2",
+                "engine/third_party/openssl",
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/zlib"
+            ]
+        }
+    },
+    {
+        "module": "engine/third_party/openssl/crypto",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcrypto_openssl.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libcrypto_openssl.xcframework" ]
+        }
+    },
+    {
+        "module": "engine/third_party/openssl",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
+            "ios":[ "xcframework/third_party/build_modes/libssl_openssl.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/openssl/crypto" ],
+            "ios": [ "engine/third_party/openssl/crypto" ]
+        }
+    },
+    {
+        "module": "engine/utils/net_util",
+        "library": {
+            "android": [ "lib/utils/arch_type/libnet_utils.so" ],
+            "ios":[ "xcframework/utils/build_modes/libnet_utils.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    }
+]
