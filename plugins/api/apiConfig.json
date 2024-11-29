@@ -44,28 +44,6 @@
         }
     },
     {
-        "module": "ohos.arkui.node",
-        "library": {
-            "android": [ "lib/arkui_node/arch_type/libarkui_node.so" ],
-            "ios":[ "xcframework/build_modes/libarkui_node.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
-        "module": "ohos.arkui.shape",
-        "library": {
-            "android": [ "lib/arkui_shape/arch_type/libarkui_shape.so" ],
-            "ios":[ "xcframework/build_modes/libarkui_shape.xcframework" ]
-        },
-        "deps": {
-            "android": [],
-            "ios":[]
-        }
-    },
-    {
         "module": "system.configuration",
         "library": {
             "android": [ "lib/configuration/arch_type/libconfiguration.so" ],
@@ -201,6 +179,17 @@
         }
     },
     {
+        "module": "arkui-x.platformview",
+        "library": {
+            "android": [ "lib/platformview/arch_type/libplatformview.so" ],
+            "ios":[ "xcframework/build_modes/libplatformview.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.buffer",
         "library": {
             "android": [ "lib/buffer/arch_type/libbuffer.so" ],
@@ -267,6 +256,39 @@
         "deps": {
             "android": [],
             "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.node",
+        "library": {
+            "android": [ "lib/arkui_node/arch_type/libarkui_node.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_node.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.arkui.shape",
+        "library": {
+            "android": [ "lib/arkui_shape/arch_type/libarkui_shape.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_shape.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
+        "module": "ohos.effectKit",
+        "library": {
+            "android": [ "lib/effectkit/arch_type/libeffectkit.so" ],
+            "ios": ["xcframework/build_modes/libeffectkit.xcframework"]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
         }
     },
     {
@@ -1184,6 +1206,76 @@
         "deps": {
             "android": [],
             "ios": []
+        }
+    },
+    {
+        "module": "ohos.bluetooth.a2dp",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_a2dp.so"
+            ],
+            "ios":[ "xcframework/build_modes/libbluetooth_a2dp.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": [ "engine/utils/bluetooth_common" ]
+        }
+    },
+    {
+        "module": "ohos.bluetooth.access",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_access.so"
+            ],
+            "ios":[ "xcframework/build_modes/libbluetooth_access.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": [ "engine/utils/bluetooth_common" ]
+        }
+    },
+    {
+        "module": "ohos.bluetooth.baseProfile",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_baseprofile.so"
+            ],
+            "ios":[]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.bluetooth.ble",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_ble.so"
+            ],
+            "ios":[ "xcframework/build_modes/libbluetooth_ble.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": [ "engine/utils/bluetooth_common" ]
+        }
+    },
+    {
+        "module": "ohos.bluetooth.connection",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_connection.so"
+            ],
+            "ios":[ "xcframework/build_modes/libbluetooth_connection.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": [ "engine/utils/bluetooth_common" ]
         }
     }
 ]

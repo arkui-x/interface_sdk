@@ -2256,22 +2256,6 @@
         ]
     },
     {
-        "module": "NodeContainer",
-        "library": {
-            "android": [],
-            "ios":[]
-        },
-        "apis": [
-            {
-                "path": "",
-                "permissions": {
-                    "android": [],
-                    "ios": []
-                }
-            }
-        ]
-    },
-    {
         "module": "Particle",
         "library": {
             "android": [],
