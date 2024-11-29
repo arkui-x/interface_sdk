@@ -43,23 +43,6 @@ template("copy_ace_toolchain") {
   }
 }
 
-system_resource_hap_path =
-    get_label_info("//base/global/system_resources/systemres:systemres_hap",
-                   "target_out_dir") + "/SystemResources.hap"
-system_resource_path =
-    get_label_info("//base/global/system_resources/systemres:systemres_hap",
-                   "target_out_dir") + "/resources"
-action("get_system_resource") {
-  script = "get_system_resources.sh"
-  deps = [ "//base/global/system_resources/systemres:systemres_hap" ]
-  args = [
-    rebase_path(system_resource_hap_path),
-    rebase_path(system_resource_path),
-  ]
-  inputs = [ system_resource_hap_path ]
-  outputs = [ system_resource_path ]
-}
-
 ohos_copy("bin") {
   sources = [ "//developtools/ace_tools/bin" ]
   outputs = [ target_out_dir + "/$target_name/" ]
@@ -83,8 +66,7 @@ ohos_copy("ets") {
 }
 
 ohos_copy("systemres") {
-  deps = [ ":get_system_resource" ]
-  sources = [ system_resource_path ]
+  sources = [ "./engine/systemres" ]
   outputs = [ target_out_dir + "/$target_name/" ]
   part_name = "common"
   subsystem_name = "common"
@@ -106,38 +88,6 @@ ohos_copy("node_header") {
     "//third_party/node/src/node_api.h",
     "//third_party/node/src/node_api_types.h",
   ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("libuv_uv_header") {
-  sources = [
-    "//third_party/libuv/include/uv/aix.h",
-    "//third_party/libuv/include/uv/bsd.h",
-    "//third_party/libuv/include/uv/darwin.h",
-    "//third_party/libuv/include/uv/errno.h",
-    "//third_party/libuv/include/uv/linux.h",
-    "//third_party/libuv/include/uv/os390.h",
-    "//third_party/libuv/include/uv/posix.h",
-    "//third_party/libuv/include/uv/sunos.h",
-    "//third_party/libuv/include/uv/threadpool.h",
-    "//third_party/libuv/include/uv/tree.h",
-    "//third_party/libuv/include/uv/unix.h",
-    "//third_party/libuv/include/uv/version.h",
-    "//third_party/libuv/include/uv/win.h",
-  ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("libuv_header") {
-  sources = [ "//third_party/libuv/include/uv.h" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
@@ -171,21 +121,6 @@ ohos_copy("plugin_rawfile_header") {
     "//base/global/resource_management/interfaces/native/resource/include/raw_dir.h",
     "//base/global/resource_management/interfaces/native/resource/include/raw_file.h",
     "//base/global/resource_management/interfaces/native/resource/include/raw_file_manager.h",
-  ]
-  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
-  module_source_dir = target_out_dir + "/$target_name/"
-  module_install_name = ""
-  part_name = "common"
-  subsystem_name = "common"
-}
-
-ohos_copy("ace_xcomponent_header") {
-  sources = [
-    "//foundation/arkui/ace_engine/interfaces/native/drawable_descriptor.h",
-    "//foundation/arkui/ace_engine/interfaces/native/native_interface_xcomponent.h",
-    "//foundation/arkui/ace_engine/interfaces/native/native_type.h",
-    "//foundation/arkui/ace_engine/interfaces/native/native_xcomponent_key_event.h",
-    "//foundation/arkui/ace_engine/interfaces/native/ui_input_event.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"

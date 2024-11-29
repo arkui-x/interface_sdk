@@ -21,7 +21,7 @@
     {
         "module": "engine/third_party/icu",
         "library": {
-            "android": [ "lib/arkui/arch_type/libarkui_android.so" ],
+            "android": [ "lib/third_party/arch_type/libhmicuuc.so" ],
             "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
         }
     },
@@ -29,7 +29,7 @@
         "module": "engine/third_party/zlib",
         "library": {
             "android": [ "lib/third_party/arch_type/libshared_libz.so" ],
-            "ios":[ "xcframework/third_party/build_modes/libshared_libz.xcframework" ]
+            "ios":[ "xcframework/third_party/build_modes/libarkui_ios.xcframework" ]
         }
     },
     {
@@ -47,7 +47,9 @@
         },
         "deps": {
             "android": [],
-            "ios":[]
+            "ios":[
+                "engine/third_party/openssl"
+            ]
         }
     },
     {
@@ -66,11 +68,10 @@
             "ios":[
                 "engine/third_party/nghttp2",
                 "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
-                "engine/third_party/zlib"
+                "engine/third_party/openssl/crypto"
             ]
         }
-    },
+    }, 
     {
         "module": "engine/third_party/openssl/crypto",
         "library": {
@@ -85,7 +86,7 @@
             "ios":[ "xcframework/third_party/build_modes/libssl_openssl.xcframework" ]
         },
         "deps": {
-            "android": [ "engine/third_party/openssl/crypto" ],
+            "android": [],
             "ios": [ "engine/third_party/openssl/crypto" ]
         }
     },
