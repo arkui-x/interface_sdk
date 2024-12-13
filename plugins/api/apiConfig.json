@@ -1277,5 +1277,97 @@
             "android": [ "engine/utils/bluetooth_common" ],
             "ios": [ "engine/utils/bluetooth_common" ]
         }
+    },
+{
+        "module": "ohos.arkui.advanced.Dialog",
+        "library": {
+            "android": [
+                "lib/advanced/dialog/arch_type/libarkui_advanced_dialog.so",
+                "lib/display/arch_type/libdisplay.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/measure/arch_type/libmeasure.so",
+                "lib/arkui_node/arch_type/libarkui_node.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_dialog.xcframework",
+                "xcframework/build_modes/libdisplay.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libarkui_node.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.SegmentButton",
+        "library": {
+            "android": [
+                "lib/util/ace_util_plugin_android.jar",
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/advanced/segmentbutton/arch_type/libarkui_advanced_segmentbutton.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/util/arch_type/libutil.so",
+                "lib/arkui_node/arch_type/libarkui_node.so",
+                "lib/i18n/arch_type/libi18n.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_segmentbutton.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libutil.xcframework",
+                "xcframework/build_modes/libarkui_node.xcframework",
+                "xcframework/build_modes/libi18n.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [ "engine/third_party/openssl/crypto" ],
+            "ios": [ "engine/third_party/openssl/crypto" ]
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.SubHeader",
+        "library": {
+            "android": [
+                "lib/advanced/subheader/arch_type/libarkui_advanced_subheader.so",
+                "lib/mock/arch_type/libarkui_mock.so",
+                "lib/modifier/arch_type/libarkui_modifier.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/util/arch_type/libutil_hashmap.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_subheader.xcframework",
+                "xcframework/build_modes/libarkui_mock.xcframework",
+                "xcframework/build_modes/libarkui_modifier.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libutil_hashmap.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.ToolBar",
+        "library": {
+            "android": [
+                "lib/advanced/toolbar/arch_type/libarkui_advanced_toolbar.so",
+                "lib/modifier/arch_type/libarkui_modifier.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/arkui_node/arch_type/libarkui_node.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_toolbar.xcframework",
+                "xcframework/build_modes/libarkui_modifier.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libarkui_node.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
