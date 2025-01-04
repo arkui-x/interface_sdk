@@ -1282,7 +1282,7 @@
             "ios": [ "engine/utils/bluetooth_common" ]
         }
     },
-{
+    {
         "module": "ohos.arkui.advanced.Dialog",
         "library": {
             "android": [
@@ -1290,14 +1290,16 @@
                 "lib/display/arch_type/libdisplay.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/measure/arch_type/libmeasure.so",
-                "lib/arkui_node/arch_type/libarkui_node.so"
+                "lib/arkui_node/arch_type/libarkui_node.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_dialog.xcframework",
                 "xcframework/build_modes/libdisplay.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libarkui_node.xcframework"
+                "xcframework/build_modes/libarkui_node.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
             ]
         },
         "deps": {
@@ -1337,6 +1339,7 @@
                 "lib/advanced/subheader/arch_type/libarkui_advanced_subheader.so",
                 "lib/mock/arch_type/libarkui_mock.so",
                 "lib/modifier/arch_type/libarkui_modifier.so",
+                "lib/arkui_node/arch_type/libarkui_node.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/util/arch_type/libutil_hashmap.so"
             ],
@@ -1344,6 +1347,7 @@
                 "xcframework/build_modes/libarkui_advanced_subheader.xcframework",
                 "xcframework/build_modes/libarkui_mock.xcframework",
                 "xcframework/build_modes/libarkui_modifier.xcframework",
+                "xcframework/build_modes/libarkui_node.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libutil_hashmap.xcframework"
             ]
