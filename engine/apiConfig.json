@@ -99,5 +99,16 @@
             "android": [],
             "ios":[]
         }
+    },
+    {
+        "module": "engine/utils/bluetooth_common",
+        "library": {
+            "android": [ "lib/utils/arch_type/libbluetooth_common.so" ],
+            "ios":[ "xcframework/utils/build_modes/libbluetooth_common.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
