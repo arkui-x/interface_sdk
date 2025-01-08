@@ -18,14 +18,14 @@
  * CommonMethod.
  *
  * @crossplatform
- * @since 12
+ * @since 14
  */
 export declare class CommonMethod<T> {
   /**
    * constructor.
    *
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   constructor();
 
@@ -35,7 +35,7 @@ export declare class CommonMethod<T> {
    * @param { Length } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   width(value: Length): T;
 
@@ -45,7 +45,7 @@ export declare class CommonMethod<T> {
    * @param { Length } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   height(value: Length): T;
 
@@ -56,7 +56,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
 
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   size(value: SizeOptions): T;
 
@@ -68,7 +68,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
 
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   constraintSize(value: ConstraintSizeOptions): T;
 
@@ -79,7 +79,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
 
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   layoutWeight(value: number | string): T;
 
@@ -90,7 +90,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    *
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   padding(value: Padding | Length | LocalizedPadding): T;
 
@@ -100,7 +100,7 @@ export declare class CommonMethod<T> {
    * @param { Margin | Length | LocalizedMargin } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   margin(value: Margin | Length | LocalizedMargin): T;
 
@@ -112,7 +112,7 @@ export declare class CommonMethod<T> {
    * @param { object } options
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   background(builder: CustomBuilder, options?: { align?: Alignment }): T;
 
@@ -123,7 +123,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   backgroundColor(value: ResourceColor): T;
 
@@ -136,7 +136,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   backgroundImage(src: ResourceStr | PixelMap, repeat?: ImageRepeat): T;
 
@@ -147,7 +147,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   backgroundImageSize(value: SizeOptions | ImageSize): T;
 
@@ -159,7 +159,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   backgroundImagePosition(value: Position | Alignment): T;
 
@@ -170,7 +170,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   backgroundEffect(options: BackgroundEffectOptions): T;
 
@@ -182,7 +182,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   backgroundImageResizable(value: ResizableOptions): T;
 
@@ -193,7 +193,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   foregroundEffect(options: ForegroundEffectOptions): T;
 
@@ -204,7 +204,7 @@ export declare class CommonMethod<T> {
    * @param { BorderOptions } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   border(value: BorderOptions): T;
 
@@ -215,7 +215,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   borderStyle(value: BorderStyle | EdgeStyles): T;
 
@@ -226,7 +226,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   borderWidth(value: Length | EdgeWidths | LocalizedEdgeWidths): T;
 
@@ -237,7 +237,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   borderColor(value: ResourceColor | EdgeColors | LocalizedEdgeColors): T;
 
@@ -247,7 +247,7 @@ export declare class CommonMethod<T> {
    * @param { Length | BorderRadiuses | LocalizedBorderRadiuses } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   borderRadius(value: Length | BorderRadiuses | LocalizedBorderRadiuses): T;
 
@@ -258,7 +258,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   borderImage(value: BorderImageOption): T;
 
@@ -269,7 +269,7 @@ export declare class CommonMethod<T> {
    * @param { OutlineOptions } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   outline(value: OutlineOptions): T;
 
@@ -279,7 +279,7 @@ export declare class CommonMethod<T> {
    * @param { OutlineStyle | EdgeOutlineStyles } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   outlineStyle(value: OutlineStyle | EdgeOutlineStyles): T;
 
@@ -289,7 +289,7 @@ export declare class CommonMethod<T> {
    * @param { Dimension | EdgeOutlineWidths } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   outlineWidth(value: Dimension | EdgeOutlineWidths): T;
 
@@ -299,7 +299,7 @@ export declare class CommonMethod<T> {
    * @param { ResourceColor | EdgeColors | LocalizedEdgeColors } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   outlineColor(value: ResourceColor | EdgeColors | LocalizedEdgeColors): T;
 
@@ -309,7 +309,7 @@ export declare class CommonMethod<T> {
    * @param { Dimension | OutlineRadiuses } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   outlineRadius(value: Dimension | OutlineRadiuses): T;
 
@@ -320,7 +320,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   onKeyEvent(event: (event: KeyEvent) => void): T;
 
@@ -331,7 +331,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   focusable(value: boolean): T;
 
@@ -342,7 +342,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   onFocus(event: () => void): T;
 
@@ -353,7 +353,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   onBlur(event: () => void): T;
 
@@ -364,7 +364,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   tabIndex(index: number): T;
 
@@ -375,7 +375,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   defaultFocus(value: boolean): T;
 
@@ -386,7 +386,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   groupDefaultFocus(value: boolean): T;
 
@@ -397,7 +397,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   focusOnTouch(value: boolean): T;
 
@@ -408,7 +408,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   animation(value: AnimateParam): T;
 
@@ -418,7 +418,7 @@ export declare class CommonMethod<T> {
    * @param { TransitionOptions | TransitionEffect } value - transition options or transition effect
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   transition(value: TransitionOptions | TransitionEffect): T;
 
@@ -429,7 +429,7 @@ export declare class CommonMethod<T> {
    * @param { Optional<TransitionFinishCallback> } onFinish - transition finish callback.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   transition(effect: TransitionEffect, onFinish: Optional<TransitionFinishCallback>): T;
 
@@ -443,7 +443,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   blur(value: number, options?: BlurOptions): T;
 
@@ -454,7 +454,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
    *
-   * @since 12
+   * @since 14
    */
   motionBlur(value: MotionBlurOptions): T;
 
@@ -466,7 +466,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   brightness(value: number): T;
 
@@ -477,7 +477,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   contrast(value: number): T;
 
@@ -490,7 +490,7 @@ export declare class CommonMethod<T> {
    * @returns { T }
    * @crossplatform
 
-   * @since 12
+   * @since 14
    */
   grayscale(value: number): T;
 
@@ -500,7 +500,7 @@ export declare class CommonMethod<T> {
    * @param { Color | string | Resource } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   colorBlend(value: Color | string | Resource): T;
 
@@ -513,7 +513,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   saturate(value: number): T;
 
@@ -524,7 +524,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   sepia(value: number): T;
 
@@ -535,7 +535,7 @@ export declare class CommonMethod<T> {
    * @param { number | InvertOptions } value - value indicates the scale of the conversion or the options of invert.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   invert(value: number | InvertOptions): T;
 
@@ -547,7 +547,7 @@ export declare class CommonMethod<T> {
    * @param { number | string } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   hueRotate(value: number | string): T;
 
@@ -557,7 +557,7 @@ export declare class CommonMethod<T> {
    * @param { boolean } value - true means the shadows of the child nodes overlap each other effect and drawn in batches.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   useShadowBatching(value: boolean): T;
 
@@ -567,7 +567,7 @@ export declare class CommonMethod<T> {
    * @param { ScaleOptions } value default:{x:1,y:1,z:1,centerX:'50%',centerY:'50%'}
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   scale(value: ScaleOptions): T;
 
@@ -577,7 +577,7 @@ export declare class CommonMethod<T> {
    * @param { RotateOptions } value default:{x:0,y:0,z:0,centerX:'50%',centerY:'50%',centerZ:0,perspective:0}
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   rotate(value: RotateOptions): T;
 
@@ -587,7 +587,7 @@ export declare class CommonMethod<T> {
    * @param { object } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   transform(value: object): T;
 
@@ -597,7 +597,7 @@ export declare class CommonMethod<T> {
    * @param { function } event
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   onAppear(event: () => void): T;
 
@@ -607,7 +607,7 @@ export declare class CommonMethod<T> {
    * @param { function } event
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   onDisAppear(event: () => void): T;
 
@@ -617,7 +617,7 @@ export declare class CommonMethod<T> {
    * @param { Visibility } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   visibility(value: Visibility): T;
 
@@ -627,7 +627,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   flexShrink(value: number): T;
 
@@ -637,7 +637,7 @@ export declare class CommonMethod<T> {
    * @param { number | string } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   flexBasis(value: number | string): T;
 
@@ -647,7 +647,7 @@ export declare class CommonMethod<T> {
    * @param { ItemAlign } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   alignSelf(value: ItemAlign): T;
 
@@ -657,7 +657,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   displayPriority(value: number): T;
 
@@ -667,7 +667,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   zIndex(value: number): T;
 
@@ -678,7 +678,7 @@ export declare class CommonMethod<T> {
    * @param { sharedTransitionOptions } options
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   sharedTransition(id: string, options?: sharedTransitionOptions): T;
 
@@ -688,7 +688,7 @@ export declare class CommonMethod<T> {
    * @param { Position | Edges | LocalizedEdges } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   position(value: Position | Edges | LocalizedEdges): T;
 
@@ -698,7 +698,7 @@ export declare class CommonMethod<T> {
    * @param { Position | LocalizedPosition} value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   markAnchor(value: Position | LocalizedPosition): T;
 
@@ -709,7 +709,7 @@ export declare class CommonMethod<T> {
    * @param { Position | Edges | LocalizedEdges } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   offset(value: Position | Edges | LocalizedEdges): T;
 
@@ -720,7 +720,7 @@ export declare class CommonMethod<T> {
    * @param { boolean } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   enabled(value: boolean): T;
 
@@ -730,7 +730,7 @@ export declare class CommonMethod<T> {
    * @param { AlignRuleOption } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   alignRules(value: AlignRuleOption): T;
 
@@ -740,7 +740,7 @@ export declare class CommonMethod<T> {
    * @param { LocalizedAlignRuleOptions } alignRule
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   alignRules(alignRule: LocalizedAlignRuleOptions): T;
 
@@ -751,7 +751,7 @@ export declare class CommonMethod<T> {
    * @param { ChainStyle } style - indicates style of the chain
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   chainMode(direction: Axis, style: ChainStyle): T;
 
@@ -761,7 +761,7 @@ export declare class CommonMethod<T> {
    * @param { number } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   aspectRatio(value: number): T;
 
@@ -772,7 +772,7 @@ export declare class CommonMethod<T> {
    * @param { OverlayOptions } options
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   overlay(value: string | CustomBuilder | ComponentContent, options?: OverlayOptions): T;
 
@@ -786,7 +786,7 @@ export declare class CommonMethod<T> {
    * @param { object } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   linearGradient(value: {
     angle?: number | string;
@@ -808,7 +808,7 @@ export declare class CommonMethod<T> {
    * @param { object } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   sweepGradient(value: {
     center: [Length, Length];
@@ -829,7 +829,7 @@ export declare class CommonMethod<T> {
    * @param { object } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   radialGradient(value: {
     center: [Length, Length];
@@ -848,7 +848,7 @@ export declare class CommonMethod<T> {
    * @param { MotionPathOptions } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   motionPath(value: MotionPathOptions): T;
 
@@ -858,7 +858,7 @@ export declare class CommonMethod<T> {
    * @param { ShadowOptions | ShadowStyle } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   shadow(value: ShadowOptions | ShadowStyle): T;
 
@@ -869,7 +869,7 @@ export declare class CommonMethod<T> {
    * @param { BlendApplyType } [type] - Different blend apply type
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   blendMode(value: BlendMode, type?: BlendApplyType): T;
 
@@ -879,7 +879,7 @@ export declare class CommonMethod<T> {
    * @param { boolean } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   clip(value: boolean): T;
 
@@ -890,7 +890,7 @@ export declare class CommonMethod<T> {
    * @param { boolean | CircleAttribute | EllipseAttribute | PathAttribute | RectAttribute } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   clip(value: boolean | CircleAttribute | EllipseAttribute | PathAttribute | RectAttribute): T;
 
@@ -900,7 +900,7 @@ export declare class CommonMethod<T> {
    * @param { ProgressMask } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   mask(value: ProgressMask): T;
 
@@ -910,7 +910,7 @@ export declare class CommonMethod<T> {
    * @param { CircleAttribute | EllipseAttribute | PathAttribute | RectAttribute | ProgressMask } value - indicates the shape of the mask.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   mask(value: CircleAttribute | EllipseAttribute | PathAttribute | RectAttribute | ProgressMask): T;
 
@@ -920,7 +920,7 @@ export declare class CommonMethod<T> {
    * @param { string } value
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   id(value: string): T;
 
@@ -931,7 +931,7 @@ export declare class CommonMethod<T> {
    * @param { PopupOptions | CustomPopupOptions } popup
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   bindPopup(show: boolean, popup: PopupOptions | CustomPopupOptions): T;
 
@@ -943,7 +943,7 @@ export declare class CommonMethod<T> {
    * @param { MenuOptions } options - Indicates the options of menu.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   bindMenu(isShow: boolean, content: Array<MenuElement> | CustomBuilder, options?: MenuOptions): T;
 
@@ -955,7 +955,7 @@ export declare class CommonMethod<T> {
    * @param { ModalTransition } [type] - transition type.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   bindContentCover(isShow: Optional<boolean>, builder: CustomBuilder, type?: ModalTransition): T;
 
@@ -967,7 +967,7 @@ export declare class CommonMethod<T> {
    * @param { ContentCoverOptions } [options] - options of content cover.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   bindContentCover(isShow: Optional<boolean>, builder: CustomBuilder, options?: ContentCoverOptions): T;
 
@@ -979,7 +979,7 @@ export declare class CommonMethod<T> {
    * @param { SheetOptions } [options] - options of sheet.
    * @returns { T } - template type
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   bindSheet(isShow: Optional<boolean>, builder: CustomBuilder, options?: SheetOptions): T;
 
@@ -990,7 +990,7 @@ export declare class CommonMethod<T> {
    * @param { function } event
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   onVisibleAreaChange(ratios: Array<number>, event: (isVisible: boolean, currentRatio: number) => void): T;
 
@@ -1001,7 +1001,7 @@ export declare class CommonMethod<T> {
    * The color brightness in the component rendering content area is greater than the value and can be displayed, otherwise it will not be displayed.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   lightUpEffect(value: number): T;
 
@@ -1011,7 +1011,7 @@ export declare class CommonMethod<T> {
    * @param { PixelStretchEffectOptions } options
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   pixelStretchEffect(options: PixelStretchEffectOptions): T;
 
@@ -1021,7 +1021,7 @@ export declare class CommonMethod<T> {
    * @param { string } id - The id for reusable custom node.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   reuseId(id: string): T;
 
@@ -1031,7 +1031,7 @@ export declare class CommonMethod<T> {
    * @param { SizeChangeCallback } event - event callback.
    * @returns { T }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   onSizeChange(event: SizeChangeCallback): T;
 }

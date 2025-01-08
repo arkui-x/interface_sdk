@@ -20,7 +20,7 @@ import { CommonMethod } from './CommonMethod';
  *
  * @interface PlatformViewInterface
  * @crossplatform
- * @since 12
+ * @since 14
  */
 interface PlatformViewInterface {
   /**
@@ -29,7 +29,7 @@ interface PlatformViewInterface {
    * @param { string } id of the PlatformView.
    * @returns { PlatformViewAttribute }
    * @crossplatform
-   * @since 12
+   * @since 14
    */
   (id: string): PlatformViewAttribute;
 }
@@ -39,7 +39,7 @@ interface PlatformViewInterface {
  *
  * @extends CommonMethod
  * @crossplatform
- * @since 12
+ * @since 14
  */
 export declare class PlatformViewAttribute extends CommonMethod<PlatformViewAttribute> {
 }
@@ -48,7 +48,7 @@ export declare class PlatformViewAttribute extends CommonMethod<PlatformViewAttr
  * Defines PlatformView Component.
  *
  * @crossplatform
- * @since 12
+ * @since 14
  */
 declare const PlatformView: PlatformViewInterface;
 
@@ -57,7 +57,7 @@ declare const PlatformView: PlatformViewInterface;
  * Defines PlatformView Component instance.
  *
  * @crossplatform
- * @since 12
+ * @since 14
  */
 declare const PlatformViewInstance: PlatformViewAttribute;
 
