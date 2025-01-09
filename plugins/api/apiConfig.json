@@ -1377,5 +1377,19 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.systemDateTime",
+        "library": {
+            "android": [
+                "lib/system_date_time/ace_time_android.jar",
+                "lib/system_date_time/arch_type/libsystemdatetime.so"
+            ],
+            "ios":[ "xcframework/build_modes/libsystemdatetime.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
