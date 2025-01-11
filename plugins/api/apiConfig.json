@@ -270,6 +270,17 @@
         }
     },
     {
+        "module": "ohos.effectKit",
+        "library": {
+            "android": [ "lib/effectkit/arch_type/libeffectkit.so" ],
+            "ios": ["xcframework/build_modes/libeffectkit.xcframework"]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.hiTraceMeter",
         "library": {
             "android": [ "lib/hitrace_meter/arch_type/libhitracemeter.so" ],
