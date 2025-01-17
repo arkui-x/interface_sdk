@@ -1391,5 +1391,44 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "arkts.collections",
+        "library": {
+            "android": [
+                "lib/arkts/collections/arch_type/libarkts_collections.so"
+            ],
+            "ios":[ "xcframework/build_modes/libarkts_collections.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "arkts.utils",
+        "library": {
+            "android": [
+                "lib/arkts/utils/arch_type/libarkts_utils.so"
+            ],
+            "ios":[ "xcframework/build_modes/libarkts_utils.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "arkts.math.Decimal",
+        "library": {
+            "android": [
+                "lib/arkts/math/arch_type/libarkts_math_decimal.so"
+            ],
+            "ios":[ "xcframework/build_modes/libarkts_math_decimal.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
