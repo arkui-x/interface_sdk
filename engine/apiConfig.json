@@ -82,11 +82,11 @@
         "module": "engine/third_party/openssl",
         "library": {
             "android": [ "lib/third_party/arch_type/libssl_openssl.so" ],
-            "ios":[ "xcframework/third_party/build_modes/libssl_openssl.xcframework" ]
+            "ios":[]
         },
         "deps": {
             "android": [ "engine/third_party/openssl/crypto" ],
-            "ios": [ "engine/third_party/openssl/crypto" ]
+            "ios": []
         }
     },
     {
