@@ -407,8 +407,6 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ]
         },
@@ -519,8 +517,6 @@
                 "engine/utils/net_util"
             ],
             "ios":[
-                "engine/third_party/openssl",
-                "engine/third_party/openssl/crypto",
                 "engine/utils/net_util"
             ]
         },
