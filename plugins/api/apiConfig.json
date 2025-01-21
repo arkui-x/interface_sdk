@@ -1088,10 +1088,7 @@
                "engine/third_party/openssl/crypto",
                "engine/third_party/openssl"
             ],
-            "ios": [
-               "engine/third_party/openssl/crypto",
-               "engine/third_party/openssl"
-            ]
+            "ios": []
         }
     },
     {
@@ -1105,10 +1102,7 @@
                "engine/third_party/openssl/crypto",
                "engine/third_party/openssl"
             ],
-            "ios": [
-               "engine/third_party/openssl/crypto",
-               "engine/third_party/openssl"
-            ]
+            "ios": []
         }
     },
     {
