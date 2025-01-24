@@ -1426,8 +1426,8 @@
     {
         "module": "PatternLock",
         "library": {
-            "android": [ "lib/patternlock/arch_type/libarkui_patternlock.so" ],
-            "ios":[ "xcframework/build_modes/libarkui_patternlock.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
