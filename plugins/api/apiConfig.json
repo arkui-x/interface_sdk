@@ -820,6 +820,17 @@
         }
     },
     {
+        "module": "ohos.util.json",
+        "library": {
+            "android": [ "lib/util/arch_type/libutil_json.so" ],
+            "ios":[ "xcframework/build_modes/libutil_json.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.multimedia.image",
         "library": {
             "android": [],
