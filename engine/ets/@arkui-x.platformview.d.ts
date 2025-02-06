@@ -57,6 +57,7 @@ declare const PlatformView: PlatformViewInterface;
  * Defines PlatformView Component instance.
  *
  * @crossplatform
+ * @uicomponent
  * @since 14
  */
 declare const PlatformViewInstance: PlatformViewAttribute;
