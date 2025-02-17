@@ -90,6 +90,16 @@ ohos_copy("systemres") {
   subsystem_name = "common"
 }
 
+ohos_copy("icudata") {
+  deps = [ "//foundation/appframework/icu_data:pkg_icudata" ]
+  sources = [ "$root_out_dir/icu_data/out/icudt72l.dat" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("license") {
   sources = [ "//foundation/appframework/LICENSE" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
