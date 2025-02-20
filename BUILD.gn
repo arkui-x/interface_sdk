@@ -182,6 +182,7 @@ ohos_copy("plugin_rawfile_header") {
 ohos_copy("ace_xcomponent_header") {
   sources = [
     "//foundation/arkui/ace_engine/interfaces/native/drawable_descriptor.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_interface_accessibility.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_interface_xcomponent.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_type.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_xcomponent_key_event.h",
