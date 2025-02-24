@@ -1345,17 +1345,16 @@
         "library": {
             "android": [
                 "lib/advanced/subheader/arch_type/libarkui_advanced_subheader.so",
-                "lib/mock/arch_type/libarkui_mock.so",
-                "lib/modifier/arch_type/libarkui_modifier.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/util/arch_type/libutil_hashmap.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_subheader.xcframework",
-                "xcframework/build_modes/libarkui_mock.xcframework",
-                "xcframework/build_modes/libarkui_modifier.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libutil_hashmap.xcframework"
+                
             ]
         },
         "deps": {
@@ -1368,12 +1367,10 @@
         "library": {
             "android": [
                 "lib/advanced/toolbar/arch_type/libarkui_advanced_toolbar.so",
-                "lib/modifier/arch_type/libarkui_modifier.so",
                 "lib/hilog/arch_type/libhilog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_toolbar.xcframework",
-                "xcframework/build_modes/libarkui_modifier.xcframework",
                 "xcframework/build_modes/libhilog.xcframework"
             ]
         },
