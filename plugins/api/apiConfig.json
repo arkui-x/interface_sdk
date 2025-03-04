@@ -1182,9 +1182,13 @@
         "library": {
             "android": [ 
                 "lib/file/arch_type/libfile_photoaccesshelper.so",
-                "lib/file/ace_photo_access_helper_android.jar"
+                "lib/file/ace_photo_access_helper_android.jar",
+                "lib/data/arch_type/libdata_datasharepredicates.so"
             ],
-            "ios":[ "xcframework/build_modes/libfile_photoaccesshelper.xcframework" ]
+            "ios":[ 
+                "xcframework/build_modes/libfile_photoaccesshelper.xcframework",
+                "xcframework/build_modes/libdata_datasharepredicates.xcframework" 
+            ]
         },
         "deps": {
             "android": [],
