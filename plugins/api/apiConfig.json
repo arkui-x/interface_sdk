@@ -1431,5 +1431,18 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.hiviewdfx.hiAppEvent",
+        "library": {
+            "android": [
+                "lib/hiviewdfx/hiappevent/arch_type/libhiviewdfx_hiappevent.so"
+            ],
+            "ios":[ "xcframework/build_modes/libhiviewdfx_hiappevent.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
