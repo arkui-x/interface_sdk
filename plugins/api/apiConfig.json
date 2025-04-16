@@ -1444,5 +1444,22 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.arkui.advanced.SwipeRefresher", 
+        "library": {
+            "android": [
+                "lib/advanced/swiperefresher/arch_type/libarkui_advanced_swiperefresher.so",
+                "lib/hilog/arch_type/libhilog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_swiperefresher.xcframework",
+                "xcframework/build_modes/libhilog.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
