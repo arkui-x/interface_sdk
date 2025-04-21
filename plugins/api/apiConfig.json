@@ -250,12 +250,26 @@
     {
         "module": "ohos.file.fs",
         "library": {
-            "android": [ "lib/file/arch_type/libfile_fs.so" ],
-            "ios":[ "xcframework/build_modes/libfile_fs.xcframework" ]
+            "android": [
+                "lib/file/arch_type/libfile_fs.so",
+                "lib/file/arch_type/libfile_streamrw.so",
+                "lib/util/arch_type/libutil_stream.so",
+                "lib/util/arch_type/libutil.so"
+            ],
+            "ios": [
+                "xcframework/build_modes/libfile_fs.xcframework",
+                "xcframework/build_modes/libfile_streamrw.xcframework",
+                "xcframework/build_modes/libutil_stream.xcframework",
+                "xcframework/build_modes/libutil.xcframework"
+            ]
         },
         "deps": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "engine/third_party/openssl/crypto"
+            ],
+            "ios": [
+                "engine/third_party/openssl/crypto"
+            ]
         }
     },
     {
@@ -839,6 +853,27 @@
         "deps": {
             "android": [],
             "ios":[]
+        }
+    },
+    {
+        "module": "ohos.util.stream",
+        "library": {
+            "android": [
+                "lib/util/arch_type/libutil_stream.so",
+                "lib/util/arch_type/libutil.so"
+            ],
+            "ios": [
+                "xcframework/build_modes/libutil.xcframework",
+                "xcframework/build_modes/libutil_stream.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/openssl/crypto"
+            ],
+            "ios": [
+                "engine/third_party/openssl/crypto"
+            ]
         }
     },
     {
