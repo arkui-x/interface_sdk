@@ -259,6 +259,42 @@
         }
     },
     {
+        "module": "ohos.file.hash",
+        "library": {
+            "android": [
+                "lib/file/arch_type/libfile_hash.so",
+                "lib/file/arch_type/libfile_streamhash.so",
+                "lib/util/arch_type/libutil_stream.so",
+                "lib/util/arch_type/libutil.so"
+            ],
+            "ios": [
+                "xcframework/build_modes/libfile_hash.xcframework",
+                "xcframework/build_modes/libfile_streamhash.xcframework",
+                "xcframework/build_modes/libutil_stream.xcframework",
+                "xcframework/build_modes/libutil.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/openssl/crypto"
+            ],
+            "ios": [
+                "engine/third_party/openssl/crypto"
+            ]
+        }
+    },
+    {
+        "module": "ohos.file.statvfs",
+        "library": {
+            "android": [ "lib/file/arch_type/libfile_statvfs.so" ],
+            "ios":[ "xcframework/build_modes/libfile_statvfs.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.hilog",
         "library": {
             "android": [ "lib/hilog/arch_type/libhilog.so" ],
