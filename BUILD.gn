@@ -206,7 +206,7 @@ ohos_copy("ace_xcomponent_header") {
 }
 
 ohos_copy("native_window") {
-  sources = [ "//foundation/graphic/graphic_surface/surface/include/cross_platform/external_window.h" ]
+  sources = [ "//foundation/appframework/graphic_surface/surface/include/cross_platform/external_window.h" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
