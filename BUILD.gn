@@ -90,6 +90,23 @@ ohos_copy("systemres") {
   subsystem_name = "common"
 }
 
+ohos_copy("systemres_fonts") {
+  sources = [
+    "//base/global/system_resources/fonts/HMSymbolVF.ttf",
+    "//base/global/system_resources/fonts/hm_symbol_config_next.json",
+  ]
+  if (target_os == "android") {
+    sources += [
+      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwsymbol.xml",
+    ]
+  }
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("icudata") {
   deps = [ "//foundation/appframework/icu_data:pkg_icudata" ]
   sources = [ "$root_out_dir/icu_data/out/icudt72l.dat" ]
