@@ -353,6 +353,17 @@
         }
     },
     {
+        "module": "ohos.arkui.modifier",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.effectKit",
         "library": {
             "android": [ "lib/effectkit/arch_type/libeffectkit.so" ],
