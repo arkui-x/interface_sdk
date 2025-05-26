@@ -1543,5 +1543,71 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.arkui.advanced.ComposeListItem", 
+        "library": {
+            "android": [
+                "lib/advanced/composelistitem/arch_type/libarkui_advanced_composelistitem.so",
+                "lib/measure/arch_type/libmeasure.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_composelistitem.xcframework",
+                "xcframework/build_modes/libmeasure.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.ComposeTitleBar", 
+        "library": {
+            "android": [
+                "lib/advanced/composetitlebar/arch_type/libarkui_advanced_composetitlebar.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_composetitlebar.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.SelectionMenu", 
+        "library": {
+            "android": [
+                "lib/advanced/selectionmenu/arch_type/libarkui_advanced_selectionmenu.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_selectionmenu.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.SelectTitleBar", 
+        "library": {
+            "android": [
+                "lib/advanced/selecttitlebar/arch_type/libarkui_advanced_selecttitlebar.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_selecttitlebar.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
