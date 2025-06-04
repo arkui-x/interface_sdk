@@ -1620,5 +1620,19 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.accessibility",
+        "library": {
+            "android": [
+                "lib/accessibility/ace_accessibility_android.jar",
+                "lib/accessibility/arch_type/libaccessibility.so"
+            ],
+            "ios":[ "xcframework/build_modes/libaccessibility.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
     }
 ]
