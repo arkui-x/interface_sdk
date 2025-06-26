@@ -48,6 +48,7 @@ export declare class PlatformViewAttribute extends CommonMethod<PlatformViewAttr
  * Defines PlatformView Component.
  *
  * @crossplatform
+ * @uicomponent
  * @since 14
  */
 declare const PlatformView: PlatformViewInterface;
@@ -57,7 +58,6 @@ declare const PlatformView: PlatformViewInterface;
  * Defines PlatformView Component instance.
  *
  * @crossplatform
- * @uicomponent
  * @since 14
  */
 declare const PlatformViewInstance: PlatformViewAttribute;
