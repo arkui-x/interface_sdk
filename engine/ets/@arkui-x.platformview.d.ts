@@ -31,7 +31,16 @@ interface PlatformViewInterface {
    * @crossplatform
    * @since 14
    */
-  (id: string): PlatformViewAttribute;
+  /**
+   * Constructor parameters
+   *
+   * @param { string } id - id of the PlatformView.
+   * @param { string } [data] - data of the PlatformView.
+   * @returns { PlatformViewAttribute }
+   * @crossplatform
+   * @since 22
+   */
+  (id: string, data?: string): PlatformViewAttribute;
 }
 
 /**
