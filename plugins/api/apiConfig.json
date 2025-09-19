@@ -1519,6 +1519,77 @@
         }
     },
     {
+        "module": "ohos.arkui.advanced.Filter",
+        "library": {
+            "android": [
+                "lib/advanced/filter/arch_type/libarkui_advanced_filter.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/accessibility/ace_accessibility_android.jar",
+                "lib/accessibility/arch_type/libaccessibility.so"
+            ],
+            "ios": [
+                "xcframework/build_modes/libarkui_advanced_filter.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libaccessibility.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.ProgressButton",
+        "library": {
+            "android": [
+                "lib/advanced/progressbutton/arch_type/libarkui_advanced_progressbutton.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_progressbutton.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.Counter",
+        "library": {
+            "android": [
+                "lib/advanced/counter/arch_type/libarkui_advanced_counter.so",
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/intl/arch_type/libintl.so",
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/intl/ace_intl_plugin_android.jar"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_counter.xcframework",
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libintl.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.SplitLayout",
+        "library": {
+            "android": [
+                "lib/advanced/splitlayout/arch_type/libarkui_advanced_splitlayout.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_splitlayout.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.systemDateTime",
         "library": {
             "android": [
