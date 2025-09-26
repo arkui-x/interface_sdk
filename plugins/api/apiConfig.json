@@ -1590,6 +1590,108 @@
         }
     },
     {
+        "module": "ohos.arkui.advanced.Popup",
+        "library": {
+            "android": [
+                "lib/advanced/popup/arch_type/libarkui_advanced_popup.so",
+                "lib/system_date_time/arch_type/libsystemdatetime.so",
+                "lib/mediaquery/arch_type/libmediaquery.so",
+                "lib/configuration/arch_type/libconfiguration.so",
+                "lib/arkui/arch_type/libarkui_componentutils.so",
+                "lib/display/arch_type/libdisplay.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_popup.xcframework",
+                "xcframework/build_modes/libsystemdatetime.xcframework",
+                "xcframework/build_modes/libmediaquery.xcframework",
+                "xcframework/build_modes/libconfiguration.xcframework",
+                "xcframework/build_modes/libarkui_componentutils.xcframework",
+                "xcframework/build_modes/libdisplay.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.TreeView",
+        "library": {
+            "android": [ 
+                "lib/advanced/treeview/arch_type/libarkui_advanced_treeview.so",
+                "lib/accessibility/arch_type/libaccessibility.so",
+                "lib/accessibility/ace_accessibility_android.jar"
+            ],
+            "ios":[ 
+                "xcframework/build_modes/libarkui_advanced_treeview.xcframework",
+                "xcframework/build_modes/libaccessibility.xcframework"
+         ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.Chip",
+        "library": {
+            "android": [
+                "lib/advanced/chip/arch_type/libarkui_advanced_chip.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/mediaquery/arch_type/libmediaquery.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_chip.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libmediaquery.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.EditableTitleBar",
+        "library": {
+            "android": [
+                "lib/advanced/editabletitlebar/arch_type/libarkui_advanced_editabletitlebar.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/hilog/arch_type/libhilog.so"
+            ],
+            "ios": [
+                "xcframework/build_modes/libarkui_advanced_editabletitlebar.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libhilog.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.TabTitleBar",
+        "library": {
+            "android": [
+                "lib/advanced/tabtitlebar/arch_type/libarkui_advanced_tabtitlebar.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/measure/arch_type/libmeasure.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_tabtitlebar.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.systemDateTime",
         "library": {
             "android": [
