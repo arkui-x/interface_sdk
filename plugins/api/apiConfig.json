@@ -1837,7 +1837,7 @@
         }
     },
     {
-        "module": "ohos.arkui.advanced.SelectTitleBar",
+        "module": "ohos.arkui.advanced.SelectTitleBar", 
         "library": {
             "android": [
                 "lib/advanced/selecttitlebar/arch_type/libarkui_advanced_selecttitlebar.so",
