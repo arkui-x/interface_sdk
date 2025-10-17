@@ -1857,14 +1857,16 @@
     {
         "module": "ohos.vibrator",
         "library": {
-            "android": [
+            "android": [ 
                 "lib/vibrator/ace_vibrator_plugin_android.jar",
                 "lib/vibrator/arch_type/libvibrator.so"
-         ],
+            ],
             "ios":[ "xcframework/build_modes/libvibrator.xcframework" ]
         },
         "deps": {
-            "android": [],
+            "android": [
+                "engine/third_party/cJSON"
+            ],
             "ios": []
         }
     }
