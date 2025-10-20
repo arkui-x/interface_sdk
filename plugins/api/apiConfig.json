@@ -223,6 +223,19 @@
         }
     },
     {
+        "module": "ohos.fastbuffer",
+        "library": {
+            "android": [
+                "lib/fastbuffer/arch_type/libfastbuffer.so"
+            ],
+            "ios":[ "xcframework/build_modes/libfastbuffer.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.convertxml",
         "library": {
             "android": [ "lib/convertxml/arch_type/libconvertxml.so" ],
