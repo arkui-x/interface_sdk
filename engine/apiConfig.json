@@ -4,9 +4,15 @@
         "library": {
             "android": [
                 "lib/arkui/arkui_android_adapter.jar",
-                "lib/arkui/arch_type/libarkui_android.so"
+                "lib/arkui/arch_type/libarkui_android.so",
+                "lib/arkui/arch_type/libarkui_componentsnapshot.so",
+                "lib/arkui/arch_type/libarkui_focuscontroller.so"
             ],
-            "ios":[ "xcframework/arkui/build_modes/libarkui_ios.xcframework" ]
+            "ios":[ 
+                "xcframework/arkui/build_modes/libarkui_ios.xcframework",
+                "xcframework/arkui/build_modes/libarkui_componentsnapshot.xcframework",
+                "xcframework/arkui/build_modes/libarkui_focuscontroller.xcframework"
+            ]
         },
         "apis": [
             {
@@ -17,6 +23,13 @@
                 }
             }
         ]
+    },
+    {
+        "module": "engine/third_party/cJSON",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcjson.so" ],
+            "ios":[]
+        }
     },
     {
         "module": "engine/third_party/icu",

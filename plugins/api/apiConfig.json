@@ -22,6 +22,17 @@
         }
     },
     {
+        "module": "ohos.arkui.focusController",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_focuscontroller.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_focuscontroller.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.arkui.observer",
         "library": {
             "android": [ "lib/arkui/arch_type/libarkui_observer.so" ],
@@ -220,6 +231,19 @@
         "deps": {
             "android": [],
             "ios":[]
+        }
+    },
+    {
+        "module": "ohos.fastbuffer",
+        "library": {
+            "android": [
+                "lib/fastbuffer/arch_type/libfastbuffer.so"
+            ],
+            "ios":[ "xcframework/build_modes/libfastbuffer.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
         }
     },
     {
@@ -1692,6 +1716,89 @@
         }
     },
     {
+        "module": "ohos.arkui.advanced.FoldSplitContainer",
+        "library": {
+            "android": [
+                "lib/advanced/foldsplitcontainer/arch_type/libarkui_advanced_foldsplitcontainer.so",
+                "lib/display/arch_type/libdisplay.so",
+                "lib/mediaquery/arch_type/libmediaquery.so"
+            ],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.ExceptionPrompt",
+        "library": {
+            "android": [
+                "lib/advanced/exceptionprompt/arch_type/libarkui_advanced_exceptionprompt.so",
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/i18n/arch_type/libi18n.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_exceptionprompt.xcframework",
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libi18n.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.GridObjectSortComponent",
+        "library": {
+            "android": [
+                "lib/advanced/gridobjectsortcomponent/arch_type/libarkui_advanced_gridobjectsortcomponent.so",
+                "lib/advanced/composetitlebar/arch_type/libarkui_advanced_composetitlebar.so",
+                "lib/advanced/subheader/arch_type/libarkui_advanced_subheader.so",
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/accessibility/ace_accessibility_android.jar",
+                "lib/accessibility/arch_type/libaccessibility.so",
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/util/arch_type/libutil_hashmap.so",
+                "lib/advanced/editabletitlebar/arch_type/libarkui_advanced_editabletitlebar.so",
+                "lib/measure/arch_type/libmeasure.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_gridobjectsortcomponent.xcframework",
+                "xcframework/build_modes/libarkui_advanced_composetitlebar.xcframework",
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_advanced_subheader.xcframework",
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libutil_hashmap.xcframework",
+                "xcframework/build_modes/libarkui_advanced_editabletitlebar.xcframework",
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libaccessibility.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.arkui.advanced.ChipGroup",
+        "library": {
+            "android": [
+                "lib/advanced/chipgroup/arch_type/libarkui_advanced_chipgroup.so",
+                "lib/advanced/chip/arch_type/libarkui_advanced_chip.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_advanced_chipgroup.xcframework",
+                "xcframework/build_modes/libarkui_advanced_chip.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.systemDateTime",
         "library": {
             "android": [
@@ -1866,6 +1973,22 @@
         "deps": {
             "android": [],
             "ios":[]
+        }    
+    },
+    {
+        "module": "ohos.vibrator",
+        "library": {
+            "android": [ 
+                "lib/vibrator/ace_vibrator_plugin_android.jar",
+                "lib/vibrator/arch_type/libvibrator.so"
+            ],
+            "ios":[ "xcframework/build_modes/libvibrator.xcframework" ]
+        },
+        "deps": {
+            "android": [
+                "engine/third_party/cJSON"
+            ],
+            "ios": []
         }
     }
 ]
