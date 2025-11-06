@@ -1960,21 +1960,5 @@
             "android": [],
             "ios":[]
         }
-    },
-    {
-        "module": "ohos.vibrator",
-        "library": {
-            "android": [ 
-                "lib/vibrator/ace_vibrator_plugin_android.jar",
-                "lib/vibrator/arch_type/libvibrator.so"
-            ],
-            "ios":[ "xcframework/build_modes/libvibrator.xcframework" ]
-        },
-        "deps": {
-            "android": [
-                "engine/third_party/cJSON"
-            ],
-            "ios": []
-        }
     }
 ]
