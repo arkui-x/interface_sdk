@@ -1731,6 +1731,20 @@
         }
     },
     {
+        "module": "ohos.geolocationmanager",
+        "library": {
+            "android": [
+                "lib/geo_location_manager/arkui_geolocationmanager_service.jar",
+                "lib/geo_location_manager/arch_type/libgeolocationmanager.so"
+             ],
+            "ios":[ "xcframework/build_modes/libgeolocationmanager.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.arkui.advanced.ExceptionPrompt",
         "library": {
             "android": [
