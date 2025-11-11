@@ -1731,7 +1731,7 @@
         }
     },
     {
-        "module": "ohos.geolocationmanager",
+        "module": "ohos.geoLocationManager",
         "library": {
             "android": [
                 "lib/geo_location_manager/arkui_geolocationmanager_service.jar",
