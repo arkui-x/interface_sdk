@@ -25,6 +25,13 @@
         ]
     },
     {
+        "module": "engine/third_party/cJSON",
+        "library": {
+            "android": [ "lib/third_party/arch_type/libcjson.so" ],
+            "ios":[]
+        }
+    },
+    {
         "module": "engine/third_party/icu",
         "library": {
             "android": [ "lib/arkui/arch_type/libarkui_android.so" ],
