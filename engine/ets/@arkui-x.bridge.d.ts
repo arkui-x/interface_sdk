@@ -217,6 +217,16 @@ declare namespace Bridge {
          */
         callMethodWithCallback(methodName: string, method: (...parameters: Array<Parameter>) => ResultValue,
         ...parameters: Array<Parameter>): Promise<ResultValue>;
+
+        /**
+         * Invoke platform-side methods. This API returns results synchronously.
+         * @param { string } methodName - The name of the called platform side method.
+         * @param { Array<Parameter> } parameters - Platform method parameters to be called.
+         * @returns { ResultValue } Returns the platform-side method return value.
+         * @crossplatform
+         * @since 22
+         */
+        callMethodSync(methodName: string, ...parameters: Array<Parameter>): ResultValue;
     }
 }
 export default Bridge;
