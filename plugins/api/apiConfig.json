@@ -1985,9 +1985,7 @@
             "ios":[ "xcframework/build_modes/libvibrator.xcframework" ]
         },
         "deps": {
-            "android": [
-                "engine/third_party/cJSON"
-            ],
+            "android": [],
             "ios": []
         }
     }
