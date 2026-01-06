@@ -978,8 +978,8 @@
     {
         "module": "Gauge",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/gauge/arch_type/libarkui_gauge.so"],
+            "ios":["xcframework/build_modes/libarkui_gauge.xcframework"]
         },
         "apis": [
             {
