@@ -466,8 +466,8 @@
     {
         "module": "DatePickerDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -722,8 +722,8 @@
     {
         "module": "Checkbox",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -738,8 +738,8 @@
     {
         "module": "CheckboxGroup",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -930,8 +930,8 @@
     {
         "module": "FlowItem",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
+            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
         },
         "apis": [
             {
@@ -1570,8 +1570,8 @@
     {
         "module": "Rating",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/rating/arch_type/libarkui_rating.so"],
+            "ios":["xcframework/build_modes/libarkui_rating.xcframework"]
         },
         "apis": [
             {
@@ -2098,8 +2098,8 @@
     {
         "module": "Toggle",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -2130,8 +2130,8 @@
     {
         "module": "WaterFlow",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
+            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
         },
         "apis": [
             {
