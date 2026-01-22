@@ -98,6 +98,8 @@ ohos_copy("systemres_fonts") {
   if (target_os == "android") {
     sources += [
       "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwsymbol.xml",
+      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwnotdef.xml",
+      "//base/global/system_resources/fonts/HarmonyOS_Sans_Notdef.ttf",
     ]
   }
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]

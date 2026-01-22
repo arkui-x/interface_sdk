@@ -1988,5 +1988,18 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.graphics.text",
+        "library": {
+            "android": [
+                "lib/graphics/text/arch_type/libgraphics_text.so"
+            ],
+            "ios":[ "xcframework/build_modes/libgraphics_text.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]
