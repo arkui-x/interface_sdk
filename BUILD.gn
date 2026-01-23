@@ -109,6 +109,32 @@ ohos_copy("systemres_fonts") {
   subsystem_name = "common"
 }
 
+ohos_copy("systemres_datetime") {
+  sources = [
+    "//plugins/i18n/entity_recognition/etc/datetime/common.xml",
+    "//plugins/i18n/entity_recognition/etc/datetime/en.xml",
+    "//plugins/i18n/entity_recognition/etc/datetime/zh.xml",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
+ohos_copy("systemres_phonenumber") {
+  sources = [
+    "//plugins/i18n/entity_recognition/etc/phonenumber/common.xml",
+    "//plugins/i18n/entity_recognition/etc/phonenumber/CN.xml",
+    "//plugins/i18n/entity_recognition/etc/phonenumber/GB.xml",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("icudata") {
   deps = [ "//foundation/appframework/icu_data:pkg_icudata" ]
   sources = [ "$root_out_dir/icu_data/out/icudt74l.dat" ]
