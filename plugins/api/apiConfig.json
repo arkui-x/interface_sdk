@@ -460,13 +460,18 @@
         "library": {
             "android": [
                 "lib/i18n/ace_i18n_plugin_android.jar",
-                "lib/i18n/arch_type/libi18n.so"
+                "lib/intl/ace_intl_plugin_android.jar",
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/intl/arch_type/libintl.so"
             ],
-            "ios":[ "xcframework/build_modes/libi18n.xcframework" ]
+            "ios":[
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libintl.xcframework"
+            ]
         },
         "deps": {
-            "android": [],
-            "ios":[]
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
         }
     },
     {
