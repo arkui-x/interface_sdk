@@ -41,6 +41,39 @@ interface PlatformViewInterface {
    * @since 22
    */
   (id: string, data?: string): PlatformViewAttribute;
+
+  /**
+   * Constructor parameters
+   *
+   * @param { string } id - id of the PlatformView.
+   * @param { string } [data] - data of the PlatformView.
+   * @param { PlatformViewType } [type] - type of the PlatformView.
+   * @returns { PlatformViewAttribute }
+   * @crossplatform
+   * @since 24
+   */
+  (value: {id: string, data?: string, type?: PlatformViewType}): PlatformViewAttribute;
+}
+
+/**
+ * Data transmission encoding type.
+ * @crossplatform
+ * @since 24
+ */
+export enum PlatformViewType {
+  /**
+   * texture type, default.
+   * @crossplatform
+   * @since 24
+   */
+  TEXTURE_TYPE = 0,
+
+  /**
+   * surfaceview type.
+   * @crossplatform
+   * @since 24
+   */
+  SURFACE_TYPE = 1
 }
 
 /**
