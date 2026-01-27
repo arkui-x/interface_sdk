@@ -818,8 +818,8 @@
     {
         "module": "ColumnSplit",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
@@ -834,8 +834,8 @@
     {
         "module": "Counter",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/counter/arch_type/libarkui_counter.so"],
+            "ios":["xcframework/build_modes/libarkui_counter.xcframework"]
         },
         "apis": [
             {
@@ -1554,8 +1554,8 @@
     {
         "module": "Radio",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/radio/arch_type/libarkui_radio.so"],
+            "ios":["xcframework/build_modes/libarkui_radio.xcframework"]
         },
         "apis": [
             {
@@ -1682,8 +1682,8 @@
     {
         "module": "RowSplit",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
@@ -1826,8 +1826,8 @@
     {
         "module": "SideBarContainer",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/sidebar/arch_type/libarkui_sidebar.so"],
+            "ios":["xcframework/build_modes/libarkui_sidebar.xcframework"]
         },
         "apis": [
             {
