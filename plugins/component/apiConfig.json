@@ -818,15 +818,15 @@
     {
         "module": "ColumnSplit",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
                 "path": "",
                 "permissions": {
-                    "android": [],
-                    "ios": []
+                    "android": ["lib/counter/arch_type/libarkui_counter.so"],
+                    "ios":["xcframework/build_modes/libarkui_counter.xcframework"]
                 }
             }
         ]
@@ -1218,8 +1218,8 @@
     {
         "module": "Marquee",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/marquee/arch_type/libarkui_marquee.so"],
+            "ios":["xcframework/build_modes/libarkui_marquee.xcframework"]
         },
         "apis": [
             {
@@ -1554,8 +1554,8 @@
     {
         "module": "Radio",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/radio/arch_type/libarkui_radio.so"],
+            "ios":["xcframework/build_modes/libarkui_radio.xcframework"]
         },
         "apis": [
             {
@@ -1682,8 +1682,8 @@
     {
         "module": "RowSplit",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
@@ -1826,8 +1826,8 @@
     {
         "module": "SideBarContainer",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/sidebar/arch_type/libarkui_sidebar.so"],
+            "ios":["xcframework/build_modes/libarkui_sidebar.xcframework"]
         },
         "apis": [
             {
@@ -1842,8 +1842,8 @@
     {
         "module": "Slider",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
@@ -1922,8 +1922,8 @@
     {
         "module": "StepperItem",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
+            "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
         },
         "apis": [
             {
@@ -2114,8 +2114,8 @@
     {
         "module": "Video",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
