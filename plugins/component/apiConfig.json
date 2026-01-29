@@ -1218,8 +1218,8 @@
     {
         "module": "Marquee",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/marquee/arch_type/libarkui_marquee.so"],
+            "ios":["xcframework/build_modes/libarkui_marquee.xcframework"]
         },
         "apis": [
             {
@@ -1842,8 +1842,8 @@
     {
         "module": "Slider",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
@@ -1922,8 +1922,8 @@
     {
         "module": "StepperItem",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
+            "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
         },
         "apis": [
             {
@@ -2114,8 +2114,8 @@
     {
         "module": "Video",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
