@@ -1341,6 +1341,18 @@
         }
     },
     {
+        "module": "ohos.pasteboard",
+        "library": {
+            "android": [ "lib/pasteboard/arch_type/libpasteboard.so",
+                         "lib/pasteboard/ace_pasteboard_android.jar"],
+            "ios":[ "xcframework/build_modes/libpasteboard.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.file.picker",
         "library": {
             "android": [
