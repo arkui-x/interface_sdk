@@ -582,6 +582,17 @@ export declare class CommonMethod<T> {
   rotate(value: RotateOptions): T;
 
   /**
+   * Sets the translation effect for page transitions.
+   *
+   * @param { TranslateOptions } value - Translation effect for page transitions
+   * <br>specifying the start value for entrance and the end value for exit. default:{x:0,y:0,z:0}
+   * @returns { T }
+   * @crossplatform
+   * @since 24
+   */
+  translate(value: TranslateOptions): T;
+
+  /**
    * Sets the transformation matrix for the current component.
    *
    * @param { object } value
@@ -590,6 +601,17 @@ export declare class CommonMethod<T> {
    * @since 14
    */
   transform(value: object): T;
+
+  /**
+    * Sets the transformation matrix for the current component.
+    * The interface can display the effect of three-dimensional matrix transformation.
+    *
+    * @param { Optional<Matrix4Transit> } transform - transform3D matrix
+    * @returns { T }
+    * @crossplatform
+    * @since 24
+    */
+  transform3D(transform: Optional<Matrix4Transit>): T;
 
   /**
    * This callback is triggered when a component mounts a display.
