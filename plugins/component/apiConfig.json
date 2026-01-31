@@ -562,8 +562,8 @@
     {
         "module": "TimePickerDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/timepicker/arch_type/libarkui_timepicker.so"],
+            "ios":["xcframework/build_modes/libarkui_timepicker.xcframework"]
         },
         "apis": [
             {
@@ -594,8 +594,8 @@
     {
         "module": "AlphabetIndexer",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/indexer/arch_type/libarkui_indexer.so"],
+            "ios":["xcframework/build_modes/libarkui_indexer.xcframework"]
         },
         "apis": [
             {
@@ -850,8 +850,8 @@
     {
         "module": "DataPanel",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/datapanel/arch_type/libarkui_datapanel.so"],
+            "ios":["xcframework/build_modes/libarkui_datapanel.xcframework"]
         },
         "apis": [
             {
@@ -1090,8 +1090,8 @@
     {
         "module": "Hyperlink",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/hyperlink/arch_type/libarkui_hyperlink.so"],
+            "ios":["xcframework/build_modes/libarkui_hyperlink.xcframework"]
         },
         "apis": [
             {
@@ -1426,8 +1426,8 @@
     {
         "module": "PatternLock",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/patternlock/arch_type/libarkui_patternlock.so"],
+            "ios":["xcframework/build_modes/libarkui_patternlock.xcframework"]
         },
         "apis": [
             {
@@ -1538,8 +1538,8 @@
     {
         "module": "QRCode",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/qrcode/arch_type/libarkui_qrcode.so"],
+            "ios":["xcframework/build_modes/libarkui_qrcode.xcframework"]
         },
         "apis": [
             {
@@ -2082,8 +2082,8 @@
     {
         "module": "TimePicker",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/timepicker/arch_type/libarkui_timepicker.so"],
+            "ios":["xcframework/build_modes/libarkui_timepicker.xcframework"]
         },
         "apis": [
             {
@@ -2178,8 +2178,8 @@
     {
         "module": "CalendarPicker",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/calendarpicker/arch_type/libarkui_calendarpicker.so"],
+            "ios":["xcframework/build_modes/libarkui_calendarpicker.xcframework"]
         },
         "apis": [
             {
@@ -2194,8 +2194,8 @@
     {
         "module": "CalendarPickerDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/calendarpicker/arch_type/libarkui_calendarpicker.so"],
+            "ios":["xcframework/build_modes/libarkui_calendarpicker.xcframework"]
         },
         "apis": [
             {
