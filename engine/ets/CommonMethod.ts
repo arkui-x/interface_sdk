@@ -606,12 +606,12 @@ export declare class CommonMethod<T> {
     * Sets the transformation matrix for the current component.
     * The interface can display the effect of three-dimensional matrix transformation.
     *
-    * @param { Optional<Matrix4Transit> } transform - transform3D matrix
+    * @param { object } value - transform3D matrix
     * @returns { T }
     * @crossplatform
     * @since 24
     */
-  transform3D(transform: Optional<Matrix4Transit>): T;
+  transform3D(value: object): T;
 
   /**
    * This callback is triggered when a component mounts a display.
