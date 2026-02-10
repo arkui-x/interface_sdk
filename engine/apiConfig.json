@@ -6,12 +6,14 @@
                 "lib/arkui/arkui_android_adapter.jar",
                 "lib/arkui/arch_type/libarkui_android.so",
                 "lib/arkui/arch_type/libarkui_componentsnapshot.so",
-                "lib/arkui/arch_type/libarkui_focuscontroller.so"
+                "lib/arkui/arch_type/libarkui_focuscontroller.so",
+                "lib/arkui/arch_type/libarkui_menu.so"
             ],
             "ios":[ 
                 "xcframework/arkui/build_modes/libarkui_ios.xcframework",
                 "xcframework/arkui/build_modes/libarkui_componentsnapshot.xcframework",
-                "xcframework/arkui/build_modes/libarkui_focuscontroller.xcframework"
+                "xcframework/arkui/build_modes/libarkui_focuscontroller.xcframework",
+                "xcframework/arkui/build_modes/libarkui_menu.xcframework"
             ]
         },
         "apis": [
