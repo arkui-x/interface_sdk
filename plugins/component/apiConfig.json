@@ -1746,8 +1746,8 @@
     {
         "module": "Search",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/search/arch_type/libarkui_search.so"],
+            "ios":["xcframework/build_modes/libarkui_search.xcframework"]
         },
         "apis": [
             {
@@ -1920,10 +1920,42 @@
         ]
     },
     {
+        "module": "Stepper",
+        "library": {
+            "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
+            "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "StepperItem",
         "library": {
             "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
             "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "SymbolGlyph",
+        "library": {
+            "android": ["lib/symbol/arch_type/libarkui_symbol.so"],
+            "ios":["xcframework/build_modes/libarkui_symbol.xcframework"]
         },
         "apis": [
             {
@@ -2066,8 +2098,8 @@
     {
         "module": "TextClock",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/textclock/arch_type/libarkui_textclock.so"],
+            "ios":["xcframework/build_modes/libarkui_textclock.xcframework"]
         },
         "apis": [
             {
@@ -2226,8 +2258,8 @@
     {
         "module": "RichEditor",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/richeditor/arch_type/libarkui_richeditor.so"],
+            "ios":["xcframework/build_modes/libarkui_richeditor.xcframework"]
         },
         "apis": [
             {
