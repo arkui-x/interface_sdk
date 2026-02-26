@@ -306,8 +306,8 @@
     {
         "module": "VideoController",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
@@ -466,8 +466,14 @@
     {
         "module": "DatePickerDialog",
         "library": {
-            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
-            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
+            "android": [
+                "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/timepicker/arch_type/libarkui_timepicker.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_timepicker.xcframework"
+            ]
         },
         "apis": [
             {
@@ -546,8 +552,8 @@
     {
         "module": "PatternLockController",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/patternlock/arch_type/libarkui_patternlock.so"],
+            "ios":["xcframework/build_modes/libarkui_patternlock.xcframework"]
         },
         "apis": [
             {
@@ -2274,8 +2280,8 @@
     {
         "module": "RichEditorController",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/richeditor/arch_type/libarkui_richeditor.so"],
+            "ios":["xcframework/build_modes/libarkui_richeditor.xcframework"]
         },
         "apis": [
             {

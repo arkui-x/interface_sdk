@@ -436,8 +436,8 @@
     {
         "module": "ohos.arkui.modifier",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/symbol/arch_type/libarkui_symbol.so"],
+            "ios":["xcframework/build_modes/libarkui_symbol.xcframework"]
         },
         "deps": {
             "android": [],
