@@ -834,8 +834,8 @@
     {
         "module": "Counter",
         "library": {
-            "android": ["lib/counter/arch_type/libarkui_counter.so"],
-            "ios":["xcframework/build_modes/libarkui_counter.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -850,8 +850,8 @@
     {
         "module": "DataPanel",
         "library": {
-            "android": ["lib/datapanel/arch_type/libarkui_datapanel.so"],
-            "ios":["xcframework/build_modes/libarkui_datapanel.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -930,8 +930,8 @@
     {
         "module": "FlowItem",
         "library": {
-            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
-            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1090,8 +1090,8 @@
     {
         "module": "Hyperlink",
         "library": {
-            "android": ["lib/hyperlink/arch_type/libarkui_hyperlink.so"],
-            "ios":["xcframework/build_modes/libarkui_hyperlink.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1218,8 +1218,8 @@
     {
         "module": "Marquee",
         "library": {
-            "android": ["lib/marquee/arch_type/libarkui_marquee.so"],
-            "ios":["xcframework/build_modes/libarkui_marquee.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1426,8 +1426,8 @@
     {
         "module": "PatternLock",
         "library": {
-            "android": ["lib/patternlock/arch_type/libarkui_patternlock.so"],
-            "ios":["xcframework/build_modes/libarkui_patternlock.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1538,8 +1538,8 @@
     {
         "module": "QRCode",
         "library": {
-            "android": ["lib/qrcode/arch_type/libarkui_qrcode.so"],
-            "ios":["xcframework/build_modes/libarkui_qrcode.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1746,8 +1746,8 @@
     {
         "module": "Search",
         "library": {
-            "android": ["lib/search/arch_type/libarkui_search.so"],
-            "ios":["xcframework/build_modes/libarkui_search.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1954,8 +1954,8 @@
     {
         "module": "SymbolGlyph",
         "library": {
-            "android": ["lib/symbol/arch_type/libarkui_symbol.so"],
-            "ios":["xcframework/build_modes/libarkui_symbol.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2098,8 +2098,8 @@
     {
         "module": "TextClock",
         "library": {
-            "android": ["lib/textclock/arch_type/libarkui_textclock.so"],
-            "ios":["xcframework/build_modes/libarkui_textclock.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2162,8 +2162,8 @@
     {
         "module": "WaterFlow",
         "library": {
-            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
-            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2258,8 +2258,8 @@
     {
         "module": "RichEditor",
         "library": {
-            "android": ["lib/richeditor/arch_type/libarkui_richeditor.so"],
-            "ios":["xcframework/build_modes/libarkui_richeditor.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
