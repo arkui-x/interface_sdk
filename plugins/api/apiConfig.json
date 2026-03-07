@@ -1493,14 +1493,18 @@
                 "lib/display/arch_type/libdisplay.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/measure/arch_type/libmeasure.so",
-                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/radio/arch_type/libarkui_radio.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_dialog.xcframework",
                 "xcframework/build_modes/libdisplay.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_radio.xcframework"
             ]
         },
         "deps": {
@@ -1517,13 +1521,15 @@
                 "lib/advanced/segmentbutton/arch_type/libarkui_advanced_segmentbutton.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
                 "lib/util/arch_type/libutil.so",
-                "lib/i18n/arch_type/libi18n.so"
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_segmentbutton.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
                 "xcframework/build_modes/libutil.xcframework",
-                "xcframework/build_modes/libi18n.xcframework"
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1538,14 +1544,15 @@
                 "lib/advanced/subheader/arch_type/libarkui_advanced_subheader.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
                 "lib/hilog/arch_type/libhilog.so",
-                "lib/util/arch_type/libutil_hashmap.so"
+                "lib/util/arch_type/libutil_hashmap.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_subheader.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
-                "xcframework/build_modes/libutil_hashmap.xcframework"
-                
+                "xcframework/build_modes/libutil_hashmap.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1558,11 +1565,13 @@
         "library": {
             "android": [
                 "lib/advanced/toolbar/arch_type/libarkui_advanced_toolbar.so",
-                "lib/hilog/arch_type/libhilog.so"
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_toolbar.xcframework",
-                "xcframework/build_modes/libhilog.xcframework"
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1577,12 +1586,14 @@
                 "lib/advanced/filter/arch_type/libarkui_advanced_filter.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/accessibility/ace_accessibility_android.jar",
-                "lib/accessibility/arch_type/libaccessibility.so"
+                "lib/accessibility/arch_type/libaccessibility.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios": [
                 "xcframework/build_modes/libarkui_advanced_filter.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
-                "xcframework/build_modes/libaccessibility.xcframework"
+                "xcframework/build_modes/libaccessibility.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1650,7 +1661,8 @@
                 "lib/mediaquery/arch_type/libmediaquery.so",
                 "lib/configuration/arch_type/libconfiguration.so",
                 "lib/arkui/arch_type/libarkui_componentutils.so",
-                "lib/display/arch_type/libdisplay.so"
+                "lib/display/arch_type/libdisplay.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_popup.xcframework",
@@ -1658,7 +1670,8 @@
                 "xcframework/build_modes/libmediaquery.xcframework",
                 "xcframework/build_modes/libconfiguration.xcframework",
                 "xcframework/build_modes/libarkui_componentutils.xcframework",
-                "xcframework/build_modes/libdisplay.xcframework"
+                "xcframework/build_modes/libdisplay.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1672,11 +1685,13 @@
             "android": [ 
                 "lib/advanced/treeview/arch_type/libarkui_advanced_treeview.so",
                 "lib/accessibility/arch_type/libaccessibility.so",
-                "lib/accessibility/ace_accessibility_android.jar"
+                "lib/accessibility/ace_accessibility_android.jar",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[ 
                 "xcframework/build_modes/libarkui_advanced_treeview.xcframework",
-                "xcframework/build_modes/libaccessibility.xcframework"
+                "xcframework/build_modes/libaccessibility.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
          ]
         },
         "deps": {
@@ -1690,12 +1705,14 @@
             "android": [
                 "lib/advanced/chip/arch_type/libarkui_advanced_chip.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
-                "lib/mediaquery/arch_type/libmediaquery.so"
+                "lib/mediaquery/arch_type/libmediaquery.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_chip.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
-                "xcframework/build_modes/libmediaquery.xcframework"
+                "xcframework/build_modes/libmediaquery.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1709,12 +1726,14 @@
             "android": [
                 "lib/advanced/editabletitlebar/arch_type/libarkui_advanced_editabletitlebar.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
-                "lib/hilog/arch_type/libhilog.so"
+                "lib/hilog/arch_type/libhilog.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios": [
                 "xcframework/build_modes/libarkui_advanced_editabletitlebar.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
-                "xcframework/build_modes/libhilog.xcframework"
+                "xcframework/build_modes/libhilog.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1729,13 +1748,15 @@
                 "lib/advanced/tabtitlebar/arch_type/libarkui_advanced_tabtitlebar.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/measure/arch_type/libmeasure.so",
-                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_tabtitlebar.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1778,12 +1799,14 @@
             "android": [
                 "lib/advanced/exceptionprompt/arch_type/libarkui_advanced_exceptionprompt.so",
                 "lib/i18n/ace_i18n_plugin_android.jar",
-                "lib/i18n/arch_type/libi18n.so"
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_exceptionprompt.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libi18n.xcframework"
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1804,7 +1827,8 @@
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
                 "lib/util/arch_type/libutil_hashmap.so",
                 "lib/advanced/editabletitlebar/arch_type/libarkui_advanced_editabletitlebar.so",
-                "lib/measure/arch_type/libmeasure.so"
+                "lib/measure/arch_type/libmeasure.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_gridobjectsortcomponent.xcframework",
@@ -1815,7 +1839,8 @@
                 "xcframework/build_modes/libutil_hashmap.xcframework",
                 "xcframework/build_modes/libarkui_advanced_editabletitlebar.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libaccessibility.xcframework"
+                "xcframework/build_modes/libaccessibility.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1828,11 +1853,13 @@
         "library": {
             "android": [
                 "lib/advanced/chipgroup/arch_type/libarkui_advanced_chipgroup.so",
-                "lib/advanced/chip/arch_type/libarkui_advanced_chip.so"
+                "lib/advanced/chip/arch_type/libarkui_advanced_chip.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_chipgroup.xcframework",
-                "xcframework/build_modes/libarkui_advanced_chip.xcframework"
+                "xcframework/build_modes/libarkui_advanced_chip.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1928,11 +1955,17 @@
         "library": {
             "android": [
                 "lib/advanced/composelistitem/arch_type/libarkui_advanced_composelistitem.so",
-                "lib/measure/arch_type/libmeasure.so"
+                "lib/measure/arch_type/libmeasure.so",
+                "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/radio/arch_type/libarkui_radio.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_composelistitem.xcframework",
-                "xcframework/build_modes/libmeasure.xcframework"
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_radio.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1945,11 +1978,13 @@
         "library": {
             "android": [
                 "lib/advanced/composetitlebar/arch_type/libarkui_advanced_composetitlebar.so",
-                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_composetitlebar.xcframework",
-                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1961,10 +1996,12 @@
         "module": "ohos.arkui.advanced.SelectionMenu", 
         "library": {
             "android": [
-                "lib/advanced/selectionmenu/arch_type/libarkui_advanced_selectionmenu.so"
+                "lib/advanced/selectionmenu/arch_type/libarkui_advanced_selectionmenu.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
-                "xcframework/build_modes/libarkui_advanced_selectionmenu.xcframework"
+                "xcframework/build_modes/libarkui_advanced_selectionmenu.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
@@ -1977,11 +2014,13 @@
         "library": {
             "android": [
                 "lib/advanced/selecttitlebar/arch_type/libarkui_advanced_selecttitlebar.so",
-                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/symbol/arch_type/libarkui_symbol.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_selecttitlebar.xcframework",
-                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_symbol.xcframework"
             ]
         },
         "deps": {
