@@ -1482,14 +1482,16 @@
                 "lib/display/arch_type/libdisplay.so",
                 "lib/hilog/arch_type/libhilog.so",
                 "lib/measure/arch_type/libmeasure.so",
-                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so"
+                "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/checkbox/arch_type/libarkui_checkbox.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_dialog.xcframework",
                 "xcframework/build_modes/libdisplay.xcframework",
                 "xcframework/build_modes/libhilog.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libmultimodalinput_keycode.xcframework"
+                "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
+                "xcframework/build_modes/libarkui_checkbox.xcframework"
             ]
         },
         "deps": {
@@ -1917,11 +1919,15 @@
         "library": {
             "android": [
                 "lib/advanced/composelistitem/arch_type/libarkui_advanced_composelistitem.so",
-                "lib/measure/arch_type/libmeasure.so"
+                "lib/measure/arch_type/libmeasure.so",
+                "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/radio/arch_type/libarkui_radio.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_composelistitem.xcframework",
-                "xcframework/build_modes/libmeasure.xcframework"
+                "xcframework/build_modes/libmeasure.xcframework",
+                "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_radio.xcframework"
             ]
         },
         "deps": {
