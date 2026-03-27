@@ -97,9 +97,9 @@ ohos_copy("systemres_fonts") {
   ]
   if (target_os == "android") {
     sources += [
-      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwsymbol.xml",
-      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwnotdef.xml",
       "//base/global/system_resources/fonts/HarmonyOS_Sans_Notdef.ttf",
+      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwnotdef.xml",
+      "//foundation/arkui/ace_engine/adapter/android/osal/fonts/hwsymbol.xml",
     ]
   }
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
@@ -124,9 +124,9 @@ ohos_copy("systemres_datetime") {
 
 ohos_copy("systemres_phonenumber") {
   sources = [
-    "//plugins/i18n/entity_recognition/etc/phonenumber/common.xml",
     "//plugins/i18n/entity_recognition/etc/phonenumber/CN.xml",
     "//plugins/i18n/entity_recognition/etc/phonenumber/GB.xml",
+    "//plugins/i18n/entity_recognition/etc/phonenumber/common.xml",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
@@ -288,6 +288,15 @@ ohos_copy("api_apiconfig") {
 
 ohos_copy("component_apiconfig") {
   sources = [ "./plugins/component/apiConfig.json" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
+ohos_copy("timepicker_sound") {
+  sources = [ "//interface/sdk/engine/dynamic_resources/media/timepicker.wav" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
