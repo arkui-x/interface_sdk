@@ -296,7 +296,7 @@ ohos_copy("component_apiconfig") {
 }
 
 ohos_copy("timepicker_sound") {
-  sources = [ "//interface/sdk/engine/dynamic_resources/media/timepicker.wav" ]
+  sources = [ "//interface/sdk/engine/extras/media/timepicker.wav" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
   module_install_name = ""
