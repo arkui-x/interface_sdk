@@ -2068,5 +2068,27 @@
             "android": [],
             "ios": []
         }
+    },
+    {
+        "module": "ohos.arkui.dragController",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_dragcontroller.so" ],
+            "ios": [ "xcframework/build_modes/libarkui_dragcontroller.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
+        "module": "ohos.overlay",
+        "library": {
+            "android": [ "lib/arkui/arch_type/liboverlay.so" ],
+            "ios": [ "xcframework/build_modes/liboverlay.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        }
     }
 ]

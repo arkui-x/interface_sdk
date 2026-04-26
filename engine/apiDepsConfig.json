@@ -1,0 +1,87 @@
+[
+    {
+      "module": "ohos.arkui.UIContext",
+      "deps": [
+        {
+          "function": "UIContext#getRouter",
+          "module": [ "ohos.router" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getPromptAction",
+          "module": [ "ohos.promptAction" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getFont",
+          "module": [ "ohos.font" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getMediaQuery",
+          "module": [ "ohos.mediaquery" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getComponentUtils",
+          "module": [ "ohos.arkui.componentUtils" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getUIInspector",
+          "module": [ "ohos.arkui.inspector" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getUIObserver",
+          "module": [ "ohos.arkui.observer" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getDragController",
+          "module": [ "ohos.arkui.dragController" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getComponentSnapshot",
+          "module": [ "ohos.arkui.componentSnapshot" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getMeasureUtils",
+          "module": [ "ohos.measure" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#showDatePickerDialog",
+          "module": [],
+          "component": [ "DatePickerDialog" ]
+        },
+        {
+          "function": "UIContext#showTimePickerDialog",
+          "module": [],
+          "component": [ "TimePickerDialog" ]
+        },
+        {
+          "function": "UIContext#createAnimator",
+          "module": [ "ohos.animator" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getOverlayManager",
+          "module": [ "ohos.overlay" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#setOverlayManagerOptions",
+          "module": [ "ohos.overlay" ],
+          "component": []
+        },
+        {
+          "function": "UIContext#getOverlayManagerOptions",
+          "module": [ "ohos.overlay" ],
+          "component": []
+        }
+      ]
+    }
+]

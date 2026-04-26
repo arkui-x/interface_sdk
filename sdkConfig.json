@@ -1,4 +1,5 @@
 {
     "apiPath": "engine/ets",
-    "prefix": "@arkui-x"
+    "prefix": "@arkui-x",
+    "depsModuleConfig": "engine/apiDepsConfig.json"
 }
