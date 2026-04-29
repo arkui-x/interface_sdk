@@ -312,3 +312,34 @@ ohos_copy("timepicker_sound") {
   part_name = "common"
   subsystem_name = "common"
 }
+
+action("generate_api_symbol_config") {
+  script = "//interface/sdk/generate_api_symbol_config.py"
+  _output_file = "$target_gen_dir/apiSymbolConfig.json"
+  outputs = [ _output_file ]
+  args = [
+    "--search-dir",
+    rebase_path("//interface/sdk", root_build_dir),
+    "--output-file",
+    rebase_path(_output_file, root_build_dir),
+  ]
+}
+
+ohos_copy("api_symbol_config") {
+  deps = [ ":generate_api_symbol_config" ]
+  sources = [ "$target_gen_dir/apiSymbolConfig.json" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
+ohos_copy("system_symbol_json") {
+  sources = [ "//base/global/system_resources/systemres/main/resources/base/element/symbol.json" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
