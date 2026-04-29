@@ -1199,7 +1199,12 @@
     {
         "module": "ohos.UiTest",
         "library": {
-            "android": [ "lib/uitest/arch_type/libuitest.so" ],
+            "android": [
+                "lib/uitest/arch_type/libuitest.so",
+                "lib/uitest/uitest_display_android.jar",
+                "lib/uitest/uitest_screencapture_android.jar",
+                "lib/uitest/uitest_touchinject_android.jar"
+            ],
             "ios": [ "xcframework/build_modes/libuitest.xcframework" ]
         },
         "deps": {
