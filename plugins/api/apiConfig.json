@@ -423,6 +423,17 @@
         }
     },
     {
+        "module": "ohos.arkui.layoutAlgorithm",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.arkui.shape",
         "library": {
             "android": [],
