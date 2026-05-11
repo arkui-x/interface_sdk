@@ -99,6 +99,17 @@
         }
     },
     {
+        "module": "ohos.data.distributedKVStore",
+        "library": {
+            "android": [ "lib/data/arch_type/libdata_distributedkvstore.so" ],
+            "ios":[ "xcframework/build_modes/libdata_distributedkvstore.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.data.preferences",
         "library": {
             "android": [ "lib/data/arch_type/libdata_preferences.so" ],
