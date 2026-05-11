@@ -998,6 +998,22 @@
         ]
     },
     {
+        "module": "DynamicLayout",
+        "library": {
+            "android": ["lib/dynamiclayout/arch_type/libarkui_dynamiclayout.so"],
+            "ios": ["xcframework/build_modes/libarkui_dynamiclayout.xcframework"]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "GeometryView",
         "library": {
             "android": [],
