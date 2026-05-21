@@ -1515,22 +1515,31 @@
         "library": {
             "android": [
                 "lib/util/ace_util_plugin_android.jar",
-                "lib/i18n/ace_i18n_plugin_android.jar",
                 "lib/advanced/segmentbutton/arch_type/libarkui_advanced_segmentbutton.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
+                "lib/i18n/ace_i18n_plugin_android.jar",
+                "lib/intl/ace_intl_plugin_android.jar",
                 "lib/util/arch_type/libutil.so",
-                "lib/i18n/arch_type/libi18n.so"
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/intl/arch_type/libintl.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_segmentbutton.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
                 "xcframework/build_modes/libutil.xcframework",
-                "xcframework/build_modes/libi18n.xcframework"
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libintl.xcframework"
             ]
         },
         "deps": {
-            "android": [ "engine/third_party/openssl/crypto" ],
-            "ios": [ "engine/third_party/openssl/crypto" ]
+            "android": [
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/xml2"
+            ],
+            "ios": [
+                "engine/third_party/openssl/crypto",
+                "engine/third_party/xml2"
+            ]
         }
     },
     {
@@ -1624,8 +1633,8 @@
             ]
         },
         "deps": {
-            "android": [],
-            "ios": []
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
         }
     },
     {
@@ -1780,17 +1789,20 @@
             "android": [
                 "lib/advanced/exceptionprompt/arch_type/libarkui_advanced_exceptionprompt.so",
                 "lib/i18n/ace_i18n_plugin_android.jar",
-                "lib/i18n/arch_type/libi18n.so"
+                "lib/intl/ace_intl_plugin_android.jar",
+                "lib/i18n/arch_type/libi18n.so",
+                "lib/intl/arch_type/libintl.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_exceptionprompt.xcframework",
                 "xcframework/build_modes/libmeasure.xcframework",
-                "xcframework/build_modes/libi18n.xcframework"
+                "xcframework/build_modes/libi18n.xcframework",
+                "xcframework/build_modes/libintl.xcframework"
             ]
         },
         "deps": {
-            "android": [],
-            "ios": []
+            "android": [ "engine/third_party/xml2" ],
+            "ios": [ "engine/third_party/xml2" ]
         }
     },
     {
