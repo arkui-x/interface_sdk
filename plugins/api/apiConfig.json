@@ -1410,6 +1410,26 @@
         }
     },
     {
+        "module": "ohos.file.storageStatistics",
+        "library": {
+            "android": [
+                "lib/file/arch_type/libfile_storagestatistics.so",
+                "lib/file/ace_storage_statistics_android.jar"
+            ],
+            "ios": [
+                "xcframework/build_modes/libfile_storagestatistics.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios": []
+        },
+        "permissions": {
+            "android": [],
+            "ios": []
+        }
+    },
+    {
         "module": "ohos.arkui.drawableDescriptor",
         "library": {
             "android": [ "lib/arkui/arch_type/libarkui_drawabledescriptor.so" ],
