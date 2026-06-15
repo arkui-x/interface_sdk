@@ -250,6 +250,34 @@ ohos_copy("ace_xcomponent_header") {
   subsystem_name = "common"
 }
 
+ohos_copy("arkui_header") {
+  sources = [
+    "//foundation/arkui/ace_engine/interfaces/native/native_node_ani.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_node_napi.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_node.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_render.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_type.h",
+    "//foundation/arkui/ace_engine/interfaces/native/drawable_descriptor.h",
+    "//foundation/arkui/ace_engine/interfaces/native/drag_and_drop.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_animate.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_dialog.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_gesture.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_interface.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_interface_accessibility.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_interface_focus.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_key_event.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_material.h",
+    "//foundation/arkui/ace_engine/interfaces/native/ui_input_event.h",
+    # "//foundation/arkui/ace_engine/interfaces/native/styled_string.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_styled_string.h",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("native_window") {
   sources = [ "//foundation/appframework/graphic_surface/surface/include/cross_platform/external_window.h" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
