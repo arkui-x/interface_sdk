@@ -401,6 +401,17 @@
         }
     },
     {
+        "module": "ohos.file.fileuri",
+        "library": {
+            "android": [ "lib/file/arch_type/libfile_fileuri.so" ],
+            "ios":[ "xcframework/build_modes/libfile_fileuri.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.hilog",
         "library": {
             "android": [ "lib/hilog/arch_type/libhilog.so" ],
