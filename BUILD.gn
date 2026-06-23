@@ -250,6 +250,25 @@ ohos_copy("ace_xcomponent_header") {
   subsystem_name = "common"
 }
 
+ohos_copy("arkui_node_attributes_header") {
+  sources = [
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/custom_span.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/image_span.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/node_attr_custom.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/progress.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/rich_editor.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_area.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_common.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_input.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text.h",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("arkui_header") {
   sources = [
     "//foundation/arkui/ace_engine/interfaces/native/native_node_ani.h",
@@ -268,8 +287,8 @@ ohos_copy("arkui_header") {
     "//foundation/arkui/ace_engine/interfaces/native/native_key_event.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_material.h",
     "//foundation/arkui/ace_engine/interfaces/native/ui_input_event.h",
-    # "//foundation/arkui/ace_engine/interfaces/native/styled_string.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_styled_string.h",
+    "//foundation/arkui/ace_engine/interfaces/native/native_styled_string_descriptor.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
