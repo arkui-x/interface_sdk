@@ -254,6 +254,7 @@ ohos_copy("arkui_node_attributes_header") {
   sources = [
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/custom_span.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/image_span.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/layout.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/node_attr_custom.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/progress.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/rich_editor.h",
