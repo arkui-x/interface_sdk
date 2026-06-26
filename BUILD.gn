@@ -252,15 +252,24 @@ ohos_copy("ace_xcomponent_header") {
 
 ohos_copy("arkui_node_attributes_header") {
   sources = [
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/button.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/checkbox.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/custom_span.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/embedded_component.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/image.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/image_animator.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/image_span.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/layout.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/node_attr_custom.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/picker.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/progress.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/rich_editor.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/slider.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_area.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_common.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text_input.h",
     "//foundation/arkui/ace_engine/interfaces/native/node_attributes/text.h",
+    "//foundation/arkui/ace_engine/interfaces/native/node_attributes/xcomponent.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
