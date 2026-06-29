@@ -2324,5 +2324,41 @@
                 }
             }
         ]
+    },
+    {
+        "module": "ArcList",
+        "library": {
+            "android": [
+                "lib/arclist/arch_type/libarkui_arclist.so"
+            ],
+            "ios": []
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ArcScrollBar",
+        "library": {
+            "android": [
+                "lib/arcscrollbar/arch_type/libarkui_arcscrollbar.so"
+            ],
+            "ios": []
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
     }
 ]
