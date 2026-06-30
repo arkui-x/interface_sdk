@@ -283,6 +283,20 @@
         }
     },
     {
+        "module": "ohos.uiAppearance",
+        "library": {
+            "android": [
+                "lib/ui_appearance/ace_ui_appearance_android.jar",
+                "lib/ui_appearance/arch_type/libuiappearance.so"
+            ],
+            "ios":[ "xcframework/build_modes/libuiappearance.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.display",
         "library": {
             "android": [ "lib/display/arch_type/libdisplay.so" ],
