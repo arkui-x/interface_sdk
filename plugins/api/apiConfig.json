@@ -33,6 +33,17 @@
         }
     },
     {
+        "module": "ohos.arkui.uiMaterial",
+        "library": {
+            "android": [ "lib/arkui/arch_type/libarkui_uimaterial.so" ],
+            "ios": [ "xcframework/build_modes/libarkui_uimaterial.xcframework" ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.arkui.observer",
         "library": {
             "android": [ "lib/arkui/arch_type/libarkui_observer.so" ],
