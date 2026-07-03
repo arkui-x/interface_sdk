@@ -2152,8 +2152,14 @@
     {
         "module": "Toggle",
         "library": {
-            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
-            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
+            "android": [
+                "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/toggle/arch_type/libarkui_toggle.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_toggle.xcframework"
+            ]
         },
         "apis": [
             {
