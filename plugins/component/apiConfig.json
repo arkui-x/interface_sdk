@@ -468,10 +468,12 @@
         "library": {
             "android": [
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
+                "lib/datepicker/arch_type/libarkui_datepicker.so",
                 "lib/timepicker/arch_type/libarkui_timepicker.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
+                "xcframework/build_modes/libarkui_datepicker.xcframework",
                 "xcframework/build_modes/libarkui_timepicker.xcframework"
             ]
         },
@@ -488,8 +490,8 @@
     {
         "module": "TextPickerDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/textpicker/arch_type/libarkui_textpicker.so"],
+            "ios":["xcframework/build_modes/libarkui_textpicker.xcframework"]
         },
         "apis": [
             {
@@ -872,8 +874,8 @@
     {
         "module": "DatePicker",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/datepicker/arch_type/libarkui_datepicker.so"],
+            "ios":["xcframework/build_modes/libarkui_datepicker.xcframework"]
         },
         "apis": [
             {
@@ -1144,8 +1146,8 @@
     {
         "module": "ImageAnimator",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/imageanimator/arch_type/libarkui_imageanimator.so"],
+            "ios":["xcframework/build_modes/libarkui_imageanimator.xcframework"]
         },
         "apis": [
             {
@@ -2088,8 +2090,8 @@
     {
         "module": "TextPicker",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/textpicker/arch_type/libarkui_textpicker.so"],
+            "ios":["xcframework/build_modes/libarkui_textpicker.xcframework"]
         },
         "apis": [
             {
