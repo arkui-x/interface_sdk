@@ -632,8 +632,8 @@
     {
         "module": "Badge",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/badge/arch_type/libarkui_badge.so"],
+            "ios":["xcframework/build_modes/libarkui_badge.xcframework"]
         },
         "apis": [
             {
@@ -1224,8 +1224,8 @@
     {
         "module": "LoadingProgress",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/loadingprogress/arch_type/libarkui_loadingprogress.so"],
+            "ios":["xcframework/build_modes/libarkui_loadingprogress.xcframework"]
         },
         "apis": [
             {
@@ -1544,8 +1544,8 @@
     {
         "module": "Progress",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/progress/arch_type/libarkui_progress.so"],
+            "ios":["xcframework/build_modes/libarkui_progress.xcframework"]
         },
         "apis": [
             {
@@ -2104,8 +2104,8 @@
     {
         "module": "TextTimer",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/texttimer/arch_type/libarkui_texttimer.so"],
+            "ios":["xcframework/build_modes/libarkui_texttimer.xcframework"]
         },
         "apis": [
             {
@@ -2264,8 +2264,24 @@
     {
         "module": "ImageSpan",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/span/arch_type/libarkui_span.so"],
+            "ios":["xcframework/build_modes/libarkui_span.xcframework"]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "SymbolSpan",
+        "library": {
+            "android": ["lib/span/arch_type/libarkui_span.so"],
+            "ios":["xcframework/build_modes/libarkui_span.xcframework"]
         },
         "apis": [
             {
