@@ -1032,8 +1032,8 @@
     {
         "module": "Grid",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/grid/arch_type/libarkui_grid.so"],
+            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
         },
         "apis": [
             {
@@ -1048,8 +1048,8 @@
     {
         "module": "GridItem",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/grid/arch_type/libarkui_grid.so"],
+            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
         },
         "apis": [
             {
@@ -1624,8 +1624,8 @@
     {
         "module": "Refresh",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/refresh/arch_type/libarkui_refresh.so"],
+            "ios":["xcframework/build_modes/libarkui_refresh.xcframework"]
         },
         "apis": [
             {
@@ -2372,6 +2372,22 @@
                 "lib/arcscrollbar/arch_type/libarkui_arcscrollbar.so"
             ],
             "ios": []
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "LazyVGridLayout",
+        "library": {
+            "android": ["lib/lazygridlayout/arch_type/libarkui_lazygridlayout.so"],
+            "ios": ["xcframework/build_modes/libarkui_lazygridlayout.xcframework"]
         },
         "apis": [
             {
