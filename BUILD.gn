@@ -399,3 +399,12 @@ ohos_copy("system_symbol_json") {
   part_name = "common"
   subsystem_name = "common"
 }
+
+ohos_copy("effective_tld_names") {
+  sources = [ "//plugins/web/webview/domains/effective_tld_names.dat" ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
