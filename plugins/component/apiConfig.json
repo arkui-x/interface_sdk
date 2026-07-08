@@ -1322,8 +1322,8 @@
     {
         "module": "Navigator",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/navigator/arch_type/libarkui_navigator.so"],
+            "ios":["xcframework/build_modes/libarkui_navigator.xcframework"]
         },
         "apis": [
             {
@@ -1802,8 +1802,8 @@
     {
         "module": "Select",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/select/arch_type/libarkui_select.so"],
+            "ios":["xcframework/build_modes/libarkui_select.xcframework"]
         },
         "apis": [
             {
