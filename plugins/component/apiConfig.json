@@ -2058,8 +2058,8 @@
     {
         "module": "TextArea",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [ "lib/textfield/arch_type/libarkui_textfield.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_textfield.xcframework" ]
         },
         "apis": [
             {
@@ -2074,8 +2074,8 @@
     {
         "module": "TextInput",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [ "lib/textfield/arch_type/libarkui_textfield.so" ],
+            "ios":[ "xcframework/build_modes/libarkui_textfield.xcframework" ]
         },
         "apis": [
             {
