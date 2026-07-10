@@ -189,8 +189,14 @@
     {
         "module": "ohos.promptAction",
         "library": {
-            "android": [ "lib/promptaction/arch_type/libpromptaction.so" ],
-            "ios":[ "xcframework/build_modes/libpromptaction.xcframework" ]
+            "android": [
+                "lib/promptaction/arch_type/libpromptaction.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libpromptaction.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "deps": {
             "android": [],
@@ -1567,7 +1573,8 @@
                 "lib/measure/arch_type/libmeasure.so",
                 "lib/multimodalinput_keycode/arch_type/libmultimodalinput_keycode.so",
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
-                "lib/radio/arch_type/libarkui_radio.so"
+                "lib/radio/arch_type/libarkui_radio.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_dialog.xcframework",
@@ -1576,7 +1583,8 @@
                 "xcframework/build_modes/libmeasure.xcframework",
                 "xcframework/build_modes/libmultimodalinput_keycode.xcframework",
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
-                "xcframework/build_modes/libarkui_radio.xcframework"
+                "xcframework/build_modes/libarkui_radio.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "deps": {
