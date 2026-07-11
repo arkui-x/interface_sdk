@@ -194,8 +194,12 @@
     {
         "module": "CustomDialogController",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -467,14 +471,18 @@
         "module": "DatePickerDialog",
         "library": {
             "android": [
+                "lib/button/arch_type/libarkui_button.so",
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
                 "lib/datepicker/arch_type/libarkui_datepicker.so",
-                "lib/timepicker/arch_type/libarkui_timepicker.so"
+                "lib/timepicker/arch_type/libarkui_timepicker.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
                 "xcframework/build_modes/libarkui_datepicker.xcframework",
-                "xcframework/build_modes/libarkui_timepicker.xcframework"
+                "xcframework/build_modes/libarkui_timepicker.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -490,8 +498,16 @@
     {
         "module": "TextPickerDialog",
         "library": {
-            "android": ["lib/textpicker/arch_type/libarkui_textpicker.so"],
-            "ios":["xcframework/build_modes/libarkui_textpicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/textpicker/arch_type/libarkui_textpicker.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_textpicker.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -506,8 +522,14 @@
     {
         "module": "AlertDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -538,8 +560,14 @@
     {
         "module": "ActionSheet",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -570,8 +598,16 @@
     {
         "module": "TimePickerDialog",
         "library": {
-            "android": ["lib/timepicker/arch_type/libarkui_timepicker.so"],
-            "ios":["xcframework/build_modes/libarkui_timepicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/timepicker/arch_type/libarkui_timepicker.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_timepicker.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -666,8 +702,8 @@
     {
         "module": "Button",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -794,8 +830,12 @@
     {
         "module": "ColorPickerDialog",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
@@ -842,8 +882,14 @@
     {
         "module": "Counter",
         "library": {
-            "android": ["lib/counter/arch_type/libarkui_counter.so"],
-            "ios":["xcframework/build_modes/libarkui_counter.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/counter/arch_type/libarkui_counter.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_counter.xcframework"
+            ]
         },
         "apis": [
             {
@@ -874,8 +920,14 @@
     {
         "module": "DatePicker",
         "library": {
-            "android": ["lib/datepicker/arch_type/libarkui_datepicker.so"],
-            "ios":["xcframework/build_modes/libarkui_datepicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/datepicker/arch_type/libarkui_datepicker.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_datepicker.xcframework"
+            ]
         },
         "apis": [
             {
@@ -1306,8 +1358,8 @@
     {
         "module": "Navigation",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1354,8 +1406,8 @@
     {
         "module": "NavRouter",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1418,8 +1470,8 @@
     {
         "module": "Panel",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1770,8 +1822,14 @@
     {
         "module": "Search",
         "library": {
-            "android": ["lib/search/arch_type/libarkui_search.so"],
-            "ios":["xcframework/build_modes/libarkui_search.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/search/arch_type/libarkui_search.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_search.xcframework"
+            ]
         },
         "apis": [
             {
@@ -1834,8 +1892,8 @@
     {
         "module": "Sheet",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1850,8 +1908,14 @@
     {
         "module": "SideBarContainer",
         "library": {
-            "android": ["lib/sidebar/arch_type/libarkui_sidebar.so"],
-            "ios":["xcframework/build_modes/libarkui_sidebar.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/sidebar/arch_type/libarkui_sidebar.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_sidebar.xcframework"
+            ]
         },
         "apis": [
             {
@@ -1946,8 +2010,14 @@
     {
         "module": "Stepper",
         "library": {
-            "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
-            "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/stepper/arch_type/libarkui_stepper.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_stepper.xcframework"
+            ]
         },
         "apis": [
             {
@@ -1994,8 +2064,8 @@
     {
         "module": "Swiper",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -2090,8 +2160,14 @@
     {
         "module": "TextPicker",
         "library": {
-            "android": ["lib/textpicker/arch_type/libarkui_textpicker.so"],
-            "ios":["xcframework/build_modes/libarkui_textpicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/textpicker/arch_type/libarkui_textpicker.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_textpicker.xcframework"
+            ]
         },
         "apis": [
             {
@@ -2138,8 +2214,14 @@
     {
         "module": "TimePicker",
         "library": {
-            "android": ["lib/timepicker/arch_type/libarkui_timepicker.so"],
-            "ios":["xcframework/build_modes/libarkui_timepicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/timepicker/arch_type/libarkui_timepicker.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_timepicker.xcframework"
+            ]
         },
         "apis": [
             {
@@ -2155,10 +2237,12 @@
         "module": "Toggle",
         "library": {
             "android": [
+                "lib/button/arch_type/libarkui_button.so",
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
                 "lib/toggle/arch_type/libarkui_toggle.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
                 "xcframework/build_modes/libarkui_toggle.xcframework"
             ]
@@ -2240,8 +2324,14 @@
     {
         "module": "CalendarPicker",
         "library": {
-            "android": ["lib/calendarpicker/arch_type/libarkui_calendarpicker.so"],
-            "ios":["xcframework/build_modes/libarkui_calendarpicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/calendarpicker/arch_type/libarkui_calendarpicker.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_calendarpicker.xcframework"
+            ]
         },
         "apis": [
             {
@@ -2256,8 +2346,16 @@
     {
         "module": "CalendarPickerDialog",
         "library": {
-            "android": ["lib/calendarpicker/arch_type/libarkui_calendarpicker.so"],
-            "ios":["xcframework/build_modes/libarkui_calendarpicker.xcframework"]
+            "android": [
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/calendarpicker/arch_type/libarkui_calendarpicker.so",
+                "lib/dialog/arch_type/libarkui_dialog.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_calendarpicker.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework"
+            ]
         },
         "apis": [
             {
