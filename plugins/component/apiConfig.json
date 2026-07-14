@@ -702,8 +702,8 @@
     {
         "module": "Button",
         "library": {
-            "android": ["lib/button/arch_type/libarkui_button.so"],
-            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
+            "android": ["lib/button/arch_type/libarkui_button.so", "lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework", "xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -850,8 +850,8 @@
     {
         "module": "Column",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -1182,8 +1182,8 @@
     {
         "module": "Image",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -1742,8 +1742,8 @@
     {
         "module": "Row",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -2112,8 +2112,8 @@
     {
         "module": "Text",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -2222,6 +2222,22 @@
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_timepicker.xcframework"
             ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "Bubble",
+        "library": {
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
