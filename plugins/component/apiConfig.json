@@ -48,6 +48,22 @@
         ]
     },
     {
+        "module": "WithEnv",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "TapGesture",
         "library": {
             "android": [],
@@ -1262,6 +1278,22 @@
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework"
             ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "ContainerReader",
+        "library": {
+            "android": ["lib/containerreader/arch_type/libarkui_containerreader.so"],
+            "ios": ["xcframework/build_modes/libarkui_containerreader.xcframework"]
         },
         "apis": [
             {

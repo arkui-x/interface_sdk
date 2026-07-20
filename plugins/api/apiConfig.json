@@ -487,6 +487,17 @@
         }
     },
     {
+        "module": "ohos.arkui.WithEnv",
+        "library": {
+            "android": [],
+            "ios":[]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.arkui.modifier",
         "library": {
             "android": ["lib/symbol/arch_type/libarkui_symbol.so"],
