@@ -260,6 +260,22 @@
         ]
     },
     {
+        "module": "IndicatorComponentController",
+        "library": {
+            "android": ["lib/tabswiper/arch_type/libarkui_tabswiper.so"],
+            "ios":["xcframework/build_modes/libarkui_tabswiper.xcframework"]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "TabsController",
         "library": {
             "android": ["lib/tabswiper/arch_type/libarkui_tabswiper.so"],
