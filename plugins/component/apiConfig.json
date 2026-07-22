@@ -364,8 +364,12 @@
     {
         "module": "XComponentController",
         "library": {
-            "android": [],
-            "ios":[]
+            "android": [
+                "lib/xcomponent/arch_type/libarkui_xcomponent.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_xcomponent.xcframework"
+            ]
         },
         "apis": [
             {
@@ -1782,14 +1786,36 @@
         ]
     },
     {
+        "module": "ToolBarItem",
+        "library": {
+            "android": [
+                "lib/toolbaritem/arch_type/libarkui_toolbaritem.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_toolbaritem.xcframework"
+            ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "Navigation",
         "library": {
             "android": [
+                "lib/toolbaritem/arch_type/libarkui_toolbaritem.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_toolbaritem.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework"
@@ -1835,11 +1861,13 @@
         "module": "NavDestination",
         "library": {
             "android": [
+                "lib/toolbaritem/arch_type/libarkui_toolbaritem.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_toolbaritem.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework"
@@ -3209,12 +3237,14 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/xcomponent/arch_type/libarkui_xcomponent.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_xcomponent.xcframework"
             ]
         },
         "apis": [
