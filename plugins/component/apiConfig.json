@@ -246,8 +246,8 @@
     {
         "module": "SwiperController",
         "library": {
-            "android": ["lib/tabswiper/arch_type/libarkui_tabswiper.so"],
-            "ios":["xcframework/build_modes/libarkui_tabswiper.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -262,8 +262,8 @@
     {
         "module": "TabsController",
         "library": {
-            "android": ["lib/tabswiper/arch_type/libarkui_tabswiper.so"],
-            "ios":["xcframework/build_modes/libarkui_tabswiper.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -475,16 +475,14 @@
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
                 "lib/datepicker/arch_type/libarkui_datepicker.so",
                 "lib/timepicker/arch_type/libarkui_timepicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
                 "xcframework/build_modes/libarkui_datepicker.xcframework",
                 "xcframework/build_modes/libarkui_timepicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -503,14 +501,12 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/textpicker/arch_type/libarkui_textpicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_textpicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -528,13 +524,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -550,16 +544,8 @@
     {
         "module": "ContextMenu",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -576,13 +562,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -617,14 +601,12 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/timepicker/arch_type/libarkui_timepicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_timepicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -640,16 +622,8 @@
     {
         "module": "AbilityComponent",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -664,18 +638,8 @@
     {
         "module": "AlphabetIndexer",
         "library": {
-            "android": [
-                "lib/indexer/arch_type/libarkui_indexer.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_indexer.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/indexer/arch_type/libarkui_indexer.so"],
+            "ios":["xcframework/build_modes/libarkui_indexer.xcframework"]
         },
         "apis": [
             {
@@ -722,16 +686,8 @@
     {
         "module": "Blank",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -746,18 +702,8 @@
     {
         "module": "Button",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/bubble/arch_type/libarkui_bubble.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_bubble.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so", "lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework", "xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -772,16 +718,8 @@
     {
         "module": "Calendar",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -796,16 +734,8 @@
     {
         "module": "Camera",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -820,16 +750,8 @@
     {
         "module": "Canvas",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -844,18 +766,8 @@
     {
         "module": "Checkbox",
         "library": {
-            "android": [
-                "lib/checkbox/arch_type/libarkui_checkbox.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_checkbox.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -870,18 +782,8 @@
     {
         "module": "CheckboxGroup",
         "library": {
-            "android": [
-                "lib/checkbox/arch_type/libarkui_checkbox.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_checkbox.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/checkbox/arch_type/libarkui_checkbox.so"],
+            "ios":["xcframework/build_modes/libarkui_checkbox.xcframework"]
         },
         "apis": [
             {
@@ -896,16 +798,8 @@
     {
         "module": "Circle",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -920,16 +814,8 @@
     {
         "module": "ColorPicker",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -945,14 +831,10 @@
         "module": "ColorPickerDialog",
         "library": {
             "android": [
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -968,18 +850,8 @@
     {
         "module": "Column",
         "library": {
-            "android": [
-                "lib/bubble/arch_type/libarkui_bubble.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_bubble.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -994,18 +866,8 @@
     {
         "module": "ColumnSplit",
         "library": {
-            "android": [
-                "lib/linearsplit/arch_type/libarkui_linearsplit.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_linearsplit.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
@@ -1022,15 +884,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/counter/arch_type/libarkui_counter.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/counter/arch_type/libarkui_counter.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_counter.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_counter.xcframework"
             ]
         },
         "apis": [
@@ -1046,18 +904,8 @@
     {
         "module": "DataPanel",
         "library": {
-            "android": [
-                "lib/datapanel/arch_type/libarkui_datapanel.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_datapanel.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/datapanel/arch_type/libarkui_datapanel.so"],
+            "ios":["xcframework/build_modes/libarkui_datapanel.xcframework"]
         },
         "apis": [
             {
@@ -1074,15 +922,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/datepicker/arch_type/libarkui_datepicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/datepicker/arch_type/libarkui_datepicker.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_datepicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_datepicker.xcframework"
             ]
         },
         "apis": [
@@ -1098,16 +942,8 @@
     {
         "module": "Divider",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1122,16 +958,8 @@
     {
         "module": "Ellipse",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1146,16 +974,8 @@
     {
         "module": "Flex",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1170,18 +990,8 @@
     {
         "module": "FlowItem",
         "library": {
-            "android": [
-                "lib/waterflow/arch_type/libarkui_waterflow.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_waterflow.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
+            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
         },
         "apis": [
             {
@@ -1196,16 +1006,8 @@
     {
         "module": "FormComponent",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1236,18 +1038,8 @@
     {
         "module": "Gauge",
         "library": {
-            "android": [
-                "lib/gauge/arch_type/libarkui_gauge.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_gauge.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/gauge/arch_type/libarkui_gauge.so"],
+            "ios":["xcframework/build_modes/libarkui_gauge.xcframework"]
         },
         "apis": [
             {
@@ -1262,18 +1054,8 @@
     {
         "module": "DynamicLayout",
         "library": {
-            "android": [
-                "lib/dynamiclayout/arch_type/libarkui_dynamiclayout.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_dynamiclayout.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/dynamiclayout/arch_type/libarkui_dynamiclayout.so"],
+            "ios": ["xcframework/build_modes/libarkui_dynamiclayout.xcframework"]
         },
         "apis": [
             {
@@ -1288,16 +1070,8 @@
     {
         "module": "GeometryView",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1312,18 +1086,8 @@
     {
         "module": "Grid",
         "library": {
-            "android": [
-                "lib/grid/arch_type/libarkui_grid.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_grid.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/grid/arch_type/libarkui_grid.so"],
+            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
         },
         "apis": [
             {
@@ -1338,18 +1102,8 @@
     {
         "module": "GridItem",
         "library": {
-            "android": [
-                "lib/grid/arch_type/libarkui_grid.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_grid.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/grid/arch_type/libarkui_grid.so"],
+            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
         },
         "apis": [
             {
@@ -1364,16 +1118,8 @@
     {
         "module": "GridCol",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1388,16 +1134,8 @@
     {
         "module": "GridContainer",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1412,16 +1150,8 @@
     {
         "module": "GridRow",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1436,18 +1166,8 @@
     {
         "module": "Hyperlink",
         "library": {
-            "android": [
-                "lib/hyperlink/arch_type/libarkui_hyperlink.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_hyperlink.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/hyperlink/arch_type/libarkui_hyperlink.so"],
+            "ios":["xcframework/build_modes/libarkui_hyperlink.xcframework"]
         },
         "apis": [
             {
@@ -1462,18 +1182,8 @@
     {
         "module": "Image",
         "library": {
-            "android": [
-                "lib/bubble/arch_type/libarkui_bubble.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_bubble.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -1488,18 +1198,8 @@
     {
         "module": "ImageAnimator",
         "library": {
-            "android": [
-                "lib/imageanimator/arch_type/libarkui_imageanimator.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_imageanimator.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/imageanimator/arch_type/libarkui_imageanimator.so"],
+            "ios":["xcframework/build_modes/libarkui_imageanimator.xcframework"]
         },
         "apis": [
             {
@@ -1514,16 +1214,8 @@
     {
         "module": "Line",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1538,16 +1230,8 @@
     {
         "module": "List",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1562,16 +1246,8 @@
     {
         "module": "ListItem",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1586,16 +1262,8 @@
     {
         "module": "ListItemGroup",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1626,18 +1294,8 @@
     {
         "module": "Marquee",
         "library": {
-            "android": [
-                "lib/marquee/arch_type/libarkui_marquee.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_marquee.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/marquee/arch_type/libarkui_marquee.so"],
+            "ios":["xcframework/build_modes/libarkui_marquee.xcframework"]
         },
         "apis": [
             {
@@ -1652,16 +1310,8 @@
     {
         "module": "Menu",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1676,16 +1326,8 @@
     {
         "module": "MenuItem",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1700,16 +1342,8 @@
     {
         "module": "MenuItemGroup",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1724,42 +1358,8 @@
     {
         "module": "Navigation",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
-        },
-        "apis": [
-            {
-                "path": "",
-                "permissions": {
-                    "android": [],
-                    "ios": []
-                }
-            }
-        ]
-    },
-    {
-        "module": "Navigator",
-        "library": {
-            "android": [
-                "lib/navigator/arch_type/libarkui_navigator.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_navigator.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1774,16 +1374,8 @@
     {
         "module": "NavDestination",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1798,16 +1390,8 @@
     {
         "module": "NavRouter",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1822,16 +1406,8 @@
     {
         "module": "Option",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1878,18 +1454,8 @@
     {
         "module": "Panel",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/panel/arch_type/libarkui_panel.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_panel.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -1904,16 +1470,8 @@
     {
         "module": "Path",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1928,18 +1486,8 @@
     {
         "module": "PatternLock",
         "library": {
-            "android": [
-                "lib/patternlock/arch_type/libarkui_patternlock.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_patternlock.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/patternlock/arch_type/libarkui_patternlock.so"],
+            "ios":["xcframework/build_modes/libarkui_patternlock.xcframework"]
         },
         "apis": [
             {
@@ -1954,16 +1502,8 @@
     {
         "module": "Piece",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1978,16 +1518,8 @@
     {
         "module": "PluginComponent",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2002,16 +1534,8 @@
     {
         "module": "Polygon",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2026,16 +1550,8 @@
     {
         "module": "Polygon",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2050,16 +1566,8 @@
     {
         "module": "Polyline",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2090,18 +1598,8 @@
     {
         "module": "QRCode",
         "library": {
-            "android": [
-                "lib/qrcode/arch_type/libarkui_qrcode.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_qrcode.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/qrcode/arch_type/libarkui_qrcode.so"],
+            "ios":["xcframework/build_modes/libarkui_qrcode.xcframework"]
         },
         "apis": [
             {
@@ -2116,18 +1614,8 @@
     {
         "module": "Radio",
         "library": {
-            "android": [
-                "lib/radio/arch_type/libarkui_radio.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_radio.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/radio/arch_type/libarkui_radio.so"],
+            "ios":["xcframework/build_modes/libarkui_radio.xcframework"]
         },
         "apis": [
             {
@@ -2142,18 +1630,8 @@
     {
         "module": "Rating",
         "library": {
-            "android": [
-                "lib/rating/arch_type/libarkui_rating.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_rating.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/rating/arch_type/libarkui_rating.so"],
+            "ios":["xcframework/build_modes/libarkui_rating.xcframework"]
         },
         "apis": [
             {
@@ -2168,16 +1646,8 @@
     {
         "module": "Rect",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2192,18 +1662,8 @@
     {
         "module": "Refresh",
         "library": {
-            "android": [
-                "lib/refresh/arch_type/libarkui_refresh.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_refresh.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/refresh/arch_type/libarkui_refresh.so"],
+            "ios":["xcframework/build_modes/libarkui_refresh.xcframework"]
         },
         "apis": [
             {
@@ -2218,16 +1678,8 @@
     {
         "module": "RelativeContainer",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2242,16 +1694,8 @@
     {
         "module": "RemoteWindow",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2266,16 +1710,8 @@
     {
         "module": "RichText",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2290,18 +1726,8 @@
     {
         "module": "Row",
         "library": {
-            "android": [
-                "lib/bubble/arch_type/libarkui_bubble.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_bubble.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -2316,18 +1742,8 @@
     {
         "module": "RowSplit",
         "library": {
-            "android": [
-                "lib/linearsplit/arch_type/libarkui_linearsplit.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_linearsplit.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/linearsplit/arch_type/libarkui_linearsplit.so"],
+            "ios":["xcframework/build_modes/libarkui_linearsplit.xcframework"]
         },
         "apis": [
             {
@@ -2342,16 +1758,8 @@
     {
         "module": "Scroll",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2366,16 +1774,8 @@
     {
         "module": "ScrollBar",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2408,15 +1808,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/search/arch_type/libarkui_search.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/search/arch_type/libarkui_search.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_search.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_search.xcframework"
             ]
         },
         "apis": [
@@ -2432,16 +1828,8 @@
     {
         "module": "Section",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2456,18 +1844,8 @@
     {
         "module": "Select",
         "library": {
-            "android": [
-                "lib/select/arch_type/libarkui_select.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_select.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/select/arch_type/libarkui_select.so"],
+            "ios":["xcframework/build_modes/libarkui_select.xcframework"]
         },
         "apis": [
             {
@@ -2482,16 +1860,8 @@
     {
         "module": "Shape",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2506,14 +1876,8 @@
     {
         "module": "Sheet",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -2530,15 +1894,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/sidebar/arch_type/libarkui_sidebar.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sidebar/arch_type/libarkui_sidebar.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_sidebar.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sidebar.xcframework"
             ]
         },
         "apis": [
@@ -2554,18 +1914,8 @@
     {
         "module": "Slider",
         "library": {
-            "android": [
-                "lib/slider/arch_type/libarkui_slider.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_slider.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
@@ -2580,16 +1930,8 @@
     {
         "module": "Span",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2636,16 +1978,8 @@
     {
         "module": "Stack",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2662,15 +1996,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/stepper/arch_type/libarkui_stepper.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/stepper/arch_type/libarkui_stepper.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_stepper.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_stepper.xcframework"
             ]
         },
         "apis": [
@@ -2686,18 +2016,8 @@
     {
         "module": "StepperItem",
         "library": {
-            "android": [
-                "lib/stepper/arch_type/libarkui_stepper.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_stepper.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/stepper/arch_type/libarkui_stepper.so"],
+            "ios":["xcframework/build_modes/libarkui_stepper.xcframework"]
         },
         "apis": [
             {
@@ -2712,18 +2032,8 @@
     {
         "module": "SymbolGlyph",
         "library": {
-            "android": [
-                "lib/symbol/arch_type/libarkui_symbol.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_symbol.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/symbol/arch_type/libarkui_symbol.so"],
+            "ios":["xcframework/build_modes/libarkui_symbol.xcframework"]
         },
         "apis": [
             {
@@ -2738,44 +2048,8 @@
     {
         "module": "Swiper",
         "library": {
-            "android": [
-                "lib/tabswiper/arch_type/libarkui_tabswiper.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_tabswiper.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
-        },
-        "apis": [
-            {
-                "path": "",
-                "permissions": {
-                    "android": [],
-                    "ios": []
-                }
-            }
-        ]
-    },
-    {
-        "module": "IndicatorComponent",
-        "library": {
-            "android": [
-                "lib/tabswiper/arch_type/libarkui_tabswiper.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_tabswiper.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/button/arch_type/libarkui_button.so"],
+            "ios":["xcframework/build_modes/libarkui_button.xcframework"]
         },
         "apis": [
             {
@@ -2790,18 +2064,8 @@
     {
         "module": "Tabs",
         "library": {
-            "android": [
-                "lib/tabswiper/arch_type/libarkui_tabswiper.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_tabswiper.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2816,18 +2080,8 @@
     {
         "module": "TabContent",
         "library": {
-            "android": [
-                "lib/tabswiper/arch_type/libarkui_tabswiper.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_tabswiper.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2842,18 +2096,8 @@
     {
         "module": "Text",
         "library": {
-            "android": [
-                "lib/bubble/arch_type/libarkui_bubble.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_bubble.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/bubble/arch_type/libarkui_bubble.so"],
+            "ios":["xcframework/build_modes/libarkui_bubble.xcframework"]
         },
         "apis": [
             {
@@ -2918,15 +2162,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/textpicker/arch_type/libarkui_textpicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/textpicker/arch_type/libarkui_textpicker.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_textpicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_textpicker.xcframework"
             ]
         },
         "apis": [
@@ -2958,18 +2198,8 @@
     {
         "module": "TextClock",
         "library": {
-            "android": [
-                "lib/textclock/arch_type/libarkui_textclock.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_textclock.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/textclock/arch_type/libarkui_textclock.so"],
+            "ios":["xcframework/build_modes/libarkui_textclock.xcframework"]
         },
         "apis": [
             {
@@ -2986,15 +2216,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/timepicker/arch_type/libarkui_timepicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/timepicker/arch_type/libarkui_timepicker.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_timepicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_timepicker.xcframework"
             ]
         },
         "apis": [
@@ -3029,16 +2255,12 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/checkbox/arch_type/libarkui_checkbox.so",
-                "lib/toggle/arch_type/libarkui_toggle.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/toggle/arch_type/libarkui_toggle.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_checkbox.xcframework",
-                "xcframework/build_modes/libarkui_toggle.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_toggle.xcframework"
             ]
         },
         "apis": [
@@ -3054,18 +2276,8 @@
     {
         "module": "Video",
         "library": {
-            "android": [
-                "lib/slider/arch_type/libarkui_slider.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_slider.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/slider/arch_type/libarkui_slider.so"],
+            "ios":["xcframework/build_modes/libarkui_slider.xcframework"]
         },
         "apis": [
             {
@@ -3080,18 +2292,8 @@
     {
         "module": "WaterFlow",
         "library": {
-            "android": [
-                "lib/waterflow/arch_type/libarkui_waterflow.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_waterflow.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/waterflow/arch_type/libarkui_waterflow.so"],
+            "ios":["xcframework/build_modes/libarkui_waterflow.xcframework"]
         },
         "apis": [
             {
@@ -3106,16 +2308,8 @@
     {
         "module": "Web",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -3130,16 +2324,8 @@
     {
         "module": "XComponent",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -3156,15 +2342,11 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/calendarpicker/arch_type/libarkui_calendarpicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/calendarpicker/arch_type/libarkui_calendarpicker.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_calendarpicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_calendarpicker.xcframework"
             ]
         },
         "apis": [
@@ -3183,14 +2365,12 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/calendarpicker/arch_type/libarkui_calendarpicker.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_calendarpicker.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
         "apis": [
@@ -3222,18 +2402,8 @@
     {
         "module": "RichEditor",
         "library": {
-            "android": [
-                "lib/richeditor/arch_type/libarkui_richeditor.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_richeditor.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/richeditor/arch_type/libarkui_richeditor.so"],
+            "ios":["xcframework/build_modes/libarkui_richeditor.xcframework"]
         },
         "apis": [
             {
@@ -3264,16 +2434,8 @@
     {
         "module": "Particle",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -3289,16 +2451,9 @@
         "module": "ArcList",
         "library": {
             "android": [
-                "lib/arclist/arch_type/libarkui_arclist.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/arclist/arch_type/libarkui_arclist.so"
             ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "ios": []
         },
         "apis": [
             {
@@ -3314,16 +2469,9 @@
         "module": "ArcScrollBar",
         "library": {
             "android": [
-                "lib/arcscrollbar/arch_type/libarkui_arcscrollbar.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/arcscrollbar/arch_type/libarkui_arcscrollbar.so"
             ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "ios": []
         },
         "apis": [
             {
@@ -3338,18 +2486,8 @@
     {
         "module": "LazyVGridLayout",
         "library": {
-            "android": [
-                "lib/lazygridlayout/arch_type/libarkui_lazygridlayout.so",
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_lazygridlayout.xcframework",
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": ["lib/lazygridlayout/arch_type/libarkui_lazygridlayout.so"],
+            "ios": ["xcframework/build_modes/libarkui_lazygridlayout.xcframework"]
         },
         "apis": [
             {
