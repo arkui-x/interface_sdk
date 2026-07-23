@@ -1086,8 +1086,8 @@
     {
         "module": "Grid",
         "library": {
-            "android": ["lib/grid/arch_type/libarkui_grid.so"],
-            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
+            "android": [],
+            "ios": []
         },
         "apis": [
             {
@@ -1102,8 +1102,8 @@
     {
         "module": "GridItem",
         "library": {
-            "android": ["lib/grid/arch_type/libarkui_grid.so"],
-            "ios": ["xcframework/build_modes/libarkui_grid.xcframework"]
+            "android": [],
+            "ios": []
         },
         "apis": [
             {
@@ -1662,8 +1662,8 @@
     {
         "module": "Refresh",
         "library": {
-            "android": ["lib/refresh/arch_type/libarkui_refresh.so"],
-            "ios":["xcframework/build_modes/libarkui_refresh.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2470,8 +2470,8 @@
     {
         "module": "LazyVGridLayout",
         "library": {
-            "android": ["lib/lazygridlayout/arch_type/libarkui_lazygridlayout.so"],
-            "ios": ["xcframework/build_modes/libarkui_lazygridlayout.xcframework"]
+            "android": [],
+            "ios": []
         },
         "apis": [
             {
