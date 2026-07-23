@@ -2112,16 +2112,8 @@
     {
         "module": "TextArea",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2136,16 +2128,8 @@
     {
         "module": "TextInput",
         "library": {
-            "android": [
-                "lib/button/arch_type/libarkui_button.so",
-                "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
-            ],
-            "ios":[
-                "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
-            ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
