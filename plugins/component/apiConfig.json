@@ -670,8 +670,8 @@
     {
         "module": "Badge",
         "library": {
-            "android": ["lib/badge/arch_type/libarkui_badge.so"],
-            "ios":["xcframework/build_modes/libarkui_badge.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1278,8 +1278,8 @@
     {
         "module": "LoadingProgress",
         "library": {
-            "android": ["lib/loadingprogress/arch_type/libarkui_loadingprogress.so"],
-            "ios":["xcframework/build_modes/libarkui_loadingprogress.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -1582,8 +1582,8 @@
     {
         "module": "Progress",
         "library": {
-            "android": ["lib/progress/arch_type/libarkui_progress.so"],
-            "ios":["xcframework/build_modes/libarkui_progress.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2112,8 +2112,8 @@
     {
         "module": "TextArea",
         "library": {
-            "android": [ "lib/textfield/arch_type/libarkui_textfield.so" ],
-            "ios":[ "xcframework/build_modes/libarkui_textfield.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2128,8 +2128,8 @@
     {
         "module": "TextInput",
         "library": {
-            "android": [ "lib/textfield/arch_type/libarkui_textfield.so" ],
-            "ios":[ "xcframework/build_modes/libarkui_textfield.xcframework" ]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2166,8 +2166,8 @@
     {
         "module": "TextTimer",
         "library": {
-            "android": ["lib/texttimer/arch_type/libarkui_texttimer.so"],
-            "ios":["xcframework/build_modes/libarkui_texttimer.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
@@ -2370,24 +2370,8 @@
     {
         "module": "ImageSpan",
         "library": {
-            "android": ["lib/span/arch_type/libarkui_span.so"],
-            "ios":["xcframework/build_modes/libarkui_span.xcframework"]
-        },
-        "apis": [
-            {
-                "path": "",
-                "permissions": {
-                    "android": [],
-                    "ios": []
-                }
-            }
-        ]
-    },
-    {
-        "module": "SymbolSpan",
-        "library": {
-            "android": ["lib/span/arch_type/libarkui_span.so"],
-            "ios":["xcframework/build_modes/libarkui_span.xcframework"]
+            "android": [],
+            "ios":[]
         },
         "apis": [
             {
