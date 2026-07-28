@@ -940,13 +940,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -1170,13 +1170,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -1570,13 +1570,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
- 	            "lib/shape/arch_type/libarkui_shape.so"
+ 	            "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
- 	            "xcframework/build_modes/libarkui_shape.xcframework"
+ 	            "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -1996,13 +1996,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -2096,13 +2096,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -2122,13 +2122,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -2148,13 +2148,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
- 	            "lib/shape/arch_type/libarkui_shape.so"
+ 	            "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
- 	            "xcframework/build_modes/libarkui_shape.xcframework"
+ 	            "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -2278,13 +2278,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
@@ -2596,13 +2596,13 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
                 "lib/sheet/arch_type/libarkui_sheet.so",
-                "lib/shape/arch_type/libarkui_shape.so"
+                "lib/shape/arch_type/libarkui_shapes.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
                 "xcframework/build_modes/libarkui_sheet.xcframework",
-                "xcframework/build_modes/libarkui_shape.xcframework"
+                "xcframework/build_modes/libarkui_shapes.xcframework"
             ]
         },
         "apis": [
