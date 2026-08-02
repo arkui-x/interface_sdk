@@ -1604,7 +1604,10 @@
                 "lib/util/arch_type/libutil.so",
                 "lib/i18n/arch_type/libi18n.so",
                 "lib/intl/arch_type/libintl.so",
-                "lib/symbol/arch_type/libarkui_symbol.so"
+                "lib/symbol/arch_type/libarkui_symbol.so",
+                "lib/arkui/arch_type/libarkui_uimaterial.so",
+                "lib/device_info/arch_type/libdeviceinfo.so",
+                "lib/dynamiclayout/arch_type/libarkui_dynamiclayout.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_advanced_segmentbutton.xcframework",
@@ -1612,7 +1615,10 @@
                 "xcframework/build_modes/libutil.xcframework",
                 "xcframework/build_modes/libi18n.xcframework",
                 "xcframework/build_modes/libintl.xcframework",
-                "xcframework/build_modes/libarkui_symbol.xcframework"
+                "xcframework/build_modes/libarkui_symbol.xcframework",
+                "xcframework/build_modes/libarkui_uimaterial.xcframework",
+                "xcframework/build_modes/libdeviceinfo.xcframework",
+                "xcframework/build_modes/libarkui_dynamiclayout.xcframework"
             ]
         },
         "deps": {
