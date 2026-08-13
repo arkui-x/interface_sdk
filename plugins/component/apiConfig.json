@@ -2886,13 +2886,15 @@
                 "lib/tabswiper/arch_type/libarkui_tabswiper.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_tabswiper.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -2912,13 +2914,15 @@
                 "lib/tabswiper/arch_type/libarkui_tabswiper.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_tabswiper.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -2938,13 +2942,15 @@
                 "lib/tabswiper/arch_type/libarkui_tabswiper.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_tabswiper.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -2964,13 +2970,15 @@
                 "lib/tabswiper/arch_type/libarkui_tabswiper.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_tabswiper.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
