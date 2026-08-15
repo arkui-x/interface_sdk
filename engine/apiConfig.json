@@ -8,12 +8,15 @@
                 "lib/arkui/arch_type/libarkui_componentsnapshot.so",
                 "lib/arkui/arch_type/libarkui_focuscontroller.so",
                 "lib/arkui/arch_type/libarkui_menu.so",
-                "extras/stub/arch_type/stub.an"
+                "extras/stub/arch_type/stub.an",
+                "lib/arkui/arch_type/libcache_download_core.so",
+                "lib/arkui/ace_cache_download_android.jar"
             ],
             "ios":[ 
                 "xcframework/arkui/build_modes/libarkui_ios.xcframework",
                 "xcframework/arkui/build_modes/libarkui_componentsnapshot.xcframework",
-                "xcframework/arkui/build_modes/libarkui_focuscontroller.xcframework"
+                "xcframework/arkui/build_modes/libarkui_focuscontroller.xcframework",
+                "xcframework/arkui/build_modes/libcache_download_core.xcframework"
             ]
         },
         "apis": [

@@ -819,6 +819,21 @@
         }
     },
     {
+        "module": "ohos.request.cacheDownload",
+        "library": {
+            "android": [
+                "lib/request.cachedownload/arch_type/librequest_cachedownload.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/librequest_cachedownload.xcframework"
+            ]
+        },
+        "deps": {
+            "android": [],
+            "ios":[]
+        }
+    },
+    {
         "module": "ohos.resourceManager",
         "library": {
             "android": [],
