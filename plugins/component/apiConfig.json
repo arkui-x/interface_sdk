@@ -3546,6 +3546,84 @@
         ]
     },
     {
+        "module": "LazyDynamicLayout",
+        "library": {
+            "android": [
+                "lib/dynamiclayout/arch_type/libarkui_dynamiclayout.so",
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so",
+                "lib/sheet/arch_type/libarkui_sheet.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_dynamiclayout.xcframework",
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework",
+                "xcframework/build_modes/libarkui_sheet.xcframework"
+            ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "LazyColumnLayout",
+        "library": {
+            "android": [
+                "lib/lazycolumnlayout/arch_type/libarkui_lazycolumnlayout.so",
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so",
+                "lib/sheet/arch_type/libarkui_sheet.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_lazycolumnlayout.xcframework",
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework",
+                "xcframework/build_modes/libarkui_sheet.xcframework"
+            ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "LazyVWaterFlowLayout",
+        "library": {
+            "android": [
+                "lib/lazywaterflowlayout/arch_type/libarkui_lazywaterflowlayout.so",
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so",
+                "lib/sheet/arch_type/libarkui_sheet.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_lazywaterflowlayout.xcframework",
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework",
+                "xcframework/build_modes/libarkui_sheet.xcframework"
+            ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "LazyVGridLayout",
         "library": {
             "android": [
