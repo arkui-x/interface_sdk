@@ -693,10 +693,12 @@
         "module": "Badge",
         "library": {
             "android": [
+                "lib/badge/arch_type/libarkui_badge.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_badge.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -1529,10 +1531,12 @@
         "module": "LoadingProgress",
         "library": {
             "android": [
+                "lib/loadingprogress/arch_type/libarkui_loadingprogress.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_loadingprogress.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -1939,10 +1943,12 @@
         "module": "Progress",
         "library": {
             "android": [
+                "lib/progress/arch_type/libarkui_progress.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_progress.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -2252,12 +2258,12 @@
         "library": {
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
-                "lib/search/arch_type/libarkui_search.so",
+                "lib/textfield/arch_type/libarkui_textfield.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
-                "xcframework/build_modes/libarkui_search.xcframework",
+                "xcframework/build_modes/libarkui_textfield.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
         },
@@ -2651,10 +2657,12 @@
         "module": "TextArea",
         "library": {
             "android": [
+                "lib/textfield/arch_type/libarkui_textfield.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_textfield.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -2673,10 +2681,12 @@
         "module": "TextInput",
         "library": {
             "android": [
+                "lib/textfield/arch_type/libarkui_textfield.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_textfield.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -2719,10 +2729,12 @@
         "module": "TextTimer",
         "library": {
             "android": [
+                "lib/texttimer/arch_type/libarkui_texttimer.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_texttimer.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
@@ -2979,13 +2991,31 @@
         "module": "ImageSpan",
         "library": {
             "android": [
+                "lib/span/arch_type/libarkui_span.so",
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so"
             ],
             "ios":[
+                "xcframework/build_modes/libarkui_span.xcframework",
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework"
             ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
+        "module": "SymbolSpan",
+        "library": {
+            "android": ["lib/span/arch_type/libarkui_span.so"],
+            "ios":["xcframework/build_modes/libarkui_span.xcframework"]
         },
         "apis": [
             {
