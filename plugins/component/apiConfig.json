@@ -1230,6 +1230,32 @@
         ]
     },
     {
+        "module": "FolderStack",
+        "library": {
+            "android": [
+                "lib/folderstack/arch_type/libarkui_folderstack.so",
+                "lib/button/arch_type/libarkui_button.so",
+                "lib/dialog/arch_type/libarkui_dialog.so",
+                "lib/sheet/arch_type/libarkui_sheet.so"
+            ],
+            "ios":[
+                "xcframework/build_modes/libarkui_folderstack.xcframework",
+                "xcframework/build_modes/libarkui_button.xcframework",
+                "xcframework/build_modes/libarkui_dialog.xcframework",
+                "xcframework/build_modes/libarkui_sheet.xcframework"
+            ]
+        },
+        "apis": [
+            {
+                "path": "",
+                "permissions": {
+                    "android": [],
+                    "ios": []
+                }
+            }
+        ]
+    },
+    {
         "module": "FlowItem",
         "library": {
             "android": [
