@@ -344,6 +344,7 @@ ohos_copy("native_drawing") {
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_color.h",
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_point.h",
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_bitmap.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_round_rect.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
