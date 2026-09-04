@@ -211,10 +211,12 @@
         "module": "CustomDialogController",
         "library": {
             "android": [
-                "lib/dialog/arch_type/libarkui_dialog.so"
+                "lib/dialog/arch_type/libarkui_dialog.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
-                "xcframework/build_modes/libarkui_dialog.xcframework"
+                "xcframework/build_modes/libarkui_dialog.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -518,7 +520,8 @@
                 "lib/datepicker/arch_type/libarkui_datepicker.so",
                 "lib/timepicker/arch_type/libarkui_timepicker.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
@@ -526,7 +529,8 @@
                 "xcframework/build_modes/libarkui_datepicker.xcframework",
                 "xcframework/build_modes/libarkui_timepicker.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -571,12 +575,14 @@
             "android": [
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
@@ -3358,13 +3364,15 @@
                 "lib/button/arch_type/libarkui_button.so",
                 "lib/calendarpicker/arch_type/libarkui_calendarpicker.so",
                 "lib/dialog/arch_type/libarkui_dialog.so",
-                "lib/sheet/arch_type/libarkui_sheet.so"
+                "lib/sheet/arch_type/libarkui_sheet.so",
+                "lib/spacing/arch_type/libarkui_spacing.so"
             ],
             "ios":[
                 "xcframework/build_modes/libarkui_button.xcframework",
                 "xcframework/build_modes/libarkui_calendarpicker.xcframework",
                 "xcframework/build_modes/libarkui_dialog.xcframework",
-                "xcframework/build_modes/libarkui_sheet.xcframework"
+                "xcframework/build_modes/libarkui_sheet.xcframework",
+                "xcframework/build_modes/libarkui_spacing.xcframework"
             ]
         },
         "apis": [
