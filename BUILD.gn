@@ -332,6 +332,27 @@ ohos_copy("native_window") {
   subsystem_name = "common"
 }
 
+ohos_copy("native_drawing") {
+  sources = [
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_canvas.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_error_code.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_sampling_options.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_types.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_pen.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_brush.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_rect.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_color.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_point.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_bitmap.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_round_rect.h",
+  ]
+  outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
+  module_source_dir = target_out_dir + "/$target_name/"
+  module_install_name = ""
+  part_name = "common"
+  subsystem_name = "common"
+}
+
 ohos_copy("sdkconfig") {
   sources = [ "./sdkConfig.json" ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
