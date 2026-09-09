@@ -822,7 +822,8 @@
         "module": "ohos.request.cacheDownload",
         "library": {
             "android": [
-                "lib/request.cachedownload/arch_type/librequest_cachedownload.so"
+                "lib/request.cachedownload/arch_type/librequest_cachedownload.so",
+                "../../engine/lib/arkui/arch_type/ace_cache_download_android.jar"
             ],
             "ios":[
                 "xcframework/build_modes/librequest_cachedownload.xcframework"
