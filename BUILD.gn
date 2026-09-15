@@ -345,6 +345,12 @@ ohos_copy("native_drawing") {
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_point.h",
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_bitmap.h",
     "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_round_rect.h",
+    "//foundation/graphic/graphic_2d/rosen/modules/2d_graphics/drawing_ndk/include/drawing_font.h",
+    "//foundation/graphic/graphic_2d/frameworks/text/interface/export/ndk_include/drawing_text_typography.h",
+    "//foundation/graphic/graphic_2d/frameworks/text/interface/export/ndk_include/drawing_font_collection.h",
+    "//foundation/graphic/graphic_2d/frameworks/text/interface/export/ndk_include/drawing_register_font.h",
+    "//foundation/graphic/graphic_2d/frameworks/text/interface/export/ndk_include/drawing_text_declaration.h",
+    "//foundation/graphic/graphic_2d/frameworks/text/interface/export/ndk_include/drawing_text_font_descriptor.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
