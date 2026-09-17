@@ -53,6 +53,11 @@
           "component": []
         },
         {
+          "function": "UIContext#showAlertDialog",
+          "module": [],
+          "component": [ "AlertDialog" ]
+        },
+        {
           "function": "UIContext#showDatePickerDialog",
           "module": [],
           "component": [ "DatePickerDialog" ]
