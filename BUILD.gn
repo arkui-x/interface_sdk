@@ -315,6 +315,8 @@ ohos_copy("arkui_header") {
     "//foundation/arkui/ace_engine/interfaces/native/ui_input_event.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_styled_string.h",
     "//foundation/arkui/ace_engine/interfaces/native/native_styled_string_descriptor.h",
+    "//foundation/arkui/ace_engine/interfaces/native/ui_event_injection.h",
+    "//foundation/arkui/ace_engine/interfaces/native/ui_json_wrapper.h",
   ]
   outputs = [ target_out_dir + "/$target_name/{{source_file_part}}" ]
   module_source_dir = target_out_dir + "/$target_name/"
