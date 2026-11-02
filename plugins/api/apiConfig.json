@@ -1563,6 +1563,20 @@
         }
     },
     {
+        "module": "ohos.bluetooth.constant",
+        "library": {
+            "android": [
+                "lib/bluetooth/ace_bluetooth_android.jar",
+                "lib/bluetooth/arch_type/libbluetooth_constant.so"
+            ],
+            "ios":[ "xcframework/build_modes/libbluetooth_constant.xcframework" ]
+        },
+        "deps": {
+            "android": [ "engine/utils/bluetooth_common" ],
+            "ios": [ "engine/utils/bluetooth_common" ]
+        }
+    },
+    {
         "module": "ohos.bluetooth.ble",
         "library": {
             "android": [
