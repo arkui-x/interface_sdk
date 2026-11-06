@@ -13,6 +13,11 @@
           "component": []
         },
         {
+          "function": "UIContext#getFocusController",
+          "module": [ "ohos.arkui.focusController" ],
+          "component": []
+        },
+        {
           "function": "UIContext#getFont",
           "module": [ "ohos.font" ],
           "component": []
