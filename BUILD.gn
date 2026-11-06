@@ -13,6 +13,7 @@
 
 import("//build/templates/common/copy.gni")
 import("//build/templates/metadata/module_info.gni")
+import("//build/ohos_var.gni")
 
 template("copy_ace_toolchain") {
   forward_variables_from(invoker,
@@ -77,6 +78,37 @@ copy_ace_toolchain("ace_tools") {
 
 ohos_copy("ets") {
   sources = [ "./engine/ets" ]
+  outputs = [ target_out_dir + "/$target_name/" ]
+  part_name = "common"
+  subsystem_name = "common"
+}
+
+# Generate dynamic-only openharmony ets API declarations from interface/sdk-js/.
+# Reuses OH SDK handleApiFiles.js (via ohos_copy_ets.py) with --type ets (dynamicApi)
+# to classify and filter out static interfaces (.static.d.ets), producing dynamic-only
+# content that coexists with the existing engine/ets category (AC-1a, ADR-1, ADR-2).
+openharmony_ets_gen_dir = "$target_gen_dir/openharmony_ets"
+
+action("generate_openharmony_ets") {
+  script = "//interface/sdk-js/ohos_copy_ets.py"
+  args = [
+    "--input",
+    rebase_path("//interface/sdk-js", root_build_dir),
+    "--output",
+    rebase_path(openharmony_ets_gen_dir, root_build_dir),
+    "--type",
+    "ets",
+    "--source-root-dir",
+    rebase_path("//", root_build_dir),
+    "--node-js",
+    rebase_path(nodejs, root_build_dir),
+  ]
+  outputs = [ openharmony_ets_gen_dir ]
+}
+
+ohos_copy("openharmony_ets") {
+  deps = [ ":generate_openharmony_ets" ]
+  sources = [ openharmony_ets_gen_dir ]
   outputs = [ target_out_dir + "/$target_name/" ]
   part_name = "common"
   subsystem_name = "common"
