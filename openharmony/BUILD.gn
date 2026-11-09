@@ -1,0 +1,45 @@
+import("//build/templates/common/copy.gni")
+import("//interface/sdk-js/interface_config.gni")
+
+# Assemble the openharmony/ets SDK directory from the 4 OH SDK dynamic ets
+# components (api, arkts, component, kits) produced at ohos_dynamic/.
+#
+# The assembled ets/ directory is copied by ohos_copy("ets") below so that the
+# ArkUI-X SDK packaging places it at arkui-x/openharmony/ets:
+#   - module name "ets" (ohos_copy output dir basename)
+#   - install_dir "arkui-x/openharmony" (parent, declared in SDK description)
+#   -> dest = arkui-x/openharmony/ets
+#
+# This avoids the extra "openharmony_ets" directory layer and the build-script
+# noise produced by running handleApiFiles.js directly; instead it reuses the
+# clean api/arkts/component/kits outputs already generated for the OH SDK.
+action("assemble_openharmony_ets") {
+  deps = [
+    "//interface/sdk-js:ohos_ets_dynamic_api_declaration",
+    "//interface/sdk-js:ohos_ets_dynamic_arkts",
+    "//interface/sdk-js:ohos_ets_dynamic_component",
+    "//interface/sdk-js:ohos_ets_dynamic_kits",
+  ]
+  script = "//interface/sdk/openharmony/assemble_ets.py"
+  args = [
+    "--api",
+    rebase_path(ohos_ets_dynamic_api_path, root_build_dir),
+    "--arkts",
+    rebase_path(ohos_ets_dynamic_arkts_path, root_build_dir),
+    "--component",
+    rebase_path(ohos_ets_dynamic_component_path, root_build_dir),
+    "--kits",
+    rebase_path(ohos_ets_dynamic_kits_path, root_build_dir),
+    "--output",
+    rebase_path("$target_gen_dir/ets", root_build_dir),
+  ]
+  outputs = [ "$target_gen_dir/ets" ]
+}
+
+ohos_copy("ets") {
+  deps = [ ":assemble_openharmony_ets" ]
+  sources = [ "$target_gen_dir/ets" ]
+  outputs = [ target_out_dir + "/$target_name/" ]
+  part_name = "common"
+  subsystem_name = "common"
+}
